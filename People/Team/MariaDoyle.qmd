@@ -7,16 +7,13 @@ about:
   links:
     - icon: twitter
       text: twitter
-      href: https://twitter.com
+      href: https://twitter.com/_mdoyle_
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/mblue9
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/maria-doyle-11220739/
-    - icon: house-door
-      text: Homepage
-      href: https://www.homepage.com 
     - icon: envelope
       text: email
       href: mailto:MariadotDoyle@ul.ie
@@ -28,25 +25,39 @@ categories:
   - Project Leader
   - Bioconductor
   - Community Manager
+
+bibliography: maria.bib
+csl: ../../publications/csl/nature.csl
+nocite: '@*'
 ---
 
 ## Dr Maria Doyle
 
 ## Links
 
-[ORCID](https://orcid.org/..)
+[ORCID](https://orcid.org/0000-0003-4847-8436)
 
 # Publications
 
-Full list of publications see [Google Scholar](https://scholar.google.com/..)
+Full list of publications see [Google Scholar](https://scholar.google.com/citations?user=-T1orHUAAAAJ)
 
 Recent publications include
 
-```{r, echo=FALSE}
+
+```{r, echo=FALSE, message=FALSE}
 library(RefManageR)
 source("../../src/website_functions.R")
-year=paste("1996:2023")
-authors="Maria Doyle"
+year=paste("2018:2023") #this doesn't seem to filter
+authors="Maria A Doyle"
 my_query=getRefs(authors,year)
-print(my_query)
+
+# filter for last 5 years
+year_from <- as.integer(format(Sys.Date(),"%Y")) - 5
+my_query <- my_query[list(date = paste0(year_from,"/"))]
+
+# output to file so can use in yaml header bibliography field above
+WriteBib(my_query, file="maria.bib")
 ```
+
+<!-- remove References header -->
+<div id = "refs"></div>
