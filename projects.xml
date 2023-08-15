@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Computational Oncology</title>
+<link>https://CompOnco.github.io/projects.html</link>
+<atom:link href="https://CompOnco.github.io/projects.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.2.335</generator>
+<lastBuildDate>Tue, 15 Aug 2023 14:00:23 GMT</lastBuildDate>
+<item>
+  <title>footer</title>
+  <link>https://CompOnco.github.io/Projects/GDI.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="connecting-1-million-genomes-with-genomic-data-infrastructure-gdi" class="level2">
+<h2 class="anchored" data-anchor-id="connecting-1-million-genomes-with-genomic-data-infrastructure-gdi">Connecting 1+ Million Genomes with Genomic Data Infrastructure (GDI)</h2>
+<p>Our lab are working in Pillar II of the GDI and leading activity 3 described below.</p>
+<p>In Ireland, <a href="https://www.hrb.ie/news/news-story/article/hrb-supports-genomic-data-infrastructure-gdi-in-ireland/">the programme is jointly funded by the European Commission and the Health Research Board</a>. The overall programme is designed to support the European 1+ Million Genomes (1+MG) Initiative. Specifically, GDI will drive the development, deployment and operation of sustainable data-access infrastructures within each participating country including the legal frameworks, operational procedures and ethics principles required to foster and maintain citizens’ trust in cross-border access to highly sensitive personal data. It will unlock a data network of over 1 million genome sequences for research and clinical reference creating unprecedented opportunities for routine transnational, multi-stakeholder actions in personalised medicine for common, rare and infectious diseases. Authorised data users, such as clinicians, researchers and innovators, will be able to advance our understanding of genomics for more precise and faster clinical decision-making, diagnostics, treatments and predictive medicine, and for improved public health measures that will benefit citizens, healthcare systems and the overall economy. Thus, GDI is a critical component of Europe’s ambition to lead the integration of genomics into healthcare and the GDI project is designed to interact with the other actors working towards this ambition via incremental milestones that drive alignment along a dynamic roadmap.</p>
+<p><img src="https://CompOnco.github.io/contents/logo/EuropeanGenomicDataInfrastructure-Sq.png" class="img-fluid"></p>
+<p>GDI will lay the foundations for Ireland’s participation in a federated European Infrastructure for genomic data via six related areas of activities;</p>
+<p><strong>Activity 1</strong>: Promoting the establishment of the Irish 1+MG National Mirror Group, connecting with and contributing to the European 1+MG initiative. The Irish group will mirror the European-level working groups of the 1+MG, and to connect the relevant Irish-based individuals with those European working groups.</p>
+<p><strong>Activity 2</strong>: Developing a national genomics plan for realisation in Ireland of the European 1+MG initiative. This activity would seek to align with the National Strategy for Genetics and Genomics in Ireland, and scope out an impactful and sustainable Irish Genome Project.</p>
+<p><strong>Activity 3:</strong>&nbsp;Developing, testing and validating a proof of concept platform for performing distributed analysis, connected to the European Data Network. This would in effect be a pilot Irish node for the federated European system, connecting genomic datasets.&nbsp;<strong>UL and the Culhane group are leading activity 3.</strong></p>
+<p><strong>Activity 4:</strong> Determining the Irish-specific data governance system needed to enable sustainable and secure sharing of genomic data. This will involve developing data governance practices for privacy protection in a data sharing/federated data environment. It will include public and patient involvement.</p>
+<p><strong>Activity 5:</strong> Feasibility study for cross-border (N:S) “Genomes of Ireland” initiative. This will inform a national genomic reference for Ireland.</p>
+<p><strong>Activity 6</strong>: Development of training initiatives for the next generation of genomic clinician and data scientists. This will develop training modules/activities that inform clinicians and data scientists, and equip them with the skills and knowledge required to enable safe and effective sharing of genomic data.</p>
+<p>GDI-Ireland is co-led by Prof.&nbsp;Gianpiero Cavalleri (RCSI) and Prof.&nbsp;Denis Shields (UCD). They are joined by co-investigators Prof.&nbsp;Aedin Culhane (University of Limerick) and Prof.&nbsp;Markus Helfert (Maynooth Univerity). The team is assisted by collaborators at University of Galway, UCD, IPPOSI and Health Research Charities Ireland. The project will be governed by a group with cross sectorial (including patient/citizen) representation.</p>
+</section>
+<section id="building-on-the-eu-1million-genome-initiative" class="level2">
+<h2 class="anchored" data-anchor-id="building-on-the-eu-1million-genome-initiative"><strong>Building on the EU 1+Million Genome initiative</strong></h2>
+<p>The <a href="https://digital-strategy.ec.europa.eu/en/policies/1-million-genomes"><strong>1+MG initiative</strong></a> was signed in 2018 and aims to enable secure access to genomics and corresponding clinical data across Europe to provide better research, personalised healthcare and health policymaking. The <a href="https://b1mg-project.eu/"><strong>Beyond 1 Million Genomes (B1MG)</strong></a> project started in 2020 and is developing guidelines for implementing the 1+MG Initiative and creating blueprints and recommendations for creating federated networks of genomic data. Building on the preparatory work of both of these, the <a href="https://gdi.onemilliongenomes.eu/news/"><strong>GDI project</strong></a> brings 20 EU Member States together with two infrastructure organisations (BBMRI and EMBL) to work collectively to support the 1+MG Initiative’s vision.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://CompOnco.github.io/contents/logo/gdi-logo.svg" class="img-fluid figure-img" alt="GDI"></p>
+<p></p><figcaption class="figure-caption">GDI</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="funding-sources" class="level1">
+<h1><strong>Funding Sources</strong></h1>
+<p>The GDI funded by the <a href="https://www.hrb.ie/news/news-story/article/hrb-supports-genomic-data-infrastructure-gdi-in-ireland/">Health Research Board</a> and the EU.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://CompOnco.github.io/contents/logo/Elixir_logo-3927606181.png" class="img-fluid figure-img" width="202"></p>
+<p></p><figcaption class="figure-caption">ELIXIR</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://CompOnco.github.io/contents/logo/lero.png" class="img-fluid figure-img" width="202"></p>
+<p></p><figcaption class="figure-caption">LERO</figcaption><p></p>
+</figure>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://CompOnco.github.io/Projects/GDI.html</guid>
+  <pubDate>Tue, 15 Aug 2023 14:00:23 GMT</pubDate>
+  <media:content url="https://CompOnco.github.io/contents/logo/EuropeanGenomicDataInfrastructure-Sq.png" medium="image" type="image/png" height="109" width="144"/>
+</item>
+<item>
+  <title>Bioconductor: Open Source Software for Genomics</title>
+  <link>https://CompOnco.github.io/Projects/bioconductor.html</link>
+  <description><![CDATA[ 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://CompOnco.github.io/contents/logo/bioconductor_logo_cmyk.svg" class="img-fluid figure-img" width="508"></p>
+<p></p><figcaption class="figure-caption">Bioconductor</figcaption><p></p>
+</figure>
+</div>
+<p><a href="www.bioconductor.org">Bioconductor</a> is an open source, open development software project in the R statistical software language and is widely used in bioinformatics, immunology, microbiology and single-cell genomics. Over 1200 developers have contributed software that is downloaded by users over 500K times per year.</p>
+<p>In April 2020, we established a Community Advisory Board (CAB) that includes elected representatives from America, Europe, Africa, Asia and Latin America to outreach to the growing global Bioconductor community. The CAB identified accessible high-quality training materials and delivery methods as an urgent, impactful need. Fundamental components for a successful training platform include skilled and effective program management, excellence in instruction, quality of training materials and equity in access. This proposal will redevelop the Bioconductor web presence to ensure Bioconductor communities have equitable access to quality, well-structured, project information and training materials. This work will also deliver structured, high-quality, culturally-aware, inclusive global training by developing a platform for community led instruction.</p>
+<p><span class="citation" data-cites="Reimers2006">Reimers and Carey (2006)</span></p>
+<p>Our lab support open source bioinformatics community and are working with European Infrastructure for life-science information (<a href="https://elixir-europe.org">ELIXIR</a>) and <a href="https://lero.ie">LERO</a>’s open source office.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://CompOnco.github.io/contents/logo/lero.png" class="img-fluid figure-img" width="202"></p>
+<p></p><figcaption class="figure-caption"><img src="https://CompOnco.github.io/contents/logo/Elixir_logo-3927606181.png" class="img-fluid figure-img" alt="ELIXIR" width="147"></figcaption><p></p>
+</figure>
+</div>
+<section id="funding-sources" class="level1">
+<h1>Funding Sources</h1>
+<p>This project is funded by a <a href="https://chanzuckerberg.com/eoss/proposals/bioconductor-high-quality-training-and-support-for-a-worldwide-community/">Chan Zuckerberg Initiative</a> CZI Science Essential Open Source Software (EOSS) award to Aedin Culhane.</p>
+<p><img src="https://CompOnco.github.io/contents/logo/CZI_science.png" class="img-fluid" width="334"></p>
+
+
+
+</section>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Reimers2006" class="csl-entry">
+Reimers, Mark, and Vincent J. Carey. 2006. <span>“[8] Bioconductor: An Open Source Framework for Bioinformatics and Computational Biology.”</span> In, 119–34. Elsevier. <a href="https://doi.org/10.1016/s0076-6879(06)11008-3">https://doi.org/10.1016/s0076-6879(06)11008-3</a>.
+</div>
+</div></section></div> ]]></description>
+  <category>Genomics</category>
+  <category>Bioconductor</category>
+  <category>Community</category>
+  <category>Open Source</category>
+  <guid>https://CompOnco.github.io/Projects/bioconductor.html</guid>
+  <pubDate>Tue, 15 Aug 2023 14:00:23 GMT</pubDate>
+  <media:content url="https://CompOnco.github.io/contents/logo/bioconductor_logo_cmyk.svg" medium="image" type="image/svg+xml"/>
+</item>
+<item>
+  <title>Connected Clinical Data: an eHealth Hub For Cancer</title>
+  <link>https://CompOnco.github.io/Projects/eHealthHub.html</link>
+  <description><![CDATA[ 
+<p><img src="https://CompOnco.github.io/contents/presentations/select_images/data_integration.jpeg" class="img-fluid" alt="health data eHealth Hub"></p>
+<section id="funding-sources" class="level1">
+<h1>Funding Sources</h1>
+<p>The eHealth-Hub for Cancer is an emerging hub of excellence funded under the Higher Education Authority Shared Island North-South Program.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://CompOnco.github.io/contents/logo/NSRP_Logo.png" class="img-fluid figure-img" width="402"></p>
+<p></p><figcaption class="figure-caption">HEA Shared island funding</figcaption><p></p>
+</figure>
+</div>
+
+
+</section>
+ ]]></description>
+  <category>Real World Evidence</category>
+  <category>Real World Data</category>
+  <category>Digital Health</category>
+  <guid>https://CompOnco.github.io/Projects/eHealthHub.html</guid>
+  <pubDate>Tue, 15 Aug 2023 14:00:23 GMT</pubDate>
+  <media:content url="https://CompOnco.github.io/contents/presentations/select_images/data_integration.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The role of immune and other cells in the tumor microenvironment in cancer</title>
+  <link>https://CompOnco.github.io/Projects/kidneyCancer.html</link>
+  <description><![CDATA[ 
+<section id="car-t-cell-therapy-in-kidney-cancer" class="level2">
+<h2 data-anchor-id="car-t-cell-therapy-in-kidney-cancer">CAR-T Cell Therapy in Kidney Cancer</h2>
+<p>Metastatic clear cell renal cell carcinoma (mccRCC) patients have poor 5-year overall survival rate and there is an urgent need to develop therapeutics for these patients. Chimeric antigen receptor (CAR) T cell therapy, which reprograms a patient’s immune system to recognize and attack cancer cells. Whilst CAR T-cell therapy has been used sucesffully in blood cancer it has not been translated to the solid tumors. The project goal is to develop CAR-T cell therapy in kidney cancer by fine-tuning immune CAR-T cells to recognize and eliminate only cancer cells but not the normal cells.</p>
+<p>We are analyzing scRNAseq and multi omics single cell data generated as part of this project by Dr Yufei Wang and Prof Wayne Marasco in <a href="https://marascolab.dana-farber.org">The Marasco Laboratory</a> in the Department of Cancer Immunology and Virology at the Dana-Farber Cancer Institute.</p>
+<p>Learn more with this <a href="https://www.vjoncology.com/video/ya9gatliajs-impact-of-the-tme-on-car-t-cell-therapy-for-kidney-cancer/">video</a></p>
+<p><img src="https://CompOnco.github.io/contents/images/CAR-T.jpg" class="img-fluid">“../contents/images/CAR-T.jpg”</p>
+</section>
+<section id="publications" class="level2">
+<h2 data-anchor-id="publications">Publications</h2>
+<p><span class="citation" data-cites="Wang2022">Wang et al. (2022)</span></p>
+</section>
+<section id="funding-sources" class="level2">
+<h2 data-anchor-id="funding-sources">Funding Sources</h2>
+<p>This project is funded by the DoD CDMRP and methods were developed using CZI Science Seed Network funds.</p>
+<p><img src="https://CompOnco.github.io/contents/logo/DOD_cdmrp_logo.jpeg" class="img-fluid" width="195" alt="DoD"> <img src="https://CompOnco.github.io/contents/logo/CZI_science.png" width="164" height="81" alt="CZI Science"></p>
+
+
+
+</section>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Wang2022" class="csl-entry">
+Wang, Yufei, Alicia Buck, Marion Grimaud, Aedin C. Culhane, Sreekumar Kodangattil, Cecile Razimbaud, Dennis M. Bonal, et al. 2022. <span>“Anti-CAIX BBζ CAR4/8 T&nbsp;Cells Exhibit Superior Efficacy in a ccRCC Mouse Model.”</span> <em>Molecular Therapy - Oncolytics</em> 24 (March): 385–99. <a href="https://doi.org/10.1016/j.omto.2021.12.019">https://doi.org/10.1016/j.omto.2021.12.019</a>.
+</div>
+</div></section></div> ]]></description>
+  <category>Genomics</category>
+  <category>scRNAseq</category>
+  <category>Single Cell</category>
+  <category>Kidney Cancer</category>
+  <guid>https://CompOnco.github.io/Projects/kidneyCancer.html</guid>
+  <pubDate>Tue, 15 Aug 2023 14:00:23 GMT</pubDate>
+  <media:content url="https://CompOnco.github.io/contents/images/CAR-T.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Algorithms and methods for integrative analysis of single cell omics data</title>
+  <link>https://CompOnco.github.io/Projects/scMethods.html</link>
+  <description><![CDATA[ 
+<p>We are developing matrix factorization and clustering methods for the integrative analysis of scRNAseq and multi omics single cell data.</p>
+<p>Corral ….</p>
+<p>Michaels demux</p>
+<section id="software" class="level2">
+<h2 data-anchor-id="software">Software</h2>
+<p>Link to software page</p>
+<p><img src="https://CompOnco.github.io/contents/logo/bioconductor_logo_cmyk.svg" class="img-fluid" width="247"></p>
+</section>
+<section id="publications" class="level2">
+<h2 data-anchor-id="publications">Publications</h2>
+<p><span class="citation" data-cites="hsu2020 hsu2021 lêcao2021 mirzayi2021 thorsson2018 gusenleitner">(Hsu and Culhane 2020; Hsu and Culhane 2021; Lê Cao et al. 2021; Mirzayi et al. 2021; Thorsson et al. 2018; Gusenleitner, Culhane, and Culhane, n.d.)</span></p>
+</section>
+<section id="funding-sources" class="level2">
+<h2 data-anchor-id="funding-sources">Funding Sources</h2>
+<p>This project is funded by a the DoD and CZI Science Seed Network awards</p>
+<p><img src="https://CompOnco.github.io/contents/logo/DOD_cdmrp_logo.jpeg" class="img-fluid" width="174" alt="DoD"> <img src="https://CompOnco.github.io/contents/logo/CZI_science.png" class="img-fluid" width="256" alt="CZI Science"></p>
+
+
+
+</section>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-gusenleitner" class="csl-entry">
+Gusenleitner, Daniel, Aedin Culhane, and Maintainer Aedin Culhane. n.d. <span>“Package <span>‘</span>iBBiG<span>’</span>.”</span>
+</div>
+<div id="ref-hsu2020" class="csl-entry">
+Hsu, Lauren L., and Aedin C. Culhane. 2020. <span>“Impact of Data Preprocessing on Integrative Matrix Factorization of Single Cell Data.”</span> <em>Frontiers in Oncology</em> 10: 973. <a href="https://doi.org/10.3389/fonc.2020.00973">https://doi.org/10.3389/fonc.2020.00973</a>.
+</div>
+<div id="ref-hsu2021" class="csl-entry">
+Hsu, Lauren L., and Aedín C. Culhane. 2021. <span>“Corral: Single-Cell RNA-Seq Dimension Reduction, Batch Integration, and Visualization with Correspondence Analysis.”</span> <em>bioRxiv</em>, January, 2021.11.24.469874. <a href="https://doi.org/10.1101/2021.11.24.469874">https://doi.org/10.1101/2021.11.24.469874</a>.
+</div>
+<div id="ref-lêcao2021" class="csl-entry">
+Lê Cao, Kim-Anh, Al J. Abadi, Emily F. Davis-Marcisak, Lauren Hsu, Arshi Arora, Alexis Coullomb, Atul Deshpande, et al. 2021. <span>“Community-Wide Hackathons to Identify Central Themes in Single-Cell Multi-Omics.”</span> <em>Genome Biology</em> 22 (1): 220. <a href="https://doi.org/10.1186/s13059-021-02433-9">https://doi.org/10.1186/s13059-021-02433-9</a>.
+</div>
+<div id="ref-mirzayi2021" class="csl-entry">
+Mirzayi, Chloe, Audrey Renson, Fatima Zohra, Shaimaa Elsafoury, Ludwig Geistlinger, Lora J. Kasselman, Kelly Eckenrode, et al. 2021. <span>“Reporting Guidelines for Human Microbiome Research: The STORMS Checklist.”</span> <em>Nature Medicine</em> 27 (11): 1885–92. <a href="https://doi.org/10.1038/s41591-021-01552-x">https://doi.org/10.1038/s41591-021-01552-x</a>.
+</div>
+<div id="ref-thorsson2018" class="csl-entry">
+Thorsson, Vésteinn, David L. Gibbs, Scott D. Brown, Denise Wolf, Dante S. Bortone, Tai-Hsien Ou Yang, Eduard Porta-Pardo, et al. 2018. <span>“The Immune Landscape of Cancer.”</span> <em>Immunity</em> 48 (4): 812–830.e14. <a href="https://doi.org/10.1016/j.immuni.2018.03.023">https://doi.org/10.1016/j.immuni.2018.03.023</a>.
+</div>
+</div></section></div> ]]></description>
+  <category>Genomics</category>
+  <category>scRNAseq</category>
+  <category>Single Cell</category>
+  <category>Cancer</category>
+  <guid>https://CompOnco.github.io/Projects/scMethods.html</guid>
+  <pubDate>Tue, 15 Aug 2023 14:00:23 GMT</pubDate>
+  <media:content url="https://CompOnco.github.io/contents/logo/bioconductor_logo_cmyk.svg" medium="image" type="image/svg+xml"/>
+</item>
+</channel>
+</rss>

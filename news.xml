@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Computational Oncology</title>
+<link>https://CompOnco.github.io/news.html</link>
+<atom:link href="https://CompOnco.github.io/news.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.2.335</generator>
+<lastBuildDate>Wed, 18 May 2022 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>RTE Brainstorm Article</title>
+  <dc:creator>Aedin Culhane</dc:creator>
+  <link>https://CompOnco.github.io/News/22_05_19_BrainStorm.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>In May 2022, the eHealthHub lead Prof Aedin Culhane and Prof Mark Lawler spoke with <a href="https://www.rte.ie/brainstorm/2022/0519/1299916-cancer-treatment-diagnosis-covid-delays-data-ireland-europe/">RTE Brainstorm</a> about the pressing need for harmonization of clinical cancer health data, to enable health research to tackle COVID-19 and Cancer</p>
+<p>Read more about on the <a href="https://www.rte.ie/brainstorm/2022/0519/1299916-cancer-treatment-diagnosis-covid-delays-data-ireland-europe/">RTE</a></p>
+
+
+
+ ]]></description>
+  <category>RTE</category>
+  <category>News Article</category>
+  <guid>https://CompOnco.github.io/News/22_05_19_BrainStorm.html</guid>
+  <pubDate>Wed, 18 May 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://CompOnco.github.io/contents/photos/img/BrainStorm.png" medium="image" type="image/png" height="125" width="144"/>
+</item>
+<item>
+  <title>LimerickPost</title>
+  <dc:creator>Aedin Culhane</dc:creator>
+  <link>https://CompOnco.github.io/News/22-04-04_LimerickPost.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Article that appears in the <a href="https://www.limerickpost.ie/2022/04/04/limerick-and-belfast-researchers-tackle-future-cancer-epidemic/">Limerick Post 4th April 2022</a>, announcing receipt of funding for all-island eHealth research in cancer.</p>
+
+
+
+ ]]></description>
+  <category>News Article</category>
+  <category>Limerick</category>
+  <guid>https://CompOnco.github.io/News/22-04-04_LimerickPost.html</guid>
+  <pubDate>Sun, 03 Apr 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://CompOnco.github.io/contents/photos/img/2022_Apr_LimerickPost.png" medium="image" type="image/png" height="141" width="144"/>
+</item>
+</channel>
+</rss>
