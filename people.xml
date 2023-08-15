@@ -9,12 +9,13 @@
 <link>https://componco.github.io/lab_website.github.io/people.html</link>
 <atom:link href="https://componco.github.io/lab_website.github.io/people.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.2.335</generator>
-<lastBuildDate>Tue, 15 Aug 2023 15:23:59 GMT</lastBuildDate>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Tue, 15 Aug 2023 18:46:30 GMT</lastBuildDate>
 <item>
   <title>Prof Aedin Culhane</title>
   <link>https://componco.github.io/lab_website.github.io/People/PI/AedinCulhane.html</link>
   <description><![CDATA[ 
+
 <section id="prof-aedin-culhane" class="level2">
 <h2 data-anchor-id="prof-aedin-culhane">Prof Aedin Culhane</h2>
 <p>Aedín Culhane is a Professor of Biomedical Sciences (Cancer Genomics) in the UL School of Medicine. She is a computational oncologist with expertise in multi-omics data integration, statistical genomics, clinical bioinformatics and genomics in oncology. She has over 20 years’ experience in cancer genomics, of which over 15 years were in the <a href="https://www.dana-farber.org/research/departments-centers-and-labs/departments-and-centers/department-of-data-science/">Dana-Farber Cancer Institute</a> and <a href="https://www.hsph.harvard.edu/biostatistics/">Harvard TH Chan School of Public Health in Boston, USA</a>. Her recent research focuses on algorithm development and integrative data of single cell molecular data in cancer to identify molecules that regulate and can be targeted during tumour development, progression, drug response and resistance. She is a member of the Human Cell Atlas (https://www.humancellatlas.org ) project. She is a leader in the Bioconductor (<a href="http://www.bioconductor.org/">www.bioconductor.org</a>) community, a global open source, open development software in R for genomics and an advocate for open source science.</p>
@@ -30,13 +31,14 @@
   <category>Group Leader</category>
   <category>LDCRC</category>
   <guid>https://componco.github.io/lab_website.github.io/People/PI/AedinCulhane.html</guid>
-  <pubDate>Tue, 15 Aug 2023 15:23:59 GMT</pubDate>
+  <pubDate>Tue, 15 Aug 2023 18:46:30 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/aedinculhane.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Dr Maria Doyle</title>
   <link>https://componco.github.io/lab_website.github.io/People/Team/MariaDoyle.html</link>
   <description><![CDATA[ 
+
 <section id="dr-maria-doyle" class="level2">
 <h2 data-anchor-id="dr-maria-doyle">Dr Maria Doyle</h2>
 </section>
@@ -157,13 +159,14 @@ American College of Surgeons_ 233.1 (Jul. 2021), pp. 111-118. ISSN:
   <category>Bioconductor</category>
   <category>Community Manager</category>
   <guid>https://componco.github.io/lab_website.github.io/People/Team/MariaDoyle.html</guid>
-  <pubDate>Tue, 15 Aug 2023 15:23:59 GMT</pubDate>
+  <pubDate>Tue, 15 Aug 2023 18:46:30 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/mariadoyle.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Monica Valecha</title>
   <link>https://componco.github.io/lab_website.github.io/People/Team/MonicaValecha.html</link>
   <description><![CDATA[ 
+
 <section id="monica-valecha" class="level2">
 <h2 data-anchor-id="monica-valecha">Monica Valecha</h2>
 </section>
@@ -238,13 +241,14 @@ DOI: 10.7150/ijbs.81317. PMID: 37063417.</code></pre>
   <category>Bioinformatics</category>
   <category>RA/PostDoc</category>
   <guid>https://componco.github.io/lab_website.github.io/People/Team/MonicaValecha.html</guid>
-  <pubDate>Tue, 15 Aug 2023 15:23:59 GMT</pubDate>
+  <pubDate>Tue, 15 Aug 2023 18:46:30 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/monicavalecha.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Mr Ahmad Alkhan</title>
   <link>https://componco.github.io/lab_website.github.io/People/Team/AhmadAlkhan.html</link>
   <description><![CDATA[ 
+
 <section id="mr-ahmad-alkhan" class="level2">
 <h2 data-anchor-id="mr-ahmad-alkhan">Mr Ahmad Alkhan</h2>
 </section>
@@ -288,13 +292,14 @@ dispositions of endemic medicinal plant Ziziphus hajarensis
   <category>Human Cell Atlas</category>
   <category>CZI</category>
   <guid>https://componco.github.io/lab_website.github.io/People/Team/AhmadAlkhan.html</guid>
-  <pubDate>Tue, 15 Aug 2023 15:23:59 GMT</pubDate>
+  <pubDate>Tue, 15 Aug 2023 18:46:30 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/ahmadalkhan.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Mr Brendan Reardon</title>
   <link>https://componco.github.io/lab_website.github.io/People/Team/BrendanReardon.html</link>
   <description><![CDATA[ 
+
 <section id="mr-brendan-reardon" class="level2">
 <h2 data-anchor-id="mr-brendan-reardon">Mr Brendan Reardon</h2>
 <p>Brendan Reardon’s research focuses on developing algorithms for the clinical interpretation of individual patient molecular data for precision oncology.</p>
@@ -413,13 +418,14 @@ ISSN: 2045-2322. DOI: 10.1038/s41598-022-21448-1. PMID: 36351964.</code></pre>
   <category>eHealth Hub For Cancer</category>
   <category>GDI</category>
   <guid>https://componco.github.io/lab_website.github.io/People/Team/BrendanReardon.html</guid>
-  <pubDate>Tue, 15 Aug 2023 15:23:59 GMT</pubDate>
+  <pubDate>Tue, 15 Aug 2023 18:46:30 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/brendanrearden.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Mr. Michael lynch</title>
   <link>https://componco.github.io/lab_website.github.io/People/Team/MichaelLynch.html</link>
   <description><![CDATA[ 
+
 <section id="mr-michael-lynch" class="level2">
 <h2 data-anchor-id="mr-michael-lynch">Mr Michael Lynch</h2>
 <p>Michael is developing methods for multi-omics integration of single cell data from the <a href="../Projects/kidneyCancer.html">Kidney Cancer CAR T-Cell project</a></p>
@@ -432,8 +438,6 @@ ISSN: 2045-2322. DOI: 10.1038/s41598-022-21448-1. PMID: 36351964.</code></pre>
 <h1>Publications</h1>
 <p>Full list of publications see <a href="https://scholar.google.com/..">Google Scholar</a></p>
 <p>Recent publications include</p>
-<div class="cell">
-</div>
 
 
 </section>
@@ -443,13 +447,14 @@ ISSN: 2045-2322. DOI: 10.1038/s41598-022-21448-1. PMID: 36351964.</code></pre>
   <category>Human Cell Atlas</category>
   <category>CZI</category>
   <guid>https://componco.github.io/lab_website.github.io/People/Team/MichaelLynch.html</guid>
-  <pubDate>Tue, 15 Aug 2023 15:23:59 GMT</pubDate>
+  <pubDate>Tue, 15 Aug 2023 18:46:30 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/michaellynch.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Dr Olywn Mahon</title>
   <link>https://componco.github.io/lab_website.github.io/People/Mentoring/OlywnMahon.html</link>
   <description><![CDATA[ 
+
 <section id="dr.-olywn-mahon" class="level2">
 <h2 data-anchor-id="dr.-olywn-mahon">Dr.&nbsp;Olywn Mahon</h2>
 </section>
@@ -476,13 +481,14 @@ ISSN: 2045-2322. DOI: 10.1038/s41598-022-21448-1. PMID: 36351964.</code></pre>
   <category>Postdoctorial Fellow</category>
   <category>scRNAseq</category>
   <guid>https://componco.github.io/lab_website.github.io/People/Mentoring/OlywnMahon.html</guid>
-  <pubDate>Tue, 15 Aug 2023 15:23:59 GMT</pubDate>
+  <pubDate>Tue, 15 Aug 2023 18:46:30 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/olwynmahon.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Dr. Eanna Fennell</title>
   <link>https://componco.github.io/lab_website.github.io/People/Mentoring/EannaFennell.html</link>
   <description><![CDATA[ 
+
 <section id="dr.-eanna-fennell" class="level2">
 <h2 data-anchor-id="dr.-eanna-fennell">Dr.&nbsp;Eanna Fennell</h2>
 </section>
@@ -538,13 +544,14 @@ SARS-CoV-2-associated Multisystem Inflammatory Syndrome in Children
   <category>Spatial Biology</category>
   <category>Human Cell Atlas</category>
   <guid>https://componco.github.io/lab_website.github.io/People/Mentoring/EannaFennell.html</guid>
-  <pubDate>Tue, 15 Aug 2023 15:23:59 GMT</pubDate>
+  <pubDate>Tue, 15 Aug 2023 18:46:30 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/eannafennell.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Lauren L Hsu</title>
   <link>https://componco.github.io/lab_website.github.io/People/Mentoring/LaurenHsu.html</link>
   <description><![CDATA[ 
+
 <section id="lauren-l.-hsu" class="level2">
 <h2 data-anchor-id="lauren-l.-hsu">Lauren L. Hsu</h2>
 <p>Graduate Student in Biostatistics at Harvard. Supervisors are Profs Judith Agudo &amp; John Quackenbush</p>
@@ -581,7 +588,7 @@ _Frontiers in oncology_ 10 (Jun. 2020), p. 973. ISSN: 2234-943X. DOI:
   <category>Spatial Biology</category>
   <category>Human Cell Atlas</category>
   <guid>https://componco.github.io/lab_website.github.io/People/Mentoring/LaurenHsu.html</guid>
-  <pubDate>Tue, 15 Aug 2023 15:23:59 GMT</pubDate>
+  <pubDate>Tue, 15 Aug 2023 18:46:30 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/laurenhsu.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

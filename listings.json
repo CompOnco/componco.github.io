@@ -1,14 +1,21 @@
 [
   {
-    "listing": "/Collaborate.html",
+    "listing": "/talks.html",
     "items": []
   },
   {
-    "listing": "/news.html",
+    "listing": "/projects.html",
     "items": [
-      "/News/22_05_19_BrainStorm.html",
-      "/News/22-04-04_LimerickPost.html"
+      "/Projects/GDI.html",
+      "/Projects/bioconductor.html",
+      "/Projects/eHealthHub.html",
+      "/Projects/kidneyCancer.html",
+      "/Projects/scMethods.html"
     ]
+  },
+  {
+    "listing": "/Collaborate.html",
+    "items": []
   },
   {
     "listing": "/people.html",
@@ -25,21 +32,14 @@
     ]
   },
   {
-    "listing": "/projects.html",
+    "listing": "/news.html",
     "items": [
-      "/Projects/GDI.html",
-      "/Projects/bioconductor.html",
-      "/Projects/eHealthHub.html",
-      "/Projects/kidneyCancer.html",
-      "/Projects/scMethods.html"
+      "/News/22_05_19_BrainStorm.html",
+      "/News/22-04-04_LimerickPost.html"
     ]
   },
   {
     "listing": "/publications.html",
-    "items": []
-  },
-  {
-    "listing": "/talks.html",
     "items": []
   }
 ]

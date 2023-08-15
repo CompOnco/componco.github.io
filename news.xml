@@ -9,8 +9,8 @@
 <link>https://componco.github.io/lab_website.github.io/news.html</link>
 <atom:link href="https://componco.github.io/lab_website.github.io/news.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.2.335</generator>
-<lastBuildDate>Wed, 18 May 2022 23:00:00 GMT</lastBuildDate>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Thu, 19 May 2022 00:00:00 GMT</lastBuildDate>
 <item>
   <title>RTE Brainstorm Article</title>
   <dc:creator>Aedin Culhane</dc:creator>
@@ -28,7 +28,7 @@
   <category>RTE</category>
   <category>News Article</category>
   <guid>https://componco.github.io/lab_website.github.io/News/22_05_19_BrainStorm.html</guid>
-  <pubDate>Wed, 18 May 2022 23:00:00 GMT</pubDate>
+  <pubDate>Thu, 19 May 2022 00:00:00 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/img/BrainStorm.png" medium="image" type="image/png" height="125" width="144"/>
 </item>
 <item>
@@ -47,7 +47,7 @@
   <category>News Article</category>
   <category>Limerick</category>
   <guid>https://componco.github.io/lab_website.github.io/News/22-04-04_LimerickPost.html</guid>
-  <pubDate>Sun, 03 Apr 2022 23:00:00 GMT</pubDate>
+  <pubDate>Mon, 04 Apr 2022 00:00:00 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/img/2022_Apr_LimerickPost.png" medium="image" type="image/png" height="141" width="144"/>
 </item>
 </channel>
