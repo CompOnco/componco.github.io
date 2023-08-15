@@ -1,0 +1,20 @@
+---
+title: "Culhane Lab Research"
+
+listing:
+  id: Research
+  contents: Projects/*.qmd
+  sort: "date desc"
+  type: default
+  grid-columns: 3
+  grid-item-border: true
+  grid-item-align: center
+  image-height: 120px
+  categories: true
+  feed: true
+  filter-ui: [title, date, description, categories, tag]
+page-layout: full
+---
+
+
+

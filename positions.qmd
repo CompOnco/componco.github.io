@@ -1,0 +1,55 @@
+---
+title: "Join Us"
+---
+
+## Current Positions in the Lab
+
+[Post Doctoral Researcher in Single Cell Bioinformatics](https://universityvacancies.com/university-limerick/post-doctoral-researcher-single-cell-bioinformatics-fixed-term-contract)\
+Seeking a postdoctoral fellow to develop algoritms and methods for scRNAseq, multi-omics and spatial single cell data analysis. Deadline Feb 28th. Informal inquires welcome, ([Contact Information] below)
+
+## Graduate students
+
+We welcome emails from candidates interested in undertaking a 3-year, 4-year, full or part-time, in-person or hybrid PhD in the lab.
+
+Prospective students should have
+
+-   a keen desire to purse computational oncology research
+-   a masters degree, professional experience or a distinguished undergraduate degree
+-   experience in programming (R, Python, etc)
+
+Please title the email "Seeking Computational Oncology PhD", and enclose
+
+-   CV or resume
+-   a link to your github account (or similar)
+-   a cover letter (max 1 page) describing your research interests.
+
+## Other positions
+
+We will be advertising PhD, Postdoc and Research assistant positions to work on the eHealth and GDI projects. Please contact us to learn more.
+
+## Values & Code of Conduct
+
+We value scientific [rigour and reproducibility](https://www.nih.gov/research-training/rigor-reproducibility) and support an open approach to science that promotes sharing of ideas, code and expertise.
+
+We value diversity and inclusion, and work to provide a kind, welcoming, collaborative environment that is free of harassment. Our code of conduct is modeled on the [Bioconductor Code of Conduct](https://www.bioconductor.org/about/code-of-conduct/).
+
+# Contact Information
+
+**Aedín C. Culhane, Ph.D.**
+
+Professor of Cancer Genomics\
+Director, Limerick Digital Cancer Research Centre
+
+School of Medicine, GEMS3-005b,\
+University of Limerick,\
+Limerick, V94 T9PX,\
+IRELAND
+
+\
+Phone (office): +353 61 234 678\
+Twitter: \@AedinCulhane\
+Email: **Aedin** dot **Culhane** at **ul** dot **ie**\
+
+map coordinates: [52.67881936990499, -8.568196](https://goo.gl/maps/dA858q9EwhRDzaJB6)\
+
+If you need to arrange a meeting [Clare Nee](mailto:Clare-dot-Nee-at-ul.ie "mailto:Clare-dot-Nee-at-ul.ie") has access to my calendar

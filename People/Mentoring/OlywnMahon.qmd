@@ -1,0 +1,52 @@
+---
+title: Dr Olywn Mahon 
+about:
+  template: solana
+  image-width: 10em
+  image-shape: round
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/olwyn-mahon-102a8ba8/
+    - icon: house-door
+      text: Homepage
+      href: https://www.homepage.com 
+    - icon: envelope
+      text: email
+      href: mailto:AhmaddotAlkhan@ul.ie
+
+description: 
+  Post doctoral fellow in the McGourty Lab
+image: ../../contents/photos/people/olwynmahon.jpeg
+card_style: "summary_large_image"
+categories:
+  - Postdoctorial Fellow
+  - scRNAseq
+---
+
+## Dr. Olywn Mahon
+
+## Links
+
+[ORCID](https://orcid.org/..)
+
+# Publications
+
+Full list of publications see [Google Scholar](https://scholar.google.com/..)
+
+Recent publications include
+
+```{r, echo=FALSE}
+library(RefManageR)
+source("../../src/website_functions.R")
+year=paste("1996:2023")
+authors="Olywn Mahon"
+my_query=getRefs(authors,year)
+print(my_query)
+```

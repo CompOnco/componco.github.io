@@ -1,0 +1,44 @@
+---
+title: "Publications"
+listing:
+  contents: presentations 
+  type: grid
+  grid-columns: 3
+  image-height: 200px
+  categories: true
+bibliography: publications/lab.bib
+csl: publications/csl/national-institute-of-health-research.csl
+nocite: '@*'
+link-citations: true 
+---
+
+```{r, echo=FALSE,message=FALSE}
+authors = c("Aedin Culhane")
+year = "2020:2023"
+```
+
+### Publications between `r sub(":", " - ", year)`
+
+```{r echo=FALSE,message=FALSE, eval=FALSE}
+source("src/website_functions.R")
+bibliography="publications/lab.bib"
+csl="publications/nature.csl"
+library(RefManageR)
+if(!all(file.exists(bibliography),file.exists(csl))){
+  my_query = makeQuery(authors,year)
+  bibliography = getRefs(authors,year)
+  WriteBib(bibliography, file=paste0("lab.bib"))
+ # print(bibliography,.opts = list(cite.style = csl, style="markdown", hyperlink=TRUE))
+}
+```
+
+```{r eval=FALSE,echo=FALSE}
+## csl styles zotero or https://github.com/citation-style-language/styles
+  
+# Altmetric badge 
+
+doi = "10.1038/nature.2014.14583""
+<div data-badge-popover="right" data-badge-type="medium-donut" data-doi=doi data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+```

@@ -1,0 +1,43 @@
+---
+title: "Bioconductor: Open Source Software for Genomics"
+description: Providing Bioconductor training  by redeveloping the website and developing global infrastructure to deliver high quality community-led training in local languages.
+about:
+  template: solana
+  image: "../contents/logo/bioconductor_logo_cmyk.svg"
+  image-width: 10em
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/bioconductor
+    - icon: github
+      text: Github
+      href: https://github.com/bioconductor
+    - icon: house-door
+      text: Website
+      href: https://www.bioconductor.org
+card_style: "summary_large_image"
+categories:
+  - Genomics
+  - Bioconductor
+  - Community
+  - Open Source
+bibliography: references.bib
+---
+
+![Bioconductor](../contents/logo/bioconductor_logo_cmyk.svg){width="508"}
+
+[Bioconductor](www.bioconductor.org) is an open source, open development software project in the R statistical software language and is widely used in bioinformatics, immunology, microbiology and single-cell genomics. Over 1200 developers have contributed software that is downloaded by users over 500K times per year.
+
+In April 2020, we established a Community Advisory Board (CAB) that includes elected representatives from America, Europe, Africa, Asia and Latin America to outreach to the growing global Bioconductor community. The CAB identified accessible high-quality training materials and delivery methods as an urgent, impactful need. Fundamental components for a successful training platform include skilled and effective program management, excellence in instruction, quality of training materials and equity in access. This proposal will redevelop the Bioconductor web presence to ensure Bioconductor communities have equitable access to quality, well-structured, project information and training materials. This work will also deliver structured, high-quality, culturally-aware, inclusive global training by developing a platform for community led instruction.
+
+@Reimers2006
+
+Our lab support open source bioinformatics community and are working with European Infrastructure for life-science information ([ELIXIR](https://elixir-europe.org)) and [LERO](https://lero.ie)'s open source office.
+
+![![ELIXIR](../contents/logo/Elixir_logo-3927606181.png){alt="ELIXIR" width="147"}](../contents/logo/lero.png){width="202"}
+
+# Funding Sources
+
+This project is funded by a [Chan Zuckerberg Initiative](https://chanzuckerberg.com/eoss/proposals/bioconductor-high-quality-training-and-support-for-a-worldwide-community/) CZI Science Essential Open Source Software (EOSS) award to Aedin Culhane.
+
+![](../contents/logo/CZI_science.png){width="334"}

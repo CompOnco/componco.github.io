@@ -1,0 +1,34 @@
+---
+title: "The role of immune and other cells in the tumor microenvironment in cancer"
+description: "We are studing the immune environment associated with response to CAR-T Cell Therapy in Kidney Cancer with the Maraco lab in Dana-Farber Cancer Institute."
+about:
+  template: solana
+  image: "../contents/images/CAR-T.jpg"
+  image-width: 10em
+
+card_style: "summary_large_image"
+categories:
+  - Genomics
+  - scRNAseq
+  - Single Cell
+  - Kidney Cancer
+bibliography: references.bib
+---
+## CAR-T Cell Therapy in Kidney Cancer
+Metastatic clear cell renal cell carcinoma (mccRCC) patients have poor 5-year overall survival rate and there is an urgent need to develop therapeutics for these patients. Chimeric antigen receptor (CAR) T cell therapy, which reprograms a patient's immune system to recognize and attack cancer cells. Whilst CAR T-cell therapy has been used sucesffully in blood cancer it has not been translated to the solid tumors. The project goal is to develop CAR-T cell therapy in kidney cancer by fine-tuning immune CAR-T cells to recognize and eliminate only cancer cells but not the normal cells.
+
+We are analyzing scRNAseq and multi omics single cell data generated as part of this project by Dr Yufei Wang and Prof Wayne Marasco in [The Marasco Laboratory](https://marascolab.dana-farber.org) in the Department of Cancer Immunology and Virology at the Dana-Farber Cancer Institute.
+
+Learn more with this [video](https://www.vjoncology.com/video/ya9gatliajs-impact-of-the-tme-on-car-t-cell-therapy-for-kidney-cancer/)
+
+![](/contents/images/CAR-T.jpg)"../contents/images/CAR-T.jpg"
+
+## Publications
+
+@Wang2022
+
+## Funding Sources
+
+This project is funded by the DoD CDMRP and methods were developed using CZI Science Seed Network funds.
+
+![DoD](../contents/logo/DOD_cdmrp_logo.jpeg){width="195"} ![CZI Science](../contents/logo/CZI_science.png){width="164" height="81"}

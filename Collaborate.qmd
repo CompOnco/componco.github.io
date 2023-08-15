@@ -1,0 +1,67 @@
+---
+title: "Collaborators"
+listing:
+  id: Partners
+  contents: Partners/*.qmd
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  image-height: 250px
+  categories: true
+  feed: true
+  sort-ui: [Name, date]
+  filter-ui: [title, Name, date, description, categories, tag]
+page-layout: full
+---
+
+## Collaborate with us
+
+Let us know if you would like to explore a collaboration with our lab.
+
+## Co-Investigators and Collaborating Lab
+
+Elizabeth Ryan, UL, Ireland (Co-supervisor of Ahmad Alkan)
+
+Laurent Gatto, Louvain, Belguim (Co-supervisor of Michael Lynch)
+
+Paul Murray, UL, Ireland
+
+Gianpierro Cavalleri, RCSI, Dublin, Ireland
+
+Vince Carey, BWH, Bioconductor
+
+Sherrie DiVito BWH
+
+Mitsiades Lab, DFCI
+
+Marasco Lab, DFCI
+
+Van Allen Lab, DFCI
+
+## Consortium and Organizations
+
+#### National
+
+-   AICRI
+
+-   NaSPro
+
+-   SBI
+
+#### International
+
+-   Bioconductor
+
+-   GDI
+
+-   ELIXIR
+
+-   Human Cell Atlas
+
+-   OHDSI
+
+-   EHDEN
+
+-   Northeastern University, OHDSI
+
+-   UNCAN.eu

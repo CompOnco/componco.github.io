@@ -1,0 +1,54 @@
+---
+title: Mr Brendan Reardon
+about:
+  template: solana
+  image-width: 10em
+  image-shape: round
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/brendan_reardon
+    - icon: github
+      text: GitHub
+      href: https://github.com/brendanreardon
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/brendan-reardon-ba3b7247/
+    - icon: house-door
+      text: Homepage
+      href: https://www.brendanreardon.com
+    - icon: envelope
+      text: email
+      href: mailto:22411216@studentmail.ul.ie
+
+description: 
+  Graduate Student (jointly with Prof Eli Van Allen, DFCI)
+image: ../../contents/photos/people/brendanrearden.jpeg
+card_style: "summary_large_image"
+categories:
+  - PhD Student
+  - eHealth Hub For Cancer
+  - GDI
+---
+
+## Mr Brendan Reardon
+Brendan Reardon's research focuses on developing algorithms for the clinical interpretation of individual patient molecular data for precision oncology. 
+
+## Links
+
+[ORCID](https://orcid.org/0000-0002-1716-5720)
+
+# Publications
+
+Full list of publications see [Google Scholar](https://scholar.google.com/citations?user=K_J6gxsAAAAJ)
+
+Recent publications include
+
+```{r, echo=FALSE}
+library(RefManageR)
+source("../../src/website_functions.R")
+year=paste("1996:2023")
+authors="Brendan Reardon"
+my_query=getRefs(authors,year)
+print(my_query)
+```
