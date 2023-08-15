@@ -6,10 +6,10 @@
       version="2.0">
 <channel>
 <title>Computational Oncology</title>
-<link>https://CompOnco.github.io/Collaborate.html</link>
-<atom:link href="https://CompOnco.github.io/Collaborate.xml" rel="self" type="application/rss+xml"/>
+<link>https://componco.github.io/lab_website.github.io/Collaborate.html</link>
+<atom:link href="https://componco.github.io/lab_website.github.io/Collaborate.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.2.335</generator>
-<lastBuildDate>Tue, 15 Aug 2023 14:19:04 GMT</lastBuildDate>
+<lastBuildDate>Tue, 15 Aug 2023 14:32:58 GMT</lastBuildDate>
 </channel>
 </rss>

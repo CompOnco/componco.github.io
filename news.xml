@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Computational Oncology</title>
-<link>https://CompOnco.github.io/news.html</link>
-<atom:link href="https://CompOnco.github.io/news.xml" rel="self" type="application/rss+xml"/>
+<link>https://componco.github.io/lab_website.github.io/news.html</link>
+<atom:link href="https://componco.github.io/lab_website.github.io/news.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.2.335</generator>
 <lastBuildDate>Wed, 18 May 2022 23:00:00 GMT</lastBuildDate>
 <item>
   <title>RTE Brainstorm Article</title>
   <dc:creator>Aedin Culhane</dc:creator>
-  <link>https://CompOnco.github.io/News/22_05_19_BrainStorm.html</link>
+  <link>https://componco.github.io/lab_website.github.io/News/22_05_19_BrainStorm.html</link>
   <description><![CDATA[ 
 
 
@@ -27,14 +27,14 @@
  ]]></description>
   <category>RTE</category>
   <category>News Article</category>
-  <guid>https://CompOnco.github.io/News/22_05_19_BrainStorm.html</guid>
+  <guid>https://componco.github.io/lab_website.github.io/News/22_05_19_BrainStorm.html</guid>
   <pubDate>Wed, 18 May 2022 23:00:00 GMT</pubDate>
-  <media:content url="https://CompOnco.github.io/contents/photos/img/BrainStorm.png" medium="image" type="image/png" height="125" width="144"/>
+  <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/img/BrainStorm.png" medium="image" type="image/png" height="125" width="144"/>
 </item>
 <item>
   <title>LimerickPost</title>
   <dc:creator>Aedin Culhane</dc:creator>
-  <link>https://CompOnco.github.io/News/22-04-04_LimerickPost.html</link>
+  <link>https://componco.github.io/lab_website.github.io/News/22-04-04_LimerickPost.html</link>
   <description><![CDATA[ 
 
 
@@ -46,9 +46,9 @@
  ]]></description>
   <category>News Article</category>
   <category>Limerick</category>
-  <guid>https://CompOnco.github.io/News/22-04-04_LimerickPost.html</guid>
+  <guid>https://componco.github.io/lab_website.github.io/News/22-04-04_LimerickPost.html</guid>
   <pubDate>Sun, 03 Apr 2022 23:00:00 GMT</pubDate>
-  <media:content url="https://CompOnco.github.io/contents/photos/img/2022_Apr_LimerickPost.png" medium="image" type="image/png" height="141" width="144"/>
+  <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/img/2022_Apr_LimerickPost.png" medium="image" type="image/png" height="141" width="144"/>
 </item>
 </channel>
 </rss>
