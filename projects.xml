@@ -10,7 +10,7 @@
 <atom:link href="https://componco.github.io/lab_website.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.2.335</generator>
-<lastBuildDate>Tue, 15 Aug 2023 14:33:29 GMT</lastBuildDate>
+<lastBuildDate>Tue, 15 Aug 2023 14:40:16 GMT</lastBuildDate>
 <item>
   <title>footer</title>
   <link>https://componco.github.io/lab_website.github.io/Projects/GDI.html</link>
@@ -63,7 +63,7 @@
 
  ]]></description>
   <guid>https://componco.github.io/lab_website.github.io/Projects/GDI.html</guid>
-  <pubDate>Tue, 15 Aug 2023 14:33:29 GMT</pubDate>
+  <pubDate>Tue, 15 Aug 2023 14:40:16 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/logo/EuropeanGenomicDataInfrastructure-Sq.png" medium="image" type="image/png" height="109" width="144"/>
 </item>
 <item>
@@ -104,7 +104,7 @@ Reimers, Mark, and Vincent J. Carey. 2006. <span>“[8] Bioconductor: An Open So
   <category>Community</category>
   <category>Open Source</category>
   <guid>https://componco.github.io/lab_website.github.io/Projects/bioconductor.html</guid>
-  <pubDate>Tue, 15 Aug 2023 14:33:29 GMT</pubDate>
+  <pubDate>Tue, 15 Aug 2023 14:40:16 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/logo/bioconductor_logo_cmyk.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
@@ -129,7 +129,7 @@ Reimers, Mark, and Vincent J. Carey. 2006. <span>“[8] Bioconductor: An Open So
   <category>Real World Data</category>
   <category>Digital Health</category>
   <guid>https://componco.github.io/lab_website.github.io/Projects/eHealthHub.html</guid>
-  <pubDate>Tue, 15 Aug 2023 14:33:29 GMT</pubDate>
+  <pubDate>Tue, 15 Aug 2023 14:40:16 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/presentations/select_images/data_integration.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -165,7 +165,7 @@ Wang, Yufei, Alicia Buck, Marion Grimaud, Aedin C. Culhane, Sreekumar Kodangatti
   <category>Single Cell</category>
   <category>Kidney Cancer</category>
   <guid>https://componco.github.io/lab_website.github.io/Projects/kidneyCancer.html</guid>
-  <pubDate>Tue, 15 Aug 2023 14:33:29 GMT</pubDate>
+  <pubDate>Tue, 15 Aug 2023 14:40:16 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/images/CAR-T.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -217,7 +217,7 @@ Thorsson, Vésteinn, David L. Gibbs, Scott D. Brown, Denise Wolf, Dante S. Borto
   <category>Single Cell</category>
   <category>Cancer</category>
   <guid>https://componco.github.io/lab_website.github.io/Projects/scMethods.html</guid>
-  <pubDate>Tue, 15 Aug 2023 14:33:29 GMT</pubDate>
+  <pubDate>Tue, 15 Aug 2023 14:40:16 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/logo/bioconductor_logo_cmyk.svg" medium="image" type="image/svg+xml"/>
 </item>
 </channel>
