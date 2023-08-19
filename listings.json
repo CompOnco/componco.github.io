@@ -18,13 +18,6 @@
     "items": []
   },
   {
-    "listing": "/news.html",
-    "items": [
-      "/News/22_05_19_BrainStorm.html",
-      "/News/22-04-04_LimerickPost.html"
-    ]
-  },
-  {
     "listing": "/people.html",
     "items": [
       "/People/PI/AedinCulhane.html",
@@ -36,6 +29,13 @@
       "/People/Mentoring/OlywnMahon.html",
       "/People/Mentoring/EannaFennell.html",
       "/People/Mentoring/LaurenHsu.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/News/22_05_19_BrainStorm.html",
+      "/News/22-04-04_LimerickPost.html"
     ]
   },
   {
