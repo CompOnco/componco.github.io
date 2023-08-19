@@ -1,20 +1,6 @@
 [
   {
-    "listing": "/people.html",
-    "items": [
-      "/People/PI/AedinCulhane.html",
-      "/People/Team/MariaDoyle.html",
-      "/People/Team/MonicaValecha.html",
-      "/People/Team/AhmadAlkhan.html",
-      "/People/Team/BrendanReardon.html",
-      "/People/Team/MichaelLynch.html",
-      "/People/Mentoring/OlywnMahon.html",
-      "/People/Mentoring/EannaFennell.html",
-      "/People/Mentoring/LaurenHsu.html"
-    ]
-  },
-  {
-    "listing": "/Collaborate.html",
+    "listing": "/talks.html",
     "items": []
   },
   {
@@ -28,7 +14,7 @@
     ]
   },
   {
-    "listing": "/talks.html",
+    "listing": "/Collaborate.html",
     "items": []
   },
   {
@@ -36,6 +22,20 @@
     "items": [
       "/News/22_05_19_BrainStorm.html",
       "/News/22-04-04_LimerickPost.html"
+    ]
+  },
+  {
+    "listing": "/people.html",
+    "items": [
+      "/People/PI/AedinCulhane.html",
+      "/People/Team/MariaDoyle.html",
+      "/People/Team/MonicaValecha.html",
+      "/People/Team/AhmadAlkhan.html",
+      "/People/Team/BrendanReardon.html",
+      "/People/Team/MichaelLynch.html",
+      "/People/Mentoring/OlywnMahon.html",
+      "/People/Mentoring/EannaFennell.html",
+      "/People/Mentoring/LaurenHsu.html"
     ]
   },
   {
