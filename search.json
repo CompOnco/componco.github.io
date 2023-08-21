@@ -1,143 +1,17 @@
 [
   {
-    "objectID": "News/22_05_19_BrainStorm.html",
-    "href": "News/22_05_19_BrainStorm.html",
-    "title": "RTE Brainstorm Article",
+    "objectID": "News/22-04-04_LimerickPost.html",
+    "href": "News/22-04-04_LimerickPost.html",
+    "title": "LimerickPost",
     "section": "",
-    "text": "In May 2022, the eHealthHub lead Prof Aedin Culhane and Prof Mark Lawler spoke with RTE Brainstorm about the pressing need for harmonization of clinical cancer health data, to enable health research to tackle COVID-19 and Cancer\nRead more about on the RTE\n\n\n\nfooter.qmd"
-  },
-  {
-    "objectID": "Projects/scMethods.html",
-    "href": "Projects/scMethods.html",
-    "title": "Algorithms and methods for integrative analysis of single cell omics data",
-    "section": "",
-    "text": "We are developing matrix factorization and clustering methods for the integrative analysis of scRNAseq and multi omics single cell data.\nCorral ….\nMichaels demux\nfooter.qmd"
-  },
-  {
-    "objectID": "Projects/scMethods.html#software",
-    "href": "Projects/scMethods.html#software",
-    "title": "Algorithms and methods for integrative analysis of single cell omics data",
-    "section": "Software",
-    "text": "Software\nLink to software page"
-  },
-  {
-    "objectID": "Projects/scMethods.html#publications",
-    "href": "Projects/scMethods.html#publications",
-    "title": "Algorithms and methods for integrative analysis of single cell omics data",
-    "section": "Publications",
-    "text": "Publications\n(Hsu and Culhane 2020; Hsu and Culhane 2021; Lê Cao et al. 2021; Mirzayi et al. 2021; Thorsson et al. 2018; Gusenleitner, Culhane, and Culhane, n.d.)"
-  },
-  {
-    "objectID": "Projects/scMethods.html#funding-sources",
-    "href": "Projects/scMethods.html#funding-sources",
-    "title": "Algorithms and methods for integrative analysis of single cell omics data",
-    "section": "Funding Sources",
-    "text": "Funding Sources\nThis project is funded by a the DoD and CZI Science Seed Network awards"
-  },
-  {
-    "objectID": "Projects/kidneyCancer.html",
-    "href": "Projects/kidneyCancer.html",
-    "title": "The role of immune and other cells in the tumor microenvironment in cancer",
-    "section": "",
-    "text": "Metastatic clear cell renal cell carcinoma (mccRCC) patients have poor 5-year overall survival rate and there is an urgent need to develop therapeutics for these patients. Chimeric antigen receptor (CAR) T cell therapy, which reprograms a patient’s immune system to recognize and attack cancer cells. Whilst CAR T-cell therapy has been used sucesffully in blood cancer it has not been translated to the solid tumors. The project goal is to develop CAR-T cell therapy in kidney cancer by fine-tuning immune CAR-T cells to recognize and eliminate only cancer cells but not the normal cells.\nWe are analyzing scRNAseq and multi omics single cell data generated as part of this project by Dr Yufei Wang and Prof Wayne Marasco in The Marasco Laboratory in the Department of Cancer Immunology and Virology at the Dana-Farber Cancer Institute.\nLearn more with this video\n“../contents/images/CAR-T.jpg”\nfooter.qmd"
-  },
-  {
-    "objectID": "Projects/kidneyCancer.html#car-t-cell-therapy-in-kidney-cancer",
-    "href": "Projects/kidneyCancer.html#car-t-cell-therapy-in-kidney-cancer",
-    "title": "The role of immune and other cells in the tumor microenvironment in cancer",
-    "section": "",
-    "text": "Metastatic clear cell renal cell carcinoma (mccRCC) patients have poor 5-year overall survival rate and there is an urgent need to develop therapeutics for these patients. Chimeric antigen receptor (CAR) T cell therapy, which reprograms a patient’s immune system to recognize and attack cancer cells. Whilst CAR T-cell therapy has been used sucesffully in blood cancer it has not been translated to the solid tumors. The project goal is to develop CAR-T cell therapy in kidney cancer by fine-tuning immune CAR-T cells to recognize and eliminate only cancer cells but not the normal cells.\nWe are analyzing scRNAseq and multi omics single cell data generated as part of this project by Dr Yufei Wang and Prof Wayne Marasco in The Marasco Laboratory in the Department of Cancer Immunology and Virology at the Dana-Farber Cancer Institute.\nLearn more with this video\n“../contents/images/CAR-T.jpg”"
-  },
-  {
-    "objectID": "Projects/kidneyCancer.html#publications",
-    "href": "Projects/kidneyCancer.html#publications",
-    "title": "The role of immune and other cells in the tumor microenvironment in cancer",
-    "section": "Publications",
-    "text": "Publications\nWang et al. (2022)"
-  },
-  {
-    "objectID": "Projects/kidneyCancer.html#funding-sources",
-    "href": "Projects/kidneyCancer.html#funding-sources",
-    "title": "The role of immune and other cells in the tumor microenvironment in cancer",
-    "section": "Funding Sources",
-    "text": "Funding Sources\nThis project is funded by the DoD CDMRP and methods were developed using CZI Science Seed Network funds."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Culhane Lab Research",
-    "section": "",
-    "text": "Connecting 1+ Million Genomes with Genomic Data Infrastructure (GDI)\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBioconductor: Open Source Software for Genomics\n\n\n\n\n\n\n\nGenomics\n\n\nBioconductor\n\n\nCommunity\n\n\nOpen Source\n\n\n\n\nProviding Bioconductor training by redeveloping the website and developing global infrastructure to deliver high quality community-led training in local languages.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nConnected Clinical Data: an eHealth Hub For Cancer\n\n\n\n\n\n\n\nReal World Evidence\n\n\nReal World Data\n\n\nDigital Health\n\n\n\n\nWe lead all-island eHealth Hub for Cancer is an all-island partnership on the island of Ireland that is building software and data platforms using best practice open science international health data standards to unlock and share health data, to grow clinical cancer research and improve cancer care.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nThe role of immune and other cells in the tumor microenvironment in cancer\n\n\n\n\n\n\n\nGenomics\n\n\nscRNAseq\n\n\nSingle Cell\n\n\nKidney Cancer\n\n\n\n\nWe are studing the immune environment associated with response to CAR-T Cell Therapy in Kidney Cancer with the Maraco lab in Dana-Farber Cancer Institute.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAlgorithms and methods for integrative analysis of single cell omics data\n\n\n\n\n\n\n\nGenomics\n\n\nscRNAseq\n\n\nSingle Cell\n\n\nCancer\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "Collaborate.html",
-    "href": "Collaborate.html",
-    "title": "Collaborators",
-    "section": "",
-    "text": "Let us know if you would like to explore a collaboration with our lab."
-  },
-  {
-    "objectID": "Collaborate.html#collaborate-with-us",
-    "href": "Collaborate.html#collaborate-with-us",
-    "title": "Collaborators",
-    "section": "",
-    "text": "Let us know if you would like to explore a collaboration with our lab."
-  },
-  {
-    "objectID": "Collaborate.html#co-investigators-and-collaborating-lab",
-    "href": "Collaborate.html#co-investigators-and-collaborating-lab",
-    "title": "Collaborators",
-    "section": "Co-Investigators and Collaborating Lab",
-    "text": "Co-Investigators and Collaborating Lab\nElizabeth Ryan, UL, Ireland (Co-supervisor of Ahmad Alkan)\nLaurent Gatto, Louvain, Belguim (Co-supervisor of Michael Lynch)\nPaul Murray, UL, Ireland\nGianpierro Cavalleri, RCSI, Dublin, Ireland\nVince Carey, BWH, Bioconductor\nSherrie DiVito BWH\nMitsiades Lab, DFCI\nMarasco Lab, DFCI\nVan Allen Lab, DFCI"
-  },
-  {
-    "objectID": "Collaborate.html#consortium-and-organizations",
-    "href": "Collaborate.html#consortium-and-organizations",
-    "title": "Collaborators",
-    "section": "Consortium and Organizations",
-    "text": "Consortium and Organizations\n\nNational\n\nAICRI\nNaSPro\nSBI\n\n\n\nInternational\n\nBioconductor\nGDI\nELIXIR\nHuman Cell Atlas\nOHDSI\nEHDEN\nNortheastern University, OHDSI\nUNCAN.eu"
-  },
-  {
-    "objectID": "People/Team/MonicaValecha.html",
-    "href": "People/Team/MonicaValecha.html",
-    "title": "Monica Valecha",
-    "section": "",
-    "text": "footer.qmd"
-  },
-  {
-    "objectID": "People/Team/MonicaValecha.html#links",
-    "href": "People/Team/MonicaValecha.html#links",
-    "title": "Monica Valecha",
-    "section": "Links",
-    "text": "Links\nORCID"
-  },
-  {
-    "objectID": "People/Team/MichaelLynch.html",
-    "href": "People/Team/MichaelLynch.html",
-    "title": "Mr. Michael lynch",
-    "section": "",
-    "text": "Michael is developing methods for multi-omics integration of single cell data from the Kidney Cancer CAR T-Cell project\nfooter.qmd"
-  },
-  {
-    "objectID": "People/Team/MichaelLynch.html#mr-michael-lynch",
-    "href": "People/Team/MichaelLynch.html#mr-michael-lynch",
-    "title": "Mr. Michael lynch",
-    "section": "",
-    "text": "Michael is developing methods for multi-omics integration of single cell data from the Kidney Cancer CAR T-Cell project"
-  },
-  {
-    "objectID": "People/Team/MichaelLynch.html#links",
-    "href": "People/Team/MichaelLynch.html#links",
-    "title": "Mr. Michael lynch",
-    "section": "Links",
-    "text": "Links\nORCID"
+    "text": "Article that appears in the Limerick Post 4th April 2022, announcing receipt of funding for all-island eHealth research in cancer."
   },
   {
     "objectID": "People/PI/AedinCulhane.html",
     "href": "People/PI/AedinCulhane.html",
     "title": "Prof Aedin Culhane",
     "section": "",
-    "text": "Aedín Culhane is a Professor of Biomedical Sciences (Cancer Genomics) in the UL School of Medicine. She is a computational oncologist with expertise in multi-omics data integration, statistical genomics, clinical bioinformatics and genomics in oncology. She has over 20 years’ experience in cancer genomics, of which over 15 years were in the Dana-Farber Cancer Institute and Harvard TH Chan School of Public Health in Boston, USA. Her recent research focuses on algorithm development and integrative data of single cell molecular data in cancer to identify molecules that regulate and can be targeted during tumour development, progression, drug response and resistance. She is a member of the Human Cell Atlas (https://www.humancellatlas.org ) project. She is a leader in the Bioconductor (www.bioconductor.org) community, a global open source, open development software in R for genomics and an advocate for open source science.\nfooter.qmd"
+    "text": "Aedín Culhane is a Professor of Biomedical Sciences (Cancer Genomics) in the UL School of Medicine. She is a computational oncologist with expertise in multi-omics data integration, statistical genomics, clinical bioinformatics and genomics in oncology. She has over 20 years’ experience in cancer genomics, of which over 15 years were in the Dana-Farber Cancer Institute and Harvard TH Chan School of Public Health in Boston, USA. Her recent research focuses on algorithm development and integrative data of single cell molecular data in cancer to identify molecules that regulate and can be targeted during tumour development, progression, drug response and resistance. She is a member of the Human Cell Atlas (https://www.humancellatlas.org ) project. She is a leader in the Bioconductor (www.bioconductor.org) community, a global open source, open development software in R for genomics and an advocate for open source science."
   },
   {
     "objectID": "People/PI/AedinCulhane.html#prof-aedin-culhane",
@@ -151,7 +25,7 @@
     "href": "People/Mentoring/LaurenHsu.html",
     "title": "Lauren L Hsu",
     "section": "",
-    "text": "Graduate Student in Biostatistics at Harvard. Supervisors are Profs Judith Agudo & John Quackenbush\nfooter.qmd"
+    "text": "Graduate Student in Biostatistics at Harvard. Supervisors are Profs Judith Agudo & John Quackenbush"
   },
   {
     "objectID": "People/Mentoring/LaurenHsu.html#lauren-l.-hsu",
@@ -168,25 +42,39 @@
     "text": "Links\nORCID"
   },
   {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Software",
-    "section": "",
-    "text": "Publications include (Hsu and Culhane, 2023; Hsu and Culhane, 2020; Lê Cao et al., 2021)\n\n\n\n\nPublications (Lê Cao et al., 2021; Meng et al., 2019, 2016, 2014; Meng and Culhane, 2016)\n\n\nGusenleitner et al. (2012); Gusenleitner et al. (2012)\n\n\n\nMeng et al. (2014)\n\n\n\nCulhane et al. (2005)"
+    "objectID": "People/Team/MonicaValecha.html#links",
+    "href": "People/Team/MonicaValecha.html#links",
+    "title": "Monica Valecha",
+    "section": "Links",
+    "text": "Links\nORCID"
   },
   {
-    "objectID": "software.html#corral",
-    "href": "software.html#corral",
-    "title": "Software",
+    "objectID": "People/Team/BrendanReardon.html",
+    "href": "People/Team/BrendanReardon.html",
+    "title": "Mr Brendan Reardon",
     "section": "",
-    "text": "Publications include (Hsu and Culhane, 2023; Hsu and Culhane, 2020; Lê Cao et al., 2021)"
+    "text": "Brendan Reardon’s research focuses on developing algorithms for the clinical interpretation of individual patient molecular data for precision oncology."
   },
   {
-    "objectID": "software.html#mogsa",
-    "href": "software.html#mogsa",
-    "title": "Software",
+    "objectID": "People/Team/BrendanReardon.html#mr-brendan-reardon",
+    "href": "People/Team/BrendanReardon.html#mr-brendan-reardon",
+    "title": "Mr Brendan Reardon",
     "section": "",
-    "text": "Publications (Lê Cao et al., 2021; Meng et al., 2019, 2016, 2014; Meng and Culhane, 2016)\n\n\nGusenleitner et al. (2012); Gusenleitner et al. (2012)\n\n\n\nMeng et al. (2014)\n\n\n\nCulhane et al. (2005)"
+    "text": "Brendan Reardon’s research focuses on developing algorithms for the clinical interpretation of individual patient molecular data for precision oncology."
+  },
+  {
+    "objectID": "People/Team/BrendanReardon.html#links",
+    "href": "People/Team/BrendanReardon.html#links",
+    "title": "Mr Brendan Reardon",
+    "section": "Links",
+    "text": "Links\nORCID"
+  },
+  {
+    "objectID": "People/Team/MariaDoyle.html#links",
+    "href": "People/Team/MariaDoyle.html#links",
+    "title": "Dr Maria Doyle",
+    "section": "Links",
+    "text": "Links\nORCID"
   },
   {
     "objectID": "people.html",
@@ -224,6 +112,90 @@
     "text": "Alumni\n\n\n    \n      \n      \n    \n\n\n\n\n\nNo matching items\n\n\nLauren Hsu\nPhD Candidate in Biostatistics at Harvard\nPublications: (Hsu and Culhane 2020; Lê Cao et al. 2021; Hsu and Culhane 2023)\nAzfar Basunia\nDiagnostic Radiology Resident at Penn Medicine. Department of Radiology\nPublications: (Ramos et al. 2017; Meng et al. 2019; Schwede et al. 2020)\nChen Meng\nCenter Leader Bioinformatics at the Bavarian Center for Biomolecular Mass Spectrometry (BayBioMS)\nPublications: (Meng et al. 2016, 2019, 2014; Lê Cao et al. 2021; Meng and Culhane 2016; Thorsson et al. 2019)\nDaniel Gusenleitner\nHead of Computational Biology at Mercy BioAnalytics, Inc.\nPublications:(Gusenleitner et al. 2012; Schröder et al. 2013; Culhane et al. 2011)\nMatthew Schwede\nHematology Oncology Fellow at Stanford University School of Medicine\nPublications: (Wang et al. 2012; Schwede et al. 2013, 2020; Santagata et al. 2014; Chittenden et al. 2010)\nOana Zeleznik\nInstructor in Medicine, Harvard Medical School and Associate Epidemiologist, Brigham and Women’s Hospital\nPublications: (Meng et al. 2016)"
   },
   {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Publications include (Hsu and Culhane, 2023; Hsu and Culhane, 2020; Lê Cao et al., 2021)\n\n\n\n\nPublications (Lê Cao et al., 2021; Meng et al., 2019, 2016, 2014; Meng and Culhane, 2016)\n\n\nGusenleitner et al. (2012); Gusenleitner et al. (2012)\n\n\n\nMeng et al. (2014)\n\n\n\nCulhane et al. (2005)"
+  },
+  {
+    "objectID": "software.html#corral",
+    "href": "software.html#corral",
+    "title": "Software",
+    "section": "",
+    "text": "Publications include (Hsu and Culhane, 2023; Hsu and Culhane, 2020; Lê Cao et al., 2021)"
+  },
+  {
+    "objectID": "software.html#mogsa",
+    "href": "software.html#mogsa",
+    "title": "Software",
+    "section": "",
+    "text": "Publications (Lê Cao et al., 2021; Meng et al., 2019, 2016, 2014; Meng and Culhane, 2016)\n\n\nGusenleitner et al. (2012); Gusenleitner et al. (2012)\n\n\n\nMeng et al. (2014)\n\n\n\nCulhane et al. (2005)"
+  },
+  {
+    "objectID": "Projects/scMethods.html",
+    "href": "Projects/scMethods.html",
+    "title": "Algorithms and methods for integrative analysis of single cell omics data",
+    "section": "",
+    "text": "We are developing matrix factorization and clustering methods for the integrative analysis of scRNAseq and multi omics single cell data.\nCorral ….\nMichaels demux"
+  },
+  {
+    "objectID": "Projects/scMethods.html#software",
+    "href": "Projects/scMethods.html#software",
+    "title": "Algorithms and methods for integrative analysis of single cell omics data",
+    "section": "Software",
+    "text": "Software\nLink to software page"
+  },
+  {
+    "objectID": "Projects/scMethods.html#publications",
+    "href": "Projects/scMethods.html#publications",
+    "title": "Algorithms and methods for integrative analysis of single cell omics data",
+    "section": "Publications",
+    "text": "Publications\n(Hsu and Culhane 2020; Hsu and Culhane 2021; Lê Cao et al. 2021; Mirzayi et al. 2021; Thorsson et al. 2018; Gusenleitner, Culhane, and Culhane, n.d.)"
+  },
+  {
+    "objectID": "Projects/scMethods.html#funding-sources",
+    "href": "Projects/scMethods.html#funding-sources",
+    "title": "Algorithms and methods for integrative analysis of single cell omics data",
+    "section": "Funding Sources",
+    "text": "Funding Sources\nThis project is funded by a the DoD and CZI Science Seed Network awards"
+  },
+  {
+    "objectID": "Projects/kidneyCancer.html",
+    "href": "Projects/kidneyCancer.html",
+    "title": "The role of immune and other cells in the tumor microenvironment in cancer",
+    "section": "",
+    "text": "Metastatic clear cell renal cell carcinoma (mccRCC) patients have poor 5-year overall survival rate and there is an urgent need to develop therapeutics for these patients. Chimeric antigen receptor (CAR) T cell therapy, which reprograms a patient’s immune system to recognize and attack cancer cells. Whilst CAR T-cell therapy has been used sucesffully in blood cancer it has not been translated to the solid tumors. The project goal is to develop CAR-T cell therapy in kidney cancer by fine-tuning immune CAR-T cells to recognize and eliminate only cancer cells but not the normal cells.\nWe are analyzing scRNAseq and multi omics single cell data generated as part of this project by Dr Yufei Wang and Prof Wayne Marasco in The Marasco Laboratory in the Department of Cancer Immunology and Virology at the Dana-Farber Cancer Institute.\nLearn more with this video\n“../contents/images/CAR-T.jpg”"
+  },
+  {
+    "objectID": "Projects/kidneyCancer.html#car-t-cell-therapy-in-kidney-cancer",
+    "href": "Projects/kidneyCancer.html#car-t-cell-therapy-in-kidney-cancer",
+    "title": "The role of immune and other cells in the tumor microenvironment in cancer",
+    "section": "",
+    "text": "Metastatic clear cell renal cell carcinoma (mccRCC) patients have poor 5-year overall survival rate and there is an urgent need to develop therapeutics for these patients. Chimeric antigen receptor (CAR) T cell therapy, which reprograms a patient’s immune system to recognize and attack cancer cells. Whilst CAR T-cell therapy has been used sucesffully in blood cancer it has not been translated to the solid tumors. The project goal is to develop CAR-T cell therapy in kidney cancer by fine-tuning immune CAR-T cells to recognize and eliminate only cancer cells but not the normal cells.\nWe are analyzing scRNAseq and multi omics single cell data generated as part of this project by Dr Yufei Wang and Prof Wayne Marasco in The Marasco Laboratory in the Department of Cancer Immunology and Virology at the Dana-Farber Cancer Institute.\nLearn more with this video\n“../contents/images/CAR-T.jpg”"
+  },
+  {
+    "objectID": "Projects/kidneyCancer.html#publications",
+    "href": "Projects/kidneyCancer.html#publications",
+    "title": "The role of immune and other cells in the tumor microenvironment in cancer",
+    "section": "Publications",
+    "text": "Publications\nWang et al. (2022)"
+  },
+  {
+    "objectID": "Projects/kidneyCancer.html#funding-sources",
+    "href": "Projects/kidneyCancer.html#funding-sources",
+    "title": "The role of immune and other cells in the tumor microenvironment in cancer",
+    "section": "Funding Sources",
+    "text": "Funding Sources\nThis project is funded by the DoD CDMRP and methods were developed using CZI Science Seed Network funds."
+  },
+  {
+    "objectID": "Projects/bioconductor.html",
+    "href": "Projects/bioconductor.html",
+    "title": "Bioconductor: Open Source Software for Genomics",
+    "section": "",
+    "text": "Bioconductor\n\n\nBioconductor is an open source, open development software project in the R statistical software language and is widely used in bioinformatics, immunology, microbiology and single-cell genomics. Over 1200 developers have contributed software that is downloaded by users over 500K times per year.\nIn April 2020, we established a Community Advisory Board (CAB) that includes elected representatives from America, Europe, Africa, Asia and Latin America to outreach to the growing global Bioconductor community. The CAB identified accessible high-quality training materials and delivery methods as an urgent, impactful need. Fundamental components for a successful training platform include skilled and effective program management, excellence in instruction, quality of training materials and equity in access. This proposal will redevelop the Bioconductor web presence to ensure Bioconductor communities have equitable access to quality, well-structured, project information and training materials. This work will also deliver structured, high-quality, culturally-aware, inclusive global training by developing a platform for community led instruction.\nReimers and Carey (2006)\nOur lab support open source bioinformatics community and are working with European Infrastructure for life-science information (ELIXIR) and LERO’s open source office.\n\n\n\n\n\n\n\nFunding Sources\nThis project is funded by a Chan Zuckerberg Initiative CZI Science Essential Open Source Software (EOSS) award to Aedin Culhane.\n\n\n\n\n\nReferences\n\nReimers, Mark, and Vincent J. Carey. 2006. “[8] Bioconductor: An Open Source Framework for Bioinformatics and Computational Biology.” In, 119–34. Elsevier. https://doi.org/10.1016/s0076-6879(06)11008-3."
+  },
+  {
     "objectID": "positions.html",
     "href": "positions.html",
     "title": "Join Us",
@@ -259,6 +231,41 @@
     "text": "Values & Code of Conduct\nWe value scientific rigour and reproducibility and support an open approach to science that promotes sharing of ideas, code and expertise.\nWe value diversity and inclusion, and work to provide a kind, welcoming, collaborative environment that is free of harassment. Our code of conduct is modeled on the Bioconductor Code of Conduct."
   },
   {
+    "objectID": "Projects/eHealthHub.html",
+    "href": "Projects/eHealthHub.html",
+    "title": "Connected Clinical Data: an eHealth Hub For Cancer",
+    "section": "",
+    "text": "Funding Sources\nThe eHealth-Hub for Cancer is an emerging hub of excellence funded under the Higher Education Authority Shared Island North-South Program.\n\n\n\nHEA Shared island funding"
+  },
+  {
+    "objectID": "Projects/GDI.html",
+    "href": "Projects/GDI.html",
+    "title": "Funding Sources",
+    "section": "",
+    "text": "Our lab are working in Pillar II of the GDI and leading activity 3 described below.\nIn Ireland, the programme is jointly funded by the European Commission and the Health Research Board. The overall programme is designed to support the European 1+ Million Genomes (1+MG) Initiative. Specifically, GDI will drive the development, deployment and operation of sustainable data-access infrastructures within each participating country including the legal frameworks, operational procedures and ethics principles required to foster and maintain citizens’ trust in cross-border access to highly sensitive personal data. It will unlock a data network of over 1 million genome sequences for research and clinical reference creating unprecedented opportunities for routine transnational, multi-stakeholder actions in personalised medicine for common, rare and infectious diseases. Authorised data users, such as clinicians, researchers and innovators, will be able to advance our understanding of genomics for more precise and faster clinical decision-making, diagnostics, treatments and predictive medicine, and for improved public health measures that will benefit citizens, healthcare systems and the overall economy. Thus, GDI is a critical component of Europe’s ambition to lead the integration of genomics into healthcare and the GDI project is designed to interact with the other actors working towards this ambition via incremental milestones that drive alignment along a dynamic roadmap.\n\nGDI will lay the foundations for Ireland’s participation in a federated European Infrastructure for genomic data via six related areas of activities;\nActivity 1: Promoting the establishment of the Irish 1+MG National Mirror Group, connecting with and contributing to the European 1+MG initiative. The Irish group will mirror the European-level working groups of the 1+MG, and to connect the relevant Irish-based individuals with those European working groups.\nActivity 2: Developing a national genomics plan for realisation in Ireland of the European 1+MG initiative. This activity would seek to align with the National Strategy for Genetics and Genomics in Ireland, and scope out an impactful and sustainable Irish Genome Project.\nActivity 3: Developing, testing and validating a proof of concept platform for performing distributed analysis, connected to the European Data Network. This would in effect be a pilot Irish node for the federated European system, connecting genomic datasets. UL and the Culhane group are leading activity 3.\nActivity 4: Determining the Irish-specific data governance system needed to enable sustainable and secure sharing of genomic data. This will involve developing data governance practices for privacy protection in a data sharing/federated data environment. It will include public and patient involvement.\nActivity 5: Feasibility study for cross-border (N:S) “Genomes of Ireland” initiative. This will inform a national genomic reference for Ireland.\nActivity 6: Development of training initiatives for the next generation of genomic clinician and data scientists. This will develop training modules/activities that inform clinicians and data scientists, and equip them with the skills and knowledge required to enable safe and effective sharing of genomic data.\nGDI-Ireland is co-led by Prof. Gianpiero Cavalleri (RCSI) and Prof. Denis Shields (UCD). They are joined by co-investigators Prof. Aedin Culhane (University of Limerick) and Prof. Markus Helfert (Maynooth Univerity). The team is assisted by collaborators at University of Galway, UCD, IPPOSI and Health Research Charities Ireland. The project will be governed by a group with cross sectorial (including patient/citizen) representation."
+  },
+  {
+    "objectID": "Projects/GDI.html#connecting-1-million-genomes-with-genomic-data-infrastructure-gdi",
+    "href": "Projects/GDI.html#connecting-1-million-genomes-with-genomic-data-infrastructure-gdi",
+    "title": "Funding Sources",
+    "section": "",
+    "text": "Our lab are working in Pillar II of the GDI and leading activity 3 described below.\nIn Ireland, the programme is jointly funded by the European Commission and the Health Research Board. The overall programme is designed to support the European 1+ Million Genomes (1+MG) Initiative. Specifically, GDI will drive the development, deployment and operation of sustainable data-access infrastructures within each participating country including the legal frameworks, operational procedures and ethics principles required to foster and maintain citizens’ trust in cross-border access to highly sensitive personal data. It will unlock a data network of over 1 million genome sequences for research and clinical reference creating unprecedented opportunities for routine transnational, multi-stakeholder actions in personalised medicine for common, rare and infectious diseases. Authorised data users, such as clinicians, researchers and innovators, will be able to advance our understanding of genomics for more precise and faster clinical decision-making, diagnostics, treatments and predictive medicine, and for improved public health measures that will benefit citizens, healthcare systems and the overall economy. Thus, GDI is a critical component of Europe’s ambition to lead the integration of genomics into healthcare and the GDI project is designed to interact with the other actors working towards this ambition via incremental milestones that drive alignment along a dynamic roadmap.\n\nGDI will lay the foundations for Ireland’s participation in a federated European Infrastructure for genomic data via six related areas of activities;\nActivity 1: Promoting the establishment of the Irish 1+MG National Mirror Group, connecting with and contributing to the European 1+MG initiative. The Irish group will mirror the European-level working groups of the 1+MG, and to connect the relevant Irish-based individuals with those European working groups.\nActivity 2: Developing a national genomics plan for realisation in Ireland of the European 1+MG initiative. This activity would seek to align with the National Strategy for Genetics and Genomics in Ireland, and scope out an impactful and sustainable Irish Genome Project.\nActivity 3: Developing, testing and validating a proof of concept platform for performing distributed analysis, connected to the European Data Network. This would in effect be a pilot Irish node for the federated European system, connecting genomic datasets. UL and the Culhane group are leading activity 3.\nActivity 4: Determining the Irish-specific data governance system needed to enable sustainable and secure sharing of genomic data. This will involve developing data governance practices for privacy protection in a data sharing/federated data environment. It will include public and patient involvement.\nActivity 5: Feasibility study for cross-border (N:S) “Genomes of Ireland” initiative. This will inform a national genomic reference for Ireland.\nActivity 6: Development of training initiatives for the next generation of genomic clinician and data scientists. This will develop training modules/activities that inform clinicians and data scientists, and equip them with the skills and knowledge required to enable safe and effective sharing of genomic data.\nGDI-Ireland is co-led by Prof. Gianpiero Cavalleri (RCSI) and Prof. Denis Shields (UCD). They are joined by co-investigators Prof. Aedin Culhane (University of Limerick) and Prof. Markus Helfert (Maynooth Univerity). The team is assisted by collaborators at University of Galway, UCD, IPPOSI and Health Research Charities Ireland. The project will be governed by a group with cross sectorial (including patient/citizen) representation."
+  },
+  {
+    "objectID": "Projects/GDI.html#building-on-the-eu-1million-genome-initiative",
+    "href": "Projects/GDI.html#building-on-the-eu-1million-genome-initiative",
+    "title": "Funding Sources",
+    "section": "Building on the EU 1+Million Genome initiative",
+    "text": "Building on the EU 1+Million Genome initiative\nThe 1+MG initiative was signed in 2018 and aims to enable secure access to genomics and corresponding clinical data across Europe to provide better research, personalised healthcare and health policymaking. The Beyond 1 Million Genomes (B1MG) project started in 2020 and is developing guidelines for implementing the 1+MG Initiative and creating blueprints and recommendations for creating federated networks of genomic data. Building on the preparatory work of both of these, the GDI project brings 20 EU Member States together with two infrastructure organisations (BBMRI and EMBL) to work collectively to support the 1+MG Initiative’s vision.\n\n\n\nGDI"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Culhane Lab Research",
+    "section": "",
+    "text": "Connecting 1+ Million Genomes with Genomic Data Infrastructure (GDI)\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBioconductor: Open Source Software for Genomics\n\n\n\n\n\n\n\nGenomics\n\n\nBioconductor\n\n\nCommunity\n\n\nOpen Source\n\n\n\n\nProviding Bioconductor training by redeveloping the website and developing global infrastructure to deliver high quality community-led training in local languages.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nConnected Clinical Data: an eHealth Hub For Cancer\n\n\n\n\n\n\n\nReal World Evidence\n\n\nReal World Data\n\n\nDigital Health\n\n\n\n\nWe lead all-island eHealth Hub for Cancer is an all-island partnership on the island of Ireland that is building software and data platforms using best practice open science international health data standards to unlock and share health data, to grow clinical cancer research and improve cancer care.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nThe role of immune and other cells in the tumor microenvironment in cancer\n\n\n\n\n\n\n\nGenomics\n\n\nscRNAseq\n\n\nSingle Cell\n\n\nKidney Cancer\n\n\n\n\nWe are studing the immune environment associated with response to CAR-T Cell Therapy in Kidney Cancer with the Maraco lab in Dana-Farber Cancer Institute.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAlgorithms and methods for integrative analysis of single cell omics data\n\n\n\n\n\n\n\nGenomics\n\n\nscRNAseq\n\n\nSingle Cell\n\n\nCancer\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Culhane Computational Oncology & Cancer Genomics Lab",
@@ -287,88 +294,39 @@
     "text": "Open Science and Open Source Software\nWe are an open science, open development, open source software lab who values diversity and inclusion. We share our tools to the benefit of the research community, and we benefit from those who share with us. We are in active in Bioconductor, a global open source software suite which supports collaboration and sharing of bioinformatics code, data and workflows. It used by over 1 million researchrs worldwide in the analysis and interpretation of genomic data."
   },
   {
+    "objectID": "Collaborate.html",
+    "href": "Collaborate.html",
+    "title": "Collaborators",
+    "section": "",
+    "text": "Let us know if you would like to explore a collaboration with our lab."
+  },
+  {
+    "objectID": "Collaborate.html#collaborate-with-us",
+    "href": "Collaborate.html#collaborate-with-us",
+    "title": "Collaborators",
+    "section": "",
+    "text": "Let us know if you would like to explore a collaboration with our lab."
+  },
+  {
+    "objectID": "Collaborate.html#co-investigators-and-collaborating-lab",
+    "href": "Collaborate.html#co-investigators-and-collaborating-lab",
+    "title": "Collaborators",
+    "section": "Co-Investigators and Collaborating Lab",
+    "text": "Co-Investigators and Collaborating Lab\nElizabeth Ryan, UL, Ireland (Co-supervisor of Ahmad Alkan)\nLaurent Gatto, Louvain, Belguim (Co-supervisor of Michael Lynch)\nPaul Murray, UL, Ireland\nGianpierro Cavalleri, RCSI, Dublin, Ireland\nVince Carey, BWH, Bioconductor\nSherrie DiVito BWH\nMitsiades Lab, DFCI\nMarasco Lab, DFCI\nVan Allen Lab, DFCI"
+  },
+  {
+    "objectID": "Collaborate.html#consortium-and-organizations",
+    "href": "Collaborate.html#consortium-and-organizations",
+    "title": "Collaborators",
+    "section": "Consortium and Organizations",
+    "text": "Consortium and Organizations\n\nNational\n\nAICRI\nNaSPro\nSBI\n\n\n\nInternational\n\nBioconductor\nGDI\nELIXIR\nHuman Cell Atlas\nOHDSI\nEHDEN\nNortheastern University, OHDSI\nUNCAN.eu"
+  },
+  {
     "objectID": "news.html",
     "href": "news.html",
     "title": "News",
     "section": "",
     "text": "News from the eHealth-Hub for Cancer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nRTE Brainstorm Article\n\n\n\nRTE\n\n\nNews Article\n\n\n\nArticle about the eHealth-Hub on RTE Brainstorm\n\n\n\nAedin Culhane\n\n\nMay 19, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLimerickPost\n\n\n\nNews Article\n\n\nLimerick\n\n\n\nLimerick and Belfast researchers tackle ‘future cancer epidemic’ from the Limerick Post\n\n\n\nAedin Culhane\n\n\nApr 4, 2022\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "People/Mentoring/EannaFennell.html",
-    "href": "People/Mentoring/EannaFennell.html",
-    "title": "Dr. Eanna Fennell",
-    "section": "",
-    "text": "footer.qmd"
-  },
-  {
-    "objectID": "People/Mentoring/EannaFennell.html#links",
-    "href": "People/Mentoring/EannaFennell.html#links",
-    "title": "Dr. Eanna Fennell",
-    "section": "Links",
-    "text": "Links\nORCID"
-  },
-  {
-    "objectID": "People/Mentoring/OlywnMahon.html",
-    "href": "People/Mentoring/OlywnMahon.html",
-    "title": "Dr Olywn Mahon",
-    "section": "",
-    "text": "footer.qmd"
-  },
-  {
-    "objectID": "People/Mentoring/OlywnMahon.html#links",
-    "href": "People/Mentoring/OlywnMahon.html#links",
-    "title": "Dr Olywn Mahon",
-    "section": "Links",
-    "text": "Links\nORCID"
-  },
-  {
-    "objectID": "People/Team/AhmadAlkhan.html",
-    "href": "People/Team/AhmadAlkhan.html",
-    "title": "Mr Ahmad Alkhan",
-    "section": "",
-    "text": "footer.qmd"
-  },
-  {
-    "objectID": "People/Team/AhmadAlkhan.html#links",
-    "href": "People/Team/AhmadAlkhan.html#links",
-    "title": "Mr Ahmad Alkhan",
-    "section": "Links",
-    "text": "Links\nORCID"
-  },
-  {
-    "objectID": "People/Team/BrendanReardon.html",
-    "href": "People/Team/BrendanReardon.html",
-    "title": "Mr Brendan Reardon",
-    "section": "",
-    "text": "Brendan Reardon’s research focuses on developing algorithms for the clinical interpretation of individual patient molecular data for precision oncology.\nfooter.qmd"
-  },
-  {
-    "objectID": "People/Team/BrendanReardon.html#mr-brendan-reardon",
-    "href": "People/Team/BrendanReardon.html#mr-brendan-reardon",
-    "title": "Mr Brendan Reardon",
-    "section": "",
-    "text": "Brendan Reardon’s research focuses on developing algorithms for the clinical interpretation of individual patient molecular data for precision oncology."
-  },
-  {
-    "objectID": "People/Team/BrendanReardon.html#links",
-    "href": "People/Team/BrendanReardon.html#links",
-    "title": "Mr Brendan Reardon",
-    "section": "Links",
-    "text": "Links\nORCID"
-  },
-  {
-    "objectID": "People/Team/MariaDoyle.html",
-    "href": "People/Team/MariaDoyle.html",
-    "title": "Dr Maria Doyle",
-    "section": "",
-    "text": "footer.qmd"
-  },
-  {
-    "objectID": "People/Team/MariaDoyle.html#links",
-    "href": "People/Team/MariaDoyle.html#links",
-    "title": "Dr Maria Doyle",
-    "section": "Links",
-    "text": "Links\nORCID"
   },
   {
     "objectID": "publications.html",
@@ -378,45 +336,52 @@
     "text": "No matching items\n\nPublications between 2020 - 2023\n\n1 Hsu LL, Culhane AC. Correspondence analysis for dimension reduction, batch integration, and visualization of single-cell RNA-seq data. Scientific Reports 2023;13:1197. https://doi.org/10.1038/s41598-022-26434-1.\n\n\n2 Wang Y, Buck A, Grimaud M, Culhane AC, Kodangattil S, Razimbaud C, et al. Anti-CAIX BBζ CAR4/8 t cells exhibit superior efficacy in a ccRCC mouse model. Molecular Therapy Oncolytics 2022;24:385–99. https://doi.org/10.1016/j.omto.2021.12.019.\n\n\n3 Mirzayi C, Renson A, Zohra F, Elsafoury S, Geistlinger L, Kasselman LJ, et al. Reporting guidelines for human microbiome research: The STORMS checklist. Nature Medicine 2021;27:1885–92. https://doi.org/10.1038/s41591-021-01552-x.\n\n\n4 Cao K-AL, Abadi AJ, Davis-Marcisak EF, Hsu L, Arora A, Coullomb A, et al. Author correction: Community-wide hackathons to identify central themes in single-cell multi-omics. Genome Biology 2021;22:246. https://doi.org/10.1186/s13059-021-02468-y.\n\n\n5 Cao K-AL, Abadi AJ, Davis-Marcisak EF, Hsu L, Arora A, Coullomb A, et al. Community-wide hackathons to identify central themes in single-cell multi-omics. Genome Biology 2021;22:220. https://doi.org/10.1186/s13059-021-02433-9.\n\n\n6 Roel E, Pistillo A, Recalde M, Sena AG, Fern’andez-Bertol’ın S, Arag’on M, et al. Characteristics and outcomes of over 300,000 patients with COVID-19 and history of cancer in the united states and spain. Cancer Epidemiology, Biomarkers & Prevention : A Publication of the American Association for Cancer Research, Cosponsored by the American Society of Preventive Oncology 2021;30:1884–94. https://doi.org/10.1158/1055-9965.EPI-21-0266.\n\n\n7 Sheffer M, Lowry E, Beelen N, Borah M, Amara SN-A, Mader CC, et al. Genome-scale screens identify factors regulating tumor cell responses to natural killer cells. Nature Genetics 2021;53:1196–206. https://doi.org/10.1038/s41588-021-00889-w.\n\n\n8 Dhimolea E, Matos Simoes R de, Kansara D, Al’Khafaji A, Bouyssou J, Weng X, et al. An embryonic diapause-like adaptation with suppressed myc activity enables tumor treatment persistence. Cancer Cell 2021;39:240–256.e11. https://doi.org/10.1016/j.ccell.2020.12.002.\n\n\n9 Shirasaki R, Matthews GM, Gandolfi S, Matos Simoes R de, Buckley DL, Vora JR, et al. Functional genomics identify distinct and overlapping genes mediating resistance to different classes of heterobifunctional degraders of oncoproteins. Cell Reports 2021;34:108532. https://doi.org/10.1016/j.celrep.2020.108532.\n\n\n10 Burn E, You SC, Sena AG, Kostka K, Abedtash H, Abrahão MTF, et al. Deep phenotyping of 34,128 adult patients hospitalised with COVID-19 in an international network study. Nature Communications 2020;11:5009. https://doi.org/10.1038/s41467-020-18849-z.\n\n\n11 Lane JCE, Weaver J, Kostka K, Duarte-Salles T, Abrahao MTF, Alghoul H, et al. Risk of hydroxychloroquine alone and in combination with azithromycin in the treatment of rheumatoid arthritis: A multinational, retrospective study. The Lancet Rheumatology 2020;2:e698–711. https://doi.org/10.1016/S2665-9913(20)30276-9.\n\n\n12 Dhimolea E, Matos Simoes R de, Kansara D, Weng X, Sharma S, Awate P, et al. Pleiotropic mechanisms drive endocrine resistance in the three-dimensional bone microenvironment. Cancer Research 2021;81:371–83. https://doi.org/10.1158/0008-5472.CAN-20-0571.\n\n\n13 Hsu LL, Culhane AC. Impact of data preprocessing on integrative matrix factorization of single cell data. Frontiers in Oncology 2020;10:973. https://doi.org/10.3389/fonc.2020.00973.\n\n\n14 Burn E, You SC, Sena A, Kostka K, Abedtash H, Abrahao MTF, et al. Deep phenotyping of 34,128 patients hospitalised with COVID-19 and a comparison with 81,596 influenza patients in america, europe and asia: An international network study. medRxiv : The Preprint Server for Health Sciences 2020. https://doi.org/10.1101/2020.04.22.20074336.\n\n\n15 Schwede M, Waldron L, Mok SC, Wei W, Basunia A, Merritt MA, et al. The impact of stroma admixture on molecular subtypes and prognostic gene signatures in serous ovarian cancer. Cancer Epidemiology, Biomarkers & Prevention : A Publication of the American Association for Cancer Research, Cosponsored by the American Society of Preventive Oncology 2020;29:509–19. https://doi.org/10.1158/1055-9965.EPI-18-1359.\n\n\n16 Thorsson V, Gibbs DL, Brown SD, Wolf D, Bortone DS, Yang T-HO, et al. The immune landscape of cancer. Immunity 2019;51:411–2. https://doi.org/10.1016/j.immuni.2019.08.004.\n\n\n17 Meng C, Basunia A, Peters B, Gholami AM, Kuster B, Culhane AC. MOGSA: Integrative single sample gene-set analysis of multiple omics data. Molecular & Cellular Proteomics : MCP 2019;18:S153–68. https://doi.org/10.1074/mcp.TIR118.001251.\n\n\n18 Li AG, Murphy EC, Culhane AC, Powell E, Wang H, Bronson RT, et al. BRCA1-IRIS promotes human tumor progression through PTEN blockade and HIF-1α activation. Proceedings of the National Academy of Sciences of the United States of America 2018;115:E9600–9. https://doi.org/10.1073/pnas.1807112115.\n\n\n19 Stein-O’Brien GL, Arora R, Culhane AC, Favorov AV, Garmire LX, Greene CS, et al. Enter the matrix: Factorization uncovers knowledge from omics. Trends in Genetics : TIG 2018;34:790–805. https://doi.org/10.1016/j.tig.2018.07.003.\n\n\n20 Thorsson V, Gibbs DL, Brown SD, Wolf D, Bortone DS, Yang T-HO, et al. The immune landscape of cancer. Immunity 2018;48:812–830.e14. https://doi.org/10.1016/j.immuni.2018.03.023."
   },
   {
-    "objectID": "Projects/eHealthHub.html",
-    "href": "Projects/eHealthHub.html",
-    "title": "Connected Clinical Data: an eHealth Hub For Cancer",
+    "objectID": "People/Team/MichaelLynch.html",
+    "href": "People/Team/MichaelLynch.html",
+    "title": "Mr. Michael lynch",
     "section": "",
-    "text": "Funding Sources\nThe eHealth-Hub for Cancer is an emerging hub of excellence funded under the Higher Education Authority Shared Island North-South Program.\n\n\n\nHEA Shared island funding\n\n\n\n\n\nfooter.qmd"
+    "text": "Michael is developing methods for multi-omics integration of single cell data from the Kidney Cancer CAR T-Cell project"
   },
   {
-    "objectID": "Projects/GDI.html",
-    "href": "Projects/GDI.html",
-    "title": "Funding Sources",
+    "objectID": "People/Team/MichaelLynch.html#mr-michael-lynch",
+    "href": "People/Team/MichaelLynch.html#mr-michael-lynch",
+    "title": "Mr. Michael lynch",
     "section": "",
-    "text": "Our lab are working in Pillar II of the GDI and leading activity 3 described below.\nIn Ireland, the programme is jointly funded by the European Commission and the Health Research Board. The overall programme is designed to support the European 1+ Million Genomes (1+MG) Initiative. Specifically, GDI will drive the development, deployment and operation of sustainable data-access infrastructures within each participating country including the legal frameworks, operational procedures and ethics principles required to foster and maintain citizens’ trust in cross-border access to highly sensitive personal data. It will unlock a data network of over 1 million genome sequences for research and clinical reference creating unprecedented opportunities for routine transnational, multi-stakeholder actions in personalised medicine for common, rare and infectious diseases. Authorised data users, such as clinicians, researchers and innovators, will be able to advance our understanding of genomics for more precise and faster clinical decision-making, diagnostics, treatments and predictive medicine, and for improved public health measures that will benefit citizens, healthcare systems and the overall economy. Thus, GDI is a critical component of Europe’s ambition to lead the integration of genomics into healthcare and the GDI project is designed to interact with the other actors working towards this ambition via incremental milestones that drive alignment along a dynamic roadmap.\n\nGDI will lay the foundations for Ireland’s participation in a federated European Infrastructure for genomic data via six related areas of activities;\nActivity 1: Promoting the establishment of the Irish 1+MG National Mirror Group, connecting with and contributing to the European 1+MG initiative. The Irish group will mirror the European-level working groups of the 1+MG, and to connect the relevant Irish-based individuals with those European working groups.\nActivity 2: Developing a national genomics plan for realisation in Ireland of the European 1+MG initiative. This activity would seek to align with the National Strategy for Genetics and Genomics in Ireland, and scope out an impactful and sustainable Irish Genome Project.\nActivity 3: Developing, testing and validating a proof of concept platform for performing distributed analysis, connected to the European Data Network. This would in effect be a pilot Irish node for the federated European system, connecting genomic datasets. UL and the Culhane group are leading activity 3.\nActivity 4: Determining the Irish-specific data governance system needed to enable sustainable and secure sharing of genomic data. This will involve developing data governance practices for privacy protection in a data sharing/federated data environment. It will include public and patient involvement.\nActivity 5: Feasibility study for cross-border (N:S) “Genomes of Ireland” initiative. This will inform a national genomic reference for Ireland.\nActivity 6: Development of training initiatives for the next generation of genomic clinician and data scientists. This will develop training modules/activities that inform clinicians and data scientists, and equip them with the skills and knowledge required to enable safe and effective sharing of genomic data.\nGDI-Ireland is co-led by Prof. Gianpiero Cavalleri (RCSI) and Prof. Denis Shields (UCD). They are joined by co-investigators Prof. Aedin Culhane (University of Limerick) and Prof. Markus Helfert (Maynooth Univerity). The team is assisted by collaborators at University of Galway, UCD, IPPOSI and Health Research Charities Ireland. The project will be governed by a group with cross sectorial (including patient/citizen) representation.\nfooter.qmd"
+    "text": "Michael is developing methods for multi-omics integration of single cell data from the Kidney Cancer CAR T-Cell project"
   },
   {
-    "objectID": "Projects/GDI.html#connecting-1-million-genomes-with-genomic-data-infrastructure-gdi",
-    "href": "Projects/GDI.html#connecting-1-million-genomes-with-genomic-data-infrastructure-gdi",
-    "title": "Funding Sources",
-    "section": "",
-    "text": "Our lab are working in Pillar II of the GDI and leading activity 3 described below.\nIn Ireland, the programme is jointly funded by the European Commission and the Health Research Board. The overall programme is designed to support the European 1+ Million Genomes (1+MG) Initiative. Specifically, GDI will drive the development, deployment and operation of sustainable data-access infrastructures within each participating country including the legal frameworks, operational procedures and ethics principles required to foster and maintain citizens’ trust in cross-border access to highly sensitive personal data. It will unlock a data network of over 1 million genome sequences for research and clinical reference creating unprecedented opportunities for routine transnational, multi-stakeholder actions in personalised medicine for common, rare and infectious diseases. Authorised data users, such as clinicians, researchers and innovators, will be able to advance our understanding of genomics for more precise and faster clinical decision-making, diagnostics, treatments and predictive medicine, and for improved public health measures that will benefit citizens, healthcare systems and the overall economy. Thus, GDI is a critical component of Europe’s ambition to lead the integration of genomics into healthcare and the GDI project is designed to interact with the other actors working towards this ambition via incremental milestones that drive alignment along a dynamic roadmap.\n\nGDI will lay the foundations for Ireland’s participation in a federated European Infrastructure for genomic data via six related areas of activities;\nActivity 1: Promoting the establishment of the Irish 1+MG National Mirror Group, connecting with and contributing to the European 1+MG initiative. The Irish group will mirror the European-level working groups of the 1+MG, and to connect the relevant Irish-based individuals with those European working groups.\nActivity 2: Developing a national genomics plan for realisation in Ireland of the European 1+MG initiative. This activity would seek to align with the National Strategy for Genetics and Genomics in Ireland, and scope out an impactful and sustainable Irish Genome Project.\nActivity 3: Developing, testing and validating a proof of concept platform for performing distributed analysis, connected to the European Data Network. This would in effect be a pilot Irish node for the federated European system, connecting genomic datasets. UL and the Culhane group are leading activity 3.\nActivity 4: Determining the Irish-specific data governance system needed to enable sustainable and secure sharing of genomic data. This will involve developing data governance practices for privacy protection in a data sharing/federated data environment. It will include public and patient involvement.\nActivity 5: Feasibility study for cross-border (N:S) “Genomes of Ireland” initiative. This will inform a national genomic reference for Ireland.\nActivity 6: Development of training initiatives for the next generation of genomic clinician and data scientists. This will develop training modules/activities that inform clinicians and data scientists, and equip them with the skills and knowledge required to enable safe and effective sharing of genomic data.\nGDI-Ireland is co-led by Prof. Gianpiero Cavalleri (RCSI) and Prof. Denis Shields (UCD). They are joined by co-investigators Prof. Aedin Culhane (University of Limerick) and Prof. Markus Helfert (Maynooth Univerity). The team is assisted by collaborators at University of Galway, UCD, IPPOSI and Health Research Charities Ireland. The project will be governed by a group with cross sectorial (including patient/citizen) representation."
+    "objectID": "People/Team/MichaelLynch.html#links",
+    "href": "People/Team/MichaelLynch.html#links",
+    "title": "Mr. Michael lynch",
+    "section": "Links",
+    "text": "Links\nORCID"
   },
   {
-    "objectID": "Projects/GDI.html#building-on-the-eu-1million-genome-initiative",
-    "href": "Projects/GDI.html#building-on-the-eu-1million-genome-initiative",
-    "title": "Funding Sources",
-    "section": "Building on the EU 1+Million Genome initiative",
-    "text": "Building on the EU 1+Million Genome initiative\nThe 1+MG initiative was signed in 2018 and aims to enable secure access to genomics and corresponding clinical data across Europe to provide better research, personalised healthcare and health policymaking. The Beyond 1 Million Genomes (B1MG) project started in 2020 and is developing guidelines for implementing the 1+MG Initiative and creating blueprints and recommendations for creating federated networks of genomic data. Building on the preparatory work of both of these, the GDI project brings 20 EU Member States together with two infrastructure organisations (BBMRI and EMBL) to work collectively to support the 1+MG Initiative’s vision.\n\n\n\nGDI"
+    "objectID": "People/Team/AhmadAlkhan.html#links",
+    "href": "People/Team/AhmadAlkhan.html#links",
+    "title": "Mr Ahmad Alkhan",
+    "section": "Links",
+    "text": "Links\nORCID"
   },
   {
-    "objectID": "Projects/bioconductor.html",
-    "href": "Projects/bioconductor.html",
-    "title": "Bioconductor: Open Source Software for Genomics",
-    "section": "",
-    "text": "Bioconductor\n\n\nBioconductor is an open source, open development software project in the R statistical software language and is widely used in bioinformatics, immunology, microbiology and single-cell genomics. Over 1200 developers have contributed software that is downloaded by users over 500K times per year.\nIn April 2020, we established a Community Advisory Board (CAB) that includes elected representatives from America, Europe, Africa, Asia and Latin America to outreach to the growing global Bioconductor community. The CAB identified accessible high-quality training materials and delivery methods as an urgent, impactful need. Fundamental components for a successful training platform include skilled and effective program management, excellence in instruction, quality of training materials and equity in access. This proposal will redevelop the Bioconductor web presence to ensure Bioconductor communities have equitable access to quality, well-structured, project information and training materials. This work will also deliver structured, high-quality, culturally-aware, inclusive global training by developing a platform for community led instruction.\nReimers and Carey (2006)\nOur lab support open source bioinformatics community and are working with European Infrastructure for life-science information (ELIXIR) and LERO’s open source office.\n\n\n\n\n\n\n\nFunding Sources\nThis project is funded by a Chan Zuckerberg Initiative CZI Science Essential Open Source Software (EOSS) award to Aedin Culhane.\n\n\n\n\n\nfooter.qmdReferences\n\nReimers, Mark, and Vincent J. Carey. 2006. “[8] Bioconductor: An Open Source Framework for Bioinformatics and Computational Biology.” In, 119–34. Elsevier. https://doi.org/10.1016/s0076-6879(06)11008-3."
+    "objectID": "People/Mentoring/EannaFennell.html#links",
+    "href": "People/Mentoring/EannaFennell.html#links",
+    "title": "Dr. Eanna Fennell",
+    "section": "Links",
+    "text": "Links\nORCID"
   },
   {
-    "objectID": "News/22-04-04_LimerickPost.html",
-    "href": "News/22-04-04_LimerickPost.html",
-    "title": "LimerickPost",
+    "objectID": "People/Mentoring/OlywnMahon.html#links",
+    "href": "People/Mentoring/OlywnMahon.html#links",
+    "title": "Dr Olywn Mahon",
+    "section": "Links",
+    "text": "Links\nORCID"
+  },
+  {
+    "objectID": "News/22_05_19_BrainStorm.html",
+    "href": "News/22_05_19_BrainStorm.html",
+    "title": "RTE Brainstorm Article",
     "section": "",
-    "text": "Article that appears in the Limerick Post 4th April 2022, announcing receipt of funding for all-island eHealth research in cancer.\n\n\n\nfooter.qmd"
+    "text": "In May 2022, the eHealthHub lead Prof Aedin Culhane and Prof Mark Lawler spoke with RTE Brainstorm about the pressing need for harmonization of clinical cancer health data, to enable health research to tackle COVID-19 and Cancer\nRead more about on the RTE"
   }
 ]
