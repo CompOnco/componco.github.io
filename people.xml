@@ -10,7 +10,7 @@
 <atom:link href="https://componco.github.io/lab_website.github.io/people.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.550</generator>
-<lastBuildDate>Tue, 27 Feb 2024 15:09:44 GMT</lastBuildDate>
+<lastBuildDate>Tue, 27 Feb 2024 15:28:37 GMT</lastBuildDate>
 <item>
   <title>Prof Aedin Culhane</title>
   <link>https://componco.github.io/lab_website.github.io/People/PI/AedinCulhane.html</link>
@@ -31,8 +31,94 @@
   <category>Group Leader</category>
   <category>LDCRC</category>
   <guid>https://componco.github.io/lab_website.github.io/People/PI/AedinCulhane.html</guid>
-  <pubDate>Tue, 27 Feb 2024 15:09:44 GMT</pubDate>
+  <pubDate>Tue, 27 Feb 2024 15:28:37 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/aedinculhane.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Alice Abend</title>
+  <link>https://componco.github.io/lab_website.github.io/People/Team/AliceAbend.html</link>
+  <description><![CDATA[ 
+
+<section id="monica-valecha" class="level2">
+<h2 data-anchor-id="monica-valecha">Monica Valecha</h2>
+</section>
+<section id="links" class="level2">
+<h2 data-anchor-id="links">Links</h2>
+<p><a href="https://orcid.org/0000-0001-9710-4129">ORCID</a></p>
+</section>
+<section id="publications" class="level1">
+<h1>Publications</h1>
+<p>Full list of publications see <a href="https://scholar.google.com/citations?user=w0NwuBkAAAAJ&amp;hl=en">Google Scholar</a></p>
+<p>Recent publications include</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] J. Almeida, A. Pérez-Figueroa, J. M. Alves, et al. "Single-cell
+mtDNA heteroplasmy in colorectal cancer". Eng. In: _Genomics_ 114.2
+(Mar. 2022), p. 110315. ISSN: 1089-8646. DOI:
+10.1016/j.ygeno.2022.110315. PMID: 35181467.
+[2] J. M. Alves, N. Estévez-Gómez, M. Valecha, et al. "Comparative
+analysis of capture methods for genomic profiling of circulating tumor
+cells in colorectal cancer". Eng. In: _Genomics_ 114.6 (Nov. 2022), p.
+110500. ISSN: 1089-8646. DOI: 10.1016/j.ygeno.2022.110500. PMID:
+36202322.
+[3] J. M. Alves, S. Prado-López, L. Tomás, et al. "Clonality and timing
+of relapsing colorectal cancer metastasis revealed through whole-genome
+single-cell sequencing". Eng. In: _Cancer letters_ 543 (Sep. 2022), p.
+215767. ISSN: 1872-7980. DOI: 10.1016/j.canlet.2022.215767. PMID:
+35688262.
+[4] N. Borgsmüller, M. Valecha, J. Kuipers, et al. "Single-cell
+phylogenies reveal changes in the evolutionary rate within cancer and
+healthy tissues". Eng. In: _Cell genomics_ 3.9 (Sep. 2023), p. 100380.
+ISSN: 2666-979X. DOI: 10.1016/j.xgen.2023.100380. PMID: 37719146.
+[5] R. Ding, P. Chen, B. K. Rajendran, et al. "Molecular landscape and
+subtype-specific therapeutic response of nasopharyngeal carcinoma
+revealed by integrative pharmacogenomics". Eng. In: _Nature
+communications_ 12.1 (May. 2021), p. 3046. ISSN: 2041-1723. DOI:
+10.1038/s41467-021-23379-3. PMID: 34031426.
+[6] M. Edrisi, M. V. Valecha, S. B. V. Chowdary, et al. "Phylovar:
+toward scalable phylogeny-aware inference of single-nucleotide
+variations from single-cell DNA sequencing data". Eng. In:
+_Bioinformatics (Oxford, England)_ 38.Suppl 1 (Jun. 2022), pp.
+i195-i202. ISSN: 1367-4811. DOI: 10.1093/bioinformatics/btac254. PMID:
+35758771.
+[7] S. Kang, N. Borgsmüller, M. Valecha, et al. "SIEVE: joint inference
+of single-nucleotide variants and cell phylogeny from single-cell DNA
+sequencing data". Eng. In: _Genome biology_ 23.1 (Nov. 2022), p. 248.
+ISSN: 1474-760X. DOI: 10.1186/s13059-022-02813-9. PMID: 36451239.
+[8] K. Miao, J. H. Lei, M. V. Valecha, et al. "NOTCH1 activation
+compensates BRCA1 deficiency and promotes triple-negative breast cancer
+formation". Eng. In: _Nature communications_ 11.1 (Jun. 2020), p. 3256.
+ISSN: 2041-1723. DOI: 10.1038/s41467-020-16936-9. PMID: 32591500.
+[9] A. Munshi, P. Khetarpal, S. Das, et al. "Apert's syndrome: Study by
+whole exome sequencing". Eng. In: _Genes &amp; diseases_ 5.2 (Jun. 2018),
+pp. 119-122. ISSN: 2352-3042. DOI: 10.1016/j.gendis.2017.07.008. PMID:
+30258940.
+[10] M. Valecha and D. Posada. "Somatic variant calling from
+single-cell DNA sequencing data". Eng. In: _Computational and
+structural biotechnology journal_ 20 (Jun. 2022), pp. 2978-2985. ISSN:
+2001-0370. DOI: 10.1016/j.csbj.2022.06.013. PMID: 35782734.
+[11] X. Xu, E. Chen, L. Mo, et al. "BRCA1 represses DNA replication
+initiation through antagonizing estrogen signaling and maintains genome
+stability in parallel with WEE1-MCM2 signaling during pregnancy". Eng.
+In: _Human molecular genetics_ 28.5 (Mar. 2019), pp. 842-857. ISSN:
+1460-2083. DOI: 10.1093/hmg/ddy398. PMID: 30445628.
+[12] A. Zhang, L. Wang, J. H. Lei, et al. "SB Digestor: a tailored
+driver gene identification tool for dissecting heterogeneous Sleeping
+Beauty transposon-induced tumors". Eng. In: _International journal of
+biological sciences_ 19.6 (Mar. 2023), pp. 1764-1777. ISSN: 1449-2288.
+DOI: 10.7150/ijbs.81317. PMID: 37063417.</code></pre>
+</div>
+</div>
+
+
+</section>
+ ]]></description>
+  <category>Cancer genomics</category>
+  <category>Bioinformatics</category>
+  <category>RA/PostDoc</category>
+  <guid>https://componco.github.io/lab_website.github.io/People/Team/AliceAbend.html</guid>
+  <pubDate>Tue, 27 Feb 2024 15:28:37 GMT</pubDate>
+  <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/monicavalecha.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Dr Maria Doyle</title>
@@ -159,94 +245,8 @@ American College of Surgeons_ 233.1 (Jul. 2021), pp. 111-118. ISSN:
   <category>Bioconductor</category>
   <category>Community Manager</category>
   <guid>https://componco.github.io/lab_website.github.io/People/Team/MariaDoyle.html</guid>
-  <pubDate>Tue, 27 Feb 2024 15:09:44 GMT</pubDate>
+  <pubDate>Tue, 27 Feb 2024 15:28:37 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/mariadoyle.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Monica Valecha</title>
-  <link>https://componco.github.io/lab_website.github.io/People/Team/AliceAbend.html</link>
-  <description><![CDATA[ 
-
-<section id="monica-valecha" class="level2">
-<h2 data-anchor-id="monica-valecha">Monica Valecha</h2>
-</section>
-<section id="links" class="level2">
-<h2 data-anchor-id="links">Links</h2>
-<p><a href="https://orcid.org/0000-0001-9710-4129">ORCID</a></p>
-</section>
-<section id="publications" class="level1">
-<h1>Publications</h1>
-<p>Full list of publications see <a href="https://scholar.google.com/citations?user=w0NwuBkAAAAJ&amp;hl=en">Google Scholar</a></p>
-<p>Recent publications include</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] J. Almeida, A. Pérez-Figueroa, J. M. Alves, et al. "Single-cell
-mtDNA heteroplasmy in colorectal cancer". Eng. In: _Genomics_ 114.2
-(Mar. 2022), p. 110315. ISSN: 1089-8646. DOI:
-10.1016/j.ygeno.2022.110315. PMID: 35181467.
-[2] J. M. Alves, N. Estévez-Gómez, M. Valecha, et al. "Comparative
-analysis of capture methods for genomic profiling of circulating tumor
-cells in colorectal cancer". Eng. In: _Genomics_ 114.6 (Nov. 2022), p.
-110500. ISSN: 1089-8646. DOI: 10.1016/j.ygeno.2022.110500. PMID:
-36202322.
-[3] J. M. Alves, S. Prado-López, L. Tomás, et al. "Clonality and timing
-of relapsing colorectal cancer metastasis revealed through whole-genome
-single-cell sequencing". Eng. In: _Cancer letters_ 543 (Sep. 2022), p.
-215767. ISSN: 1872-7980. DOI: 10.1016/j.canlet.2022.215767. PMID:
-35688262.
-[4] N. Borgsmüller, M. Valecha, J. Kuipers, et al. "Single-cell
-phylogenies reveal changes in the evolutionary rate within cancer and
-healthy tissues". Eng. In: _Cell genomics_ 3.9 (Sep. 2023), p. 100380.
-ISSN: 2666-979X. DOI: 10.1016/j.xgen.2023.100380. PMID: 37719146.
-[5] R. Ding, P. Chen, B. K. Rajendran, et al. "Molecular landscape and
-subtype-specific therapeutic response of nasopharyngeal carcinoma
-revealed by integrative pharmacogenomics". Eng. In: _Nature
-communications_ 12.1 (May. 2021), p. 3046. ISSN: 2041-1723. DOI:
-10.1038/s41467-021-23379-3. PMID: 34031426.
-[6] M. Edrisi, M. V. Valecha, S. B. V. Chowdary, et al. "Phylovar:
-toward scalable phylogeny-aware inference of single-nucleotide
-variations from single-cell DNA sequencing data". Eng. In:
-_Bioinformatics (Oxford, England)_ 38.Suppl 1 (Jun. 2022), pp.
-i195-i202. ISSN: 1367-4811. DOI: 10.1093/bioinformatics/btac254. PMID:
-35758771.
-[7] S. Kang, N. Borgsmüller, M. Valecha, et al. "SIEVE: joint inference
-of single-nucleotide variants and cell phylogeny from single-cell DNA
-sequencing data". Eng. In: _Genome biology_ 23.1 (Nov. 2022), p. 248.
-ISSN: 1474-760X. DOI: 10.1186/s13059-022-02813-9. PMID: 36451239.
-[8] K. Miao, J. H. Lei, M. V. Valecha, et al. "NOTCH1 activation
-compensates BRCA1 deficiency and promotes triple-negative breast cancer
-formation". Eng. In: _Nature communications_ 11.1 (Jun. 2020), p. 3256.
-ISSN: 2041-1723. DOI: 10.1038/s41467-020-16936-9. PMID: 32591500.
-[9] A. Munshi, P. Khetarpal, S. Das, et al. "Apert's syndrome: Study by
-whole exome sequencing". Eng. In: _Genes &amp; diseases_ 5.2 (Jun. 2018),
-pp. 119-122. ISSN: 2352-3042. DOI: 10.1016/j.gendis.2017.07.008. PMID:
-30258940.
-[10] M. Valecha and D. Posada. "Somatic variant calling from
-single-cell DNA sequencing data". Eng. In: _Computational and
-structural biotechnology journal_ 20 (Jun. 2022), pp. 2978-2985. ISSN:
-2001-0370. DOI: 10.1016/j.csbj.2022.06.013. PMID: 35782734.
-[11] X. Xu, E. Chen, L. Mo, et al. "BRCA1 represses DNA replication
-initiation through antagonizing estrogen signaling and maintains genome
-stability in parallel with WEE1-MCM2 signaling during pregnancy". Eng.
-In: _Human molecular genetics_ 28.5 (Mar. 2019), pp. 842-857. ISSN:
-1460-2083. DOI: 10.1093/hmg/ddy398. PMID: 30445628.
-[12] A. Zhang, L. Wang, J. H. Lei, et al. "SB Digestor: a tailored
-driver gene identification tool for dissecting heterogeneous Sleeping
-Beauty transposon-induced tumors". Eng. In: _International journal of
-biological sciences_ 19.6 (Mar. 2023), pp. 1764-1777. ISSN: 1449-2288.
-DOI: 10.7150/ijbs.81317. PMID: 37063417.</code></pre>
-</div>
-</div>
-
-
-</section>
- ]]></description>
-  <category>Cancer genomics</category>
-  <category>Bioinformatics</category>
-  <category>RA/PostDoc</category>
-  <guid>https://componco.github.io/lab_website.github.io/People/Team/AliceAbend.html</guid>
-  <pubDate>Tue, 27 Feb 2024 15:09:44 GMT</pubDate>
-  <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/monicavalecha.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Mr Ahmad Alkhan</title>
@@ -296,7 +296,7 @@ dispositions of endemic medicinal plant Ziziphus hajarensis
   <category>Human Cell Atlas</category>
   <category>CZI</category>
   <guid>https://componco.github.io/lab_website.github.io/People/Team/AhmadAlkhan.html</guid>
-  <pubDate>Tue, 27 Feb 2024 15:09:44 GMT</pubDate>
+  <pubDate>Tue, 27 Feb 2024 15:28:37 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/ahmadalkhan.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -423,7 +423,7 @@ ISSN: 2045-2322. DOI: 10.1038/s41598-022-21448-1. PMID: 36351964.</code></pre>
   <category>eHealth Hub For Cancer</category>
   <category>GDI</category>
   <guid>https://componco.github.io/lab_website.github.io/People/Team/BrendanReardon.html</guid>
-  <pubDate>Tue, 27 Feb 2024 15:09:44 GMT</pubDate>
+  <pubDate>Tue, 27 Feb 2024 15:28:37 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/brendanrearden.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -452,7 +452,7 @@ ISSN: 2045-2322. DOI: 10.1038/s41598-022-21448-1. PMID: 36351964.</code></pre>
   <category>Human Cell Atlas</category>
   <category>CZI</category>
   <guid>https://componco.github.io/lab_website.github.io/People/Team/MichaelLynch.html</guid>
-  <pubDate>Tue, 27 Feb 2024 15:09:44 GMT</pubDate>
+  <pubDate>Tue, 27 Feb 2024 15:28:37 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/michaellynch.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -486,7 +486,7 @@ ISSN: 2045-2322. DOI: 10.1038/s41598-022-21448-1. PMID: 36351964.</code></pre>
   <category>Postdoctorial Fellow</category>
   <category>scRNAseq</category>
   <guid>https://componco.github.io/lab_website.github.io/People/Mentoring/OlywnMahon.html</guid>
-  <pubDate>Tue, 27 Feb 2024 15:09:44 GMT</pubDate>
+  <pubDate>Tue, 27 Feb 2024 15:28:37 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/olwynmahon.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -554,7 +554,7 @@ SARS-CoV-2-associated Multisystem Inflammatory Syndrome in Children
   <category>Spatial Biology</category>
   <category>Human Cell Atlas</category>
   <guid>https://componco.github.io/lab_website.github.io/People/Mentoring/EannaFennell.html</guid>
-  <pubDate>Tue, 27 Feb 2024 15:09:44 GMT</pubDate>
+  <pubDate>Tue, 27 Feb 2024 15:28:37 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/eannafennell.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -598,7 +598,7 @@ _Frontiers in oncology_ 10 (Jun. 2020), p. 973. ISSN: 2234-943X. DOI:
   <category>Spatial Biology</category>
   <category>Human Cell Atlas</category>
   <guid>https://componco.github.io/lab_website.github.io/People/Mentoring/LaurenHsu.html</guid>
-  <pubDate>Tue, 27 Feb 2024 15:09:44 GMT</pubDate>
+  <pubDate>Tue, 27 Feb 2024 15:28:37 GMT</pubDate>
   <media:content url="https://componco.github.io/lab_website.github.io/contents/photos/people/laurenhsu.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
