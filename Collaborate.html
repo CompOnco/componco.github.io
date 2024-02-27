@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./contents/logo/helix/favicon.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,68 +66,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-Partners .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-title","listing-Name","listing-date","listing-description","listing-categories","listing-tag"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-Partners'] = new List('listing-Partners', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Culhane Lab" href="Collaborate.xml" data-external="1"><meta property="og:title" content="Culhane Lab - Collaborators">
+<meta property="og:title" content="Culhane Lab - Collaborators">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Culhane Lab">
 <meta name="twitter:title" content="Culhane Lab - Collaborators">
@@ -413,7 +353,7 @@ window.Quarto = {
   <li><a href="#consortium-and-organizations" id="toc-consortium-and-organizations" class="nav-link" data-scroll-target="#consortium-and-organizations">Consortium and Organizations</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Bioconductor">Bioconductor <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Bioinformatics">Bioinformatics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="CZI">CZI <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Cancer genomics">Cancer genomics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Community Manager">Community Manager <span class="quarto-category-count">(1)</span></div><div class="category" data-category="GDI">GDI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Human Cell Atlas">Human Cell Atlas <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Kidney Cancer">Kidney Cancer <span class="quarto-category-count">(1)</span></div><div class="category" data-category="PhD Student">PhD Student <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Project Leader">Project Leader <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RA/PostDoc">RA/PostDoc <span class="quarto-category-count">(1)</span></div><div class="category" data-category="eHealth Hub For Cancer">eHealth Hub For Cancer <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
@@ -476,191 +416,10 @@ window.Quarto = {
 </ul>
 
 
-
 </section>
 </section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-Partners">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="PhD Student,Human Cell Atlas,CZI" data-listing-file-modified-sort="1709044938555" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
-<a href="./People/Team/AhmadAlkhan.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./contents/photos/people/ahmadalkhan.jpeg" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mr Ahmad Alkhan
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('PhD Student'); return false;">
-PhD Student
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Human Cell Atlas'); return false;">
-Human Cell Atlas
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('CZI'); return false;">
-CZI
-</div>
-</div>
-<div class="card-text listing-description">
-Graduate Student. Co Supervisors Elizabeth Ryan &amp; Olwyn Mahon
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Cancer genomics,Bioinformatics,RA/PostDoc" data-listing-file-modified-sort="1709044938555" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
-<a href="./People/Team/AliceAbend.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./contents/photos/people/monicavalecha.jpeg" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Monica Valecha
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Cancer genomics'); return false;">
-Cancer genomics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Bioinformatics'); return false;">
-Bioinformatics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RA/PostDoc'); return false;">
-RA/PostDoc
-</div>
-</div>
-<div class="card-text listing-description">
-Research Assistant
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="PhD Student,eHealth Hub For Cancer,GDI" data-listing-file-modified-sort="1709044938555" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<a href="./People/Team/BrendanReardon.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./contents/photos/people/brendanrearden.jpeg" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mr Brendan Reardon
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('PhD Student'); return false;">
-PhD Student
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('eHealth Hub For Cancer'); return false;">
-eHealth Hub For Cancer
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('GDI'); return false;">
-GDI
-</div>
-</div>
-<div class="card-text listing-description">
-Graduate Student (jointly with Prof Eli Van Allen, DFCI)
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Project Leader,Bioconductor,Community Manager" data-listing-file-modified-sort="1709044938555" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
-<a href="./People/Team/MariaDoyle.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./contents/photos/people/mariadoyle.jpeg" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Dr Maria Doyle
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Project Leader'); return false;">
-Project Leader
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Bioconductor'); return false;">
-Bioconductor
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Community Manager'); return false;">
-Community Manager
-</div>
-</div>
-<div class="card-text listing-description">
-Bioconductor Community Manager, University of Limerick
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="PhD Student,Kidney Cancer,Human Cell Atlas,CZI" data-listing-file-modified-sort="1709044938555" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
-<a href="./People/Team/MichaelLynch.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./contents/photos/people/michaellynch.jpeg" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mr.&nbsp;Michael lynch
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('PhD Student'); return false;">
-PhD Student
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Kidney Cancer'); return false;">
-Kidney Cancer
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Human Cell Atlas'); return false;">
-Human Cell Atlas
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('CZI'); return false;">
-CZI
-</div>
-</div>
-<div class="card-text listing-description">
-Graduate Student, Co Supervisor Laurent Gatto
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
