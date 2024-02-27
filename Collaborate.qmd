@@ -1,16 +1,5 @@
 ---
 title: "Collaborators"
-listing:
-  id: Partners
-  contents: People/Team/*.qmd
-  sort: "date desc"
-  type: grid
-  grid-columns: 3
-  image-height: 250px
-  categories: true
-  feed: true
-  sort-ui: [Name, date]
-  filter-ui: [title, Name, date, description, categories, tag]
 page-layout: full
 ---
 
