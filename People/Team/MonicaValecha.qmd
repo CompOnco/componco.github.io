@@ -1,5 +1,5 @@
 ---
-title: "Alice Abend"
+title: "Alice"
 about: 
   template: solana
   image-width: 10em
