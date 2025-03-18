@@ -4,42 +4,142 @@ bibliography: references.bib
 csl: publications/csl/elife.csl
 ---
 
-# Bioconductor Packages
+::::::::::::::::::::::::::::::::: software-container
+# Our Computational Tools {.page-title}
 
+::: {.lead .text-center .mb-5}
+We develop open-source software for genomic data analysis, with a focus on cancer research and single-cell methods.
+:::
+
+::::::::::::::::::::::: software-grid
+::::::: {.software-card .fade-in}
+::: software-icon
+![Corral Package](contents/hexstickers/corral_sticker.png)
+:::
+
+::::: software-info
 ## Corral
 
-![](contents/hexstickers/corral_sticker.png){width="200"}
+Single-cell RNA-seq dimension reduction, batch integration, and visualization with correspondence analysis.
 
-Publications include [@Hsu2023; @Lê2021; @hsu2020]
+::: software-links
+[Bioconductor](https://bioconductor.org/){.btn .btn-primary .btn-sm} [GitHub](https://github.com/){.btn .btn-secondary .btn-sm}
+:::
 
+::: software-publications
+#### Publications
+
+-   [@Hsu2023]
+-   [@Lê2021]
+-   [@hsu2020]
+:::
+:::::
+:::::::
+
+::::::: {.software-card .fade-in}
+::: software-icon
+![MOGSA Package](contents/hexstickers/mogsa_sticker.png)
+:::
+
+::::: software-info
 ## MOGSA
 
-![](contents/hexstickers/mogsa_sticker.png){width="200"}
+Multi-Omics Gene Set Analysis: Integrative analysis of multiple experimental and molecular data types.
 
-Publications [@Meng2016; @Meng2019; @Meng2014; @Meng2016a; @Lê2021]
+::: software-links
+[Bioconductor](https://bioconductor.org/){.btn .btn-primary .btn-sm} [GitHub](https://github.com/){.btn .btn-secondary .btn-sm}
+:::
 
-### iBBiG
+::: software-publications
+#### Publications
 
-@gusenleitner2012; @gusenleitner2012
+-   [@Meng2016]
+-   [@Meng2019]
+-   [@Meng2014]
+-   [@Meng2016a]
+-   [@Lê2021]
+:::
+:::::
+:::::::
 
-### Omicade4
+::::::: {.software-card .fade-in}
+::: software-icon
+![iBBiG Package](https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/iBBiG/iBBiG.png)
+:::
 
-@Meng2014
+::::: software-info
+## iBBiG
 
-### made4
+Iterative Binary Bi-clustering of Gene Sets for biclustering and pattern discovery in gene expression data.
 
-@Culhane2005
+::: software-links
+[Bioconductor](https://bioconductor.org/){.btn .btn-primary .btn-sm} [GitHub](https://github.com/){.btn .btn-secondary .btn-sm}
+:::
 
-# Hackathon
+::: software-publications
+#### Publications
 
-BIRSBiointegration.
+-   [@gusenleitner2012]
+:::
+:::::
+:::::::
 
--   Datasets and code (link)
+::::::: {.software-card .fade-in}
+::: software-icon
+![made4 Package](https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/made4/made4.png)
+:::
 
--   The hackathon is described in @Lê2021
+::::: software-info
+## made4
 
-# Workshops
+Multivariate Analysis of Microarray Data using ADE4 for visualization and analysis of microarray data.
 
-Hitchhikers Guide to PCA
+::: software-links
+[Bioconductor](https://bioconductor.org/){.btn .btn-primary .btn-sm} [GitHub](https://github.com/){.btn .btn-secondary .btn-sm}
+:::
 
-Quick guide to scRNAseq
+::: software-publications
+#### Publications
+
+-   [@Culhane2005]
+:::
+:::::
+:::::::
+:::::::::::::::::::::::
+
+:::::::::: {.mt-5 .workshops-section .fade-in}
+## Workshops & Training Materials
+
+::::::::: card-deck
+:::: card
+::: card-body
+### Hitchhiker's Guide to PCA
+
+A comprehensive tutorial on Principal Component Analysis for genomic data.
+
+[View Workshop](#){.btn .btn-primary}
+:::
+::::
+
+:::: card
+::: card-body
+### Quick Guide to scRNAseq
+
+Introduction to single-cell RNA sequencing analysis methods.
+
+[View Workshop](#){.btn .btn-primary}
+:::
+::::
+
+:::: card
+::: card-body
+### BIRSBiointegration Hackathon
+
+Datasets and code from our multi-omics integration hackathon.
+
+[Explore Hackathon](#){.btn .btn-primary}
+:::
+::::
+:::::::::
+::::::::::
+:::::::::::::::::::::::::::::::::
