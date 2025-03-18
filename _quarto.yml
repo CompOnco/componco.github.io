@@ -8,11 +8,11 @@ website:
     location: navbar
     type: overlay
   reader-mode: true
-  favicon:  contents/logo/helix/favicon.ico
+  favicon: contents/logo/helix/favicon.ico
   site-url: https://componco.github.io/lab_website.github.io/
 
   navbar:
-    background: primary
+    background: dark
     logo: contents/logo/helix/DNA_scaled.png
     search: true
     right:
@@ -22,23 +22,39 @@ website:
       - icon: github
         href: https://github.com/CompOnco/lab_website/
         aria-label: GitHub
+      - icon: envelope
+        href: mailto:Aedin.Culhane@ul.ie
+        aria-label: Email
 
-        
     left:
       - text: "Home"
         file: index.qmd
       - text: "Research"
-        file: projects.qmd
-      - text: "People"
-        file:  people.qmd
-      - text: "Collaborate"
-        file:  Collaborate.qmd
-      - text: "News"
-        file: news.qmd
-      - text: "Publications"
         menu:
-          - publications.qmd         
-          - talks.qmd
+          - text: "Overview"
+            file: projects.qmd
+          - text: "eHealth Hub for Cancer"
+            file: Projects/eHealthHub.qmd
+          - text: "GDI - Genomic Data Infrastructure"
+            file: Projects/GDI.qmd
+          - text: "Single-Cell Methods" 
+            file: Projects/scMethods.qmd
+          - text: "Bioconductor"
+            file: Projects/bioconductor.qmd
+          - text: "Kidney Cancer"
+            file: Projects/kidneyCancer.qmd
+      - text: "People"
+        file: people.qmd
+      - text: "Collaborate"
+        file: Collaborate.qmd
+      - text: "Publications & News"
+        menu:
+          - text: "Publications"
+            file: publications.qmd         
+          - text: "Talks"
+            file: talks.qmd
+          - text: "News"
+            file: news.qmd
       - text: "Software"
         file: software.qmd
       - text: "Join Us"
@@ -57,29 +73,23 @@ website:
       - icon: github
         menu:
           - text: Report a Bug
-            url:  https://github.com/CompOnco/lab_website/issues
+            url: https://github.com/CompOnco/lab_website/issues
 
   
   page-footer:
     left: 
-      - text: "@Culhane Lab"
+      - text: "© 2023 Culhane Lab | University of Limerick"
     center: |
       ![](/contents/logo/LDCRC_Logo_fixed.jpg "Limerick Digital Cancer Research Center"){height="40"}
       ![](/contents/logo/bioconductor_logo_cmyk.png "Bioconductor"){height="40"}
       ![](/contents/logo/eHealthHub_logo.png "eHealthHub For Cancer"){height="40"}
       ![](/contents/logo/Elixir_logo-3927606181.png "ELIXIR"){height="40"}
       ![](/contents/logo/OHDSI.jpeg "OHDSI Real World Data"){height="40"}
-      ![](/contents/logo/NasPro.png "National Spatial Tissue Profiling Platform"){height="40"}
-      ![](/contents/logo/NSRP_Logo.png){height="40"}
     right: |
-     ![](contents/logo/LDCRC_Logo_fixed.jpg){fig-alt="LDCRC" width=150px}
-
-
+      [Privacy Policy](#) | [Terms of Use](#)
     
 repo-url: https://github.com/CompOnco
 repo-actions: [edit, issue]
-  
-
   
 twitter-card: 
   creator: "@AedinCulhane"
@@ -89,10 +99,16 @@ open-graph: true
 
 format:
   html:
-    theme: flatly
-    css: styles.css
+    theme: 
+      light: [flatly, styles.css]
+      dark: [darkly, styles.css]
     toc: true
-
+    css: styles.css
+    include-in-header:
+      text: |
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/@barba/core"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+        <script src="site.js" defer></script>
 
 editor: visual
-
