@@ -1,17 +1,116 @@
 ---
 title: "Culhane Computational Oncology & Cancer Genomics Lab"
+page-layout: full
+format:
+  html:
+    html-math-method: katex
+    include-in-header:
+      text: |
+        <style>
+          /* Add any custom styles for this page */
+        </style>
 ---
 
-Data is revolutionizing how we diagnose and treat cancer. Advances in sequencing allow us to spatially map and measure and the genome, transcriptome and other multi-omics of each individual single cell in a tumor. These data allow us to build a map of tumor architecture, profile the cells within the tumor and its microenviroment, understand cell-cell interactions and identify new targets for diagnosis and treatment.
+---
+title: "Culhane Computational Oncology & Cancer Genomics Lab"
+page-layout: full
+format:
+  html:
+    html-math-method: katex
+---
 
-## Algorithms for multi-modal analysis of cancer 'omics
+::: {.hero-section .fade-in}
+# Computational Oncology & Cancer Genomics
 
-Our computational oncology lab specializes in using bioinformatics, data science and artificial intelligence to analyze clincal cancer genomics data. We develop algorithms to discover new insights into how different types of tumors evolve over time, or the treatments that may be more effective against specific types of cancers. By combining these powerful analytical techniques with medical knowledge about disease progression patterns or drug efficacy rates, our labs can develop algorithms to that researchers understand disease and clinical decision support tools that help clinical teams improve patient outcomes.
+We develop computational tools and algorithms to understand cancer biology and improve treatment outcomes.
+:::
 
-## Federated Connected Cancer Data
+:::::::::::::::::::::: container
+:::::::::::: row
+::::: {.col-md-4 .mb-4 .fade-in}
+:::: {.card .h-100}
+::: card-body
+### Our Research
 
-Working with national, EU and global consortium including the European 1+ Million Genomics Data Infastructure [GDI](https://gdi.onemilliongenomes.eu) and [OHDSI](https://www.ohdsi.org) we are connecting cancer data to develop more comprehensive understanding of cancer. During the pandemic we learned the value of connecting world-wide digital health data to quickly identify trends and develop strategies to improve care. Real word data including electronic health records data compliments data from cancer clinical trial research, which typically study fixed term outcomes. Our lab lead the [eHealth Hub for Cancer]() a Higher Education Authority funded all-island program to build frameworks and computational tools to connect clinical cancer data. In connecting data we can study population level data and support the design of clinical research into new treatments or combinations of treatments that may be more effective than existing ones.
+We specialize in developing algorithms for multi-modal analysis of cancer omics data, creating tools to discover insights into tumor evolution and treatment efficacy.
 
-## Open Science and Open Source Software
+[Explore Projects](projects.html){.btn .btn-primary}
+:::
+::::
+:::::
 
-We are an open science, open development, open source software lab who values diversity and inclusion. We share our tools to the benefit of the research community, and we benefit from those who share with us. We are in active in [Bioconductor](www.bioconductor.org), a global open source software suite which supports collaboration and sharing of bioinformatics code, data and workflows. It used by over 1 million researchrs worldwide in the analysis and interpretation of genomic data.
+::::: {.col-md-4 .mb-4 .fade-in}
+:::: {.card .h-100}
+::: card-body
+### Connected Data
+
+We lead initiatives in federated cancer data infrastructure, working with global consortiums to build frameworks that improve cancer research and care.
+
+[Learn More](Projects/eHealthHub.html){.btn .btn-primary}
+:::
+::::
+:::::
+
+::::: {.col-md-4 .mb-4 .fade-in}
+:::: {.card .h-100}
+::: card-body
+### Open Science
+
+We embrace open science principles, contributing to Bioconductor and sharing tools with the research community to accelerate cancer research globally.
+
+[See Our Software](software.html){.btn .btn-primary}
+:::
+::::
+:::::
+::::::::::::
+
+::::::::::: {.row .mt-5 .fade-in}
+::::: col-md-6
+## Recent Publications
+
+::: publication
+#### Correspondence analysis for dimension reduction, batch integration, and visualization of single-cell RNA-seq data
+
+**Hsu LL, Culhane AC** (2023) Scientific Reports
+
+[Read Paper](https://doi.org/10.1038/s41598-022-26434-1){.btn .btn-sm .btn-outline-secondary}
+:::
+
+::: publication
+#### Anti-CAIX BBζ CAR4/8 T cells exhibit superior efficacy in a ccRCC mouse model
+
+**Wang Y, Buck A, Grimaud M, Culhane AC,** et al. (2022) Molecular Therapy Oncolytics
+
+[Read Paper](https://doi.org/10.1016/j.omto.2021.12.019){.btn .btn-sm .btn-outline-secondary}
+:::
+
+[View All Publications](publications.html){.btn .btn-primary .mt-3}
+:::::
+
+::::::: col-md-6
+## Latest News
+
+:::: {.card .mb-3}
+::: card-body
+### New Grant Award
+
+Our lab has received funding for all-island eHealth research in cancer.
+
+[Read More](News/22-04-04_LimerickPost.html){.btn .btn-sm .btn-outline-secondary}
+:::
+::::
+
+:::: {.card .mb-3}
+::: card-body
+### RTE Brainstorm Article
+
+Prof Aedin Culhane and Prof Mark Lawler spoke with RTE Brainstorm about the pressing need for harmonization of clinical cancer health data.
+
+[Read More](News/22_05_19_BrainStorm.html){.btn .btn-sm .btn-outline-secondary}
+:::
+::::
+
+[View All News](news.html){.btn .btn-primary}
+:::::::
+:::::::::::
+::::::::::::::::::::::
