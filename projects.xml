@@ -9,8 +9,8 @@
 <link>https://componco.github.io/lab_website.github.io/projects.html</link>
 <atom:link href="https://componco.github.io/lab_website.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.550</generator>
-<lastBuildDate>Tue, 27 Feb 2024 15:28:36 GMT</lastBuildDate>
+<generator>quarto-1.6.42</generator>
+<lastBuildDate>Tue, 18 Mar 2025 13:19:42 GMT</lastBuildDate>
 <item>
   <title>Genomic Data Infrastructure (GDI)</title>
   <link>https://componco.github.io/lab_website.github.io/Projects/GDI.html</link>
@@ -66,7 +66,7 @@
   <category>Genomics</category>
   <category>Digital Health</category>
   <guid>https://componco.github.io/lab_website.github.io/Projects/GDI.html</guid>
-  <pubDate>Tue, 27 Feb 2024 15:28:36 GMT</pubDate>
+  <pubDate>Tue, 18 Mar 2025 13:19:42 GMT</pubDate>
 </item>
 <item>
   <title>Bioconductor: Open Source Software for Genomics</title>
@@ -107,7 +107,7 @@ Reimers, Mark, and Vincent J. Carey. 2006. <span>“[8] Bioconductor: An Open So
   <category>Community</category>
   <category>Open Source</category>
   <guid>https://componco.github.io/lab_website.github.io/Projects/bioconductor.html</guid>
-  <pubDate>Tue, 27 Feb 2024 15:28:36 GMT</pubDate>
+  <pubDate>Tue, 18 Mar 2025 13:19:42 GMT</pubDate>
 </item>
 <item>
   <title>Connected Clinical Data: an eHealth Hub For Cancer</title>
@@ -115,12 +115,12 @@ Reimers, Mark, and Vincent J. Carey. 2006. <span>“[8] Bioconductor: An Open So
   <description><![CDATA[ 
 
 <p><img src="https://componco.github.io/lab_website.github.io/contents/presentations/select_images/data_integration.jpeg" class="img-fluid" alt="health data eHealth Hub"></p>
-<section id="funding-sources" class="level1 page-columns page-full">
+<section id="funding-sources" class="level1">
 <h1>Funding Sources</h1>
 <p>The eHealth-Hub for Cancer is an emerging hub of excellence funded under the Higher Education Authority Shared Island North-South Program.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p class="page-columns page-full"><img src="https://componco.github.io/lab_website.github.io/contents/logo/NSRP_Logo.png" class="img-fluid figure-img column-body" width="402"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://componco.github.io/lab_website.github.io/contents/logo/NSRP_Logo.png" class="img-fluid figure-img" width="402"></p>
 <figcaption>HEA Shared island funding</figcaption>
 </figure>
 </div>
@@ -132,7 +132,7 @@ Reimers, Mark, and Vincent J. Carey. 2006. <span>“[8] Bioconductor: An Open So
   <category>Real World Data</category>
   <category>Digital Health</category>
   <guid>https://componco.github.io/lab_website.github.io/Projects/eHealthHub.html</guid>
-  <pubDate>Tue, 27 Feb 2024 15:28:36 GMT</pubDate>
+  <pubDate>Tue, 18 Mar 2025 13:19:42 GMT</pubDate>
 </item>
 <item>
   <title>The role of immune and other cells in the tumor microenvironment in cancer</title>
@@ -168,7 +168,7 @@ Wang, Yufei, Alicia Buck, Marion Grimaud, Aedin C. Culhane, Sreekumar Kodangatti
   <category>Single Cell</category>
   <category>Kidney Cancer</category>
   <guid>https://componco.github.io/lab_website.github.io/Projects/kidneyCancer.html</guid>
-  <pubDate>Tue, 27 Feb 2024 15:28:36 GMT</pubDate>
+  <pubDate>Tue, 18 Mar 2025 13:19:42 GMT</pubDate>
 </item>
 <item>
   <title>Algorithms and methods for integrative analysis of single cell omics data</title>
@@ -220,7 +220,7 @@ Thorsson, Vésteinn, David L. Gibbs, Scott D. Brown, Denise Wolf, Dante S. Borto
   <category>Single Cell</category>
   <category>Cancer</category>
   <guid>https://componco.github.io/lab_website.github.io/Projects/scMethods.html</guid>
-  <pubDate>Tue, 27 Feb 2024 15:28:36 GMT</pubDate>
+  <pubDate>Tue, 18 Mar 2025 13:19:42 GMT</pubDate>
 </item>
 </channel>
 </rss>

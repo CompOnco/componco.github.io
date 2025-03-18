@@ -1,6 +1,16 @@
 [
   {
-    "listing": "/publications.html",
+    "listing": "/projects.html",
+    "items": [
+      "/Projects/GDI.html",
+      "/Projects/bioconductor.html",
+      "/Projects/eHealthHub.html",
+      "/Projects/kidneyCancer.html",
+      "/Projects/scMethods.html"
+    ]
+  },
+  {
+    "listing": "/talks.html",
     "items": []
   },
   {
@@ -18,24 +28,14 @@
     ]
   },
   {
-    "listing": "/projects.html",
-    "items": [
-      "/Projects/GDI.html",
-      "/Projects/bioconductor.html",
-      "/Projects/eHealthHub.html",
-      "/Projects/kidneyCancer.html",
-      "/Projects/scMethods.html"
-    ]
-  },
-  {
-    "listing": "/talks.html",
-    "items": []
-  },
-  {
     "listing": "/news.html",
     "items": [
       "/News/22_05_19_BrainStorm.html",
       "/News/22-04-04_LimerickPost.html"
     ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": []
   }
 ]
