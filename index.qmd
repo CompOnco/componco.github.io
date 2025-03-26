@@ -1,71 +1,146 @@
 ---
-title: "Culhane Computational Oncology & Cancer Genomics Lab"
+title: ""
 page-layout: full
 format:
   html:
     html-math-method: katex
     include-in-header:
       text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <style>
-          /* Add any custom styles for this page */
+          :root {
+            --primary: #4a6fa5;
+            --secondary: #166088;
+            --accent: #4fc3dc;
+            --light: #f8f9fa;
+          }
+          body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+          }
+          .hero-section {
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+            color: white;
+            padding: 6rem 0;
+            margin-bottom: 3rem;
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+          }
+          .hero-section h1 {
+            font-weight: 700;
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+          }
+          .card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            overflow: hidden;
+          }
+          .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+          }
+          .card-body {
+            padding: 2rem;
+          }
+          .btn {
+            border-radius: 50px;
+            padding: 0.6rem 1.5rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+          }
+          .btn-primary {
+            background-color: var(--primary);
+            border-color: var(--primary);
+          }
+          .btn-primary:hover {
+            background-color: var(--secondary);
+            border-color: var(--secondary);
+            transform: translateY(-2px);
+          }
+          .btn-outline-secondary {
+            border-color: var(--primary);
+            color: var(--primary);
+          }
+          .btn-outline-secondary:hover {
+            background-color: var(--primary);
+            color: white;
+          }
+          .publication {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border-left: 4px solid var(--accent);
+          }
+          .animate-delay-1 { animation-delay: 0.2s; }
+          .animate-delay-2 { animation-delay: 0.4s; }
+          .animate-delay-3 { animation-delay: 0.6s; }
+          footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 3rem 0;
+            margin-top: 5rem;
+          }
         </style>
 ---
 
----
-title: "Culhane Computational Oncology & Cancer Genomics Lab"
-page-layout: full
-format:
-  html:
-    html-math-method: katex
----
-
-::: {.hero-section .fade-in}
+::: {.hero-section .text-center .animate__animated .animate__fadeIn}
 # Computational Oncology & Cancer Genomics
 
 We develop computational tools and algorithms to understand cancer biology and improve treatment outcomes.
+
+[Learn About Our Work](projects.html){.btn .btn-primary .btn-lg .mt-4 .animate__animated .animate__fadeInUp}
 :::
 
-:::::::::::::::::::::: container
-:::::::::::: row
-::::: {.col-md-4 .mb-4 .fade-in}
-:::: {.card .h-100}
+
+
+:::::::::::::: {.row .mt-5}
+:::::: {.col-md-4 .mb-4 .animate__animated .animate__fadeInUp .animate-delay-1}
+::: {.card .h-100}
 ::: card-body
 ### Our Research
 
 We specialize in developing algorithms for multi-modal analysis of cancer omics data, creating tools to discover insights into tumor evolution and treatment efficacy.
 
-[Explore Projects](projects.html){.btn .btn-primary}
+[Explore Projects](projects.html){.btn .btn-primary .mt-3}
 :::
-::::
-:::::
+:::
+::::::
 
-::::: {.col-md-4 .mb-4 .fade-in}
-:::: {.card .h-100}
+:::::: {.col-md-4 .mb-4 .animate__animated .animate__fadeInUp .animate-delay-2}
+::: {.card .h-100}
 ::: card-body
 ### Connected Data
 
 We lead initiatives in federated cancer data infrastructure, working with global consortiums to build frameworks that improve cancer research and care.
 
-[Learn More](Projects/eHealthHub.html){.btn .btn-primary}
+[Learn More](Projects/eHealthHub.html){.btn .btn-primary .mt-3}
 :::
-::::
-:::::
+:::
+::::::
 
-::::: {.col-md-4 .mb-4 .fade-in}
-:::: {.card .h-100}
+:::::: {.col-md-4 .mb-4 .animate__animated .animate__fadeInUp .animate-delay-3}
+::: {.card .h-100}
 ::: card-body
 ### Open Science
 
 We embrace open science principles, contributing to Bioconductor and sharing tools with the research community to accelerate cancer research globally.
 
-[See Our Software](software.html){.btn .btn-primary}
+[See Our Software](software.html){.btn .btn-primary .mt-3}
 :::
-::::
-:::::
-::::::::::::
+:::
+::::::
+::::::::::::::
 
-::::::::::: {.row .mt-5 .fade-in}
-::::: col-md-6
+# Highlights
+
+:::::::::::::: {.row .mt-5}
+:::::: {.col-lg-6 .animate__animated .animate__fadeIn}
 ## Recent Publications
 
 ::: publication
@@ -85,12 +160,12 @@ We embrace open science principles, contributing to Bioconductor and sharing too
 :::
 
 [View All Publications](publications.html){.btn .btn-primary .mt-3}
-:::::
+::::::
 
-::::::: col-md-6
+:::::: {.col-lg-6 .animate__animated .animate__fadeIn}
 ## Latest News
 
-:::: {.card .mb-3}
+::: {.card .mb-3}
 ::: card-body
 ### New Grant Award
 
@@ -98,9 +173,9 @@ Our lab has received funding for all-island eHealth research in cancer.
 
 [Read More](News/22-04-04_LimerickPost.html){.btn .btn-sm .btn-outline-secondary}
 :::
-::::
+:::
 
-:::: {.card .mb-3}
+::: {.card .mb-3}
 ::: card-body
 ### RTE Brainstorm Article
 
@@ -108,9 +183,8 @@ Prof Aedin Culhane and Prof Mark Lawler spoke with RTE Brainstorm about the pres
 
 [Read More](News/22_05_19_BrainStorm.html){.btn .btn-sm .btn-outline-secondary}
 :::
-::::
+:::
 
 [View All News](news.html){.btn .btn-primary}
-:::::::
-:::::::::::
-::::::::::::::::::::::
+
+:::

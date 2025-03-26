@@ -4,19 +4,22 @@ listing:
   - id: PI
     contents: "People/PI/*.qmd"
     type: grid
-    grid-columns: 1
+    grid-columns: 2
+    image-height: 300px
     
   - id: Team
     contents: "People/Team/*.qmd"
     type: grid
     grid-columns: 3
+    image-height: 300px
     
   - id: Mentoring
     contents: "People/Mentoring/*.qmd"
     type: grid
     grid-columns: 3
+    image-height: 300px
     
-    image-height: 250px
+    
     categories: true
     filter-ui: [title, Name, categories, tag]
     
@@ -24,32 +27,305 @@ page-layout: full
 bibliography: references.bib
 ---
 
-:::::::::::::::: team-section
-## Principal Investigator {.section-title}
+<style>
+:root {
+  --primary: #2c3e50;
+  --secondary: #3498db;
+  --accent: #e74c3c;
+  --light: #ecf0f1;
+  --dark: #2c3e50;
+  --text: #34495e;
+  --text-light: #7f8c8d;
+  --gradient: linear-gradient(135deg, var(--secondary) 0%, var(--accent) 100%);
+  --shadow: 0 10px 30px rgba(0,0,0,0.1);
+  --radius: 12px;
+  --transition: all 0.3s ease;
+}
 
-:::: fade-in
+/* Page Header */
+.quarto-title-block .title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 3rem;
+  text-align: center;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.quarto-title-block .title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: var(--gradient);
+  border-radius: 2px;
+}
+
+/* Section Headers */
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--dark);
+  text-align: center;
+  margin: 4rem 0 2rem;
+  position: relative;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: var(--gradient);
+}
+
+/* Team Cards */
+.quarto-grid-item {
+  margin-bottom: 2rem;
+  transition: var(--transition);
+}
+
+.quarto-grid-item .card {
+  border: none;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  height: 100%;
+}
+
+.quarto-grid-item .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.quarto-grid-item .card-img-top {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: var(--transition);
+}
+
+.quarto-grid-item .card-body {
+  padding: 1.5rem;
+}
+
+.quarto-grid-item .card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 0.5rem;
+}
+
+.quarto-grid-item .card-text {
+  color: var(--text);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+/* PI Special Styling */
+#PI .quarto-grid-item {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+}
+
+#PI .card {
+  text-align: center;
+}
+
+#PI .card-img-top {
+  height: 500px;
+}
+
+/* Team Categories */
+.listing-categories {
+  margin-top: 1rem;
+}
+
+.listing-category {
+  display: inline-block;
+  background-color: rgba(52, 152, 219, 0.1);
+  color: var(--secondary);
+  padding: 0.3rem 0.8rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: var(--transition);
+}
+
+.listing-category:hover {
+  background-color: var(--secondary);
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Alumni Section */
+.alumni-section {
+  margin: 4rem 0;
+}
+
+.alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.alumni-card {
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.alumni-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gradient);
+}
+
+.alumni-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.alumni-card h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 0.5rem;
+}
+
+.alumni-card h4 a {
+  color: var(--secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.alumni-card h4 a:hover {
+  color: var(--accent);
+}
+
+.alumni-card p {
+  color: var(--text);
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.alumni-card .publications {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  border-top: 1px solid #eee;
+  padding-top: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .quarto-title-block .title {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+  }
+  
+  #PI .card-img-top {
+    height: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+  .quarto-title-block .title {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  #Team .quarto-grid-item,
+  #Mentoring .quarto-grid-item {
+    grid-columns: 2;
+  }
+  
+  #PI .card-img-top {
+    height: 400px;
+  }
+  
+  .alumni-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 576px) {
+  .quarto-title-block .title {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
+  
+  #Team .quarto-grid-item,
+  #Mentoring .quarto-grid-item {
+    grid-columns: 1;
+  }
+  
+  #PI .card-img-top {
+    height: 350px;
+  }
+  
+  .alumni-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+# Meet Our Team
+
+::: {.text-center .mb-5}
+We bring together experts in computational biology, bioinformatics, and cancer genomics to tackle the most pressing challenges in oncology research.
+:::
+
+## Principal Investigator
+
 ::: {#PI}
 :::
-::::
 
-## Core Team {.section-title}
+## Core Team Members
 
-:::: fade-in
 ::: {#Team}
 :::
-::::
 
-## Extended Team {.section-title}
+## Extended Team & Collaborators
 
-:::: fade-in
 ::: {#Mentoring}
 :::
-::::
 
-## Alumni {.section-title}
+## Alumni
 
-::::::::: {.alumni-grid .fade-in}
-::: alumni-card
+::: {.alumni-section}
+Our former team members continue to make significant contributions to science and medicine at leading institutions worldwide.
+
+::: {.alumni-grid}
+::: {.alumni-card}
 #### [Lauren Hsu](https://www.linkedin.com/in/lauren-hsu-155a282a/)
 
 PhD Candidate in Biostatistics at Harvard
@@ -57,7 +333,7 @@ PhD Candidate in Biostatistics at Harvard
 Publications: [@hsu2020; @Lê2021; @Hsu2023]
 :::
 
-::: alumni-card
+::: {.alumni-card}
 #### [Azfar Basunia](https://www.pennmedicine.org/departments-and-centers/department-of-radiology/education-and-training/residency-programs/current-residents/diagnostic-radiology-residents)
 
 Diagnostic Radiology Resident at Penn Medicine. Department of Radiology
@@ -65,7 +341,7 @@ Diagnostic Radiology Resident at Penn Medicine. Department of Radiology
 Publications: [@Ramos2017; @Meng2019; @Schwede2020]
 :::
 
-::: alumni-card
+::: {.alumni-card}
 #### [Chen Meng](https://www.linkedin.com/in/chen-meng-0422b226/)
 
 Center Leader Bioinformatics at the Bavarian Center for Biomolecular Mass Spectrometry (BayBioMS)
@@ -73,7 +349,7 @@ Center Leader Bioinformatics at the Bavarian Center for Biomolecular Mass Spectr
 Publications: [@Meng2016; @Lê2021; @Meng2019; @Meng2014; @Meng2016a; @Thorsson2019]
 :::
 
-::: alumni-card
+::: {.alumni-card}
 #### [Daniel Gusenleitner](https://www.linkedin.com/in/daniel-gusenleitner-2b295188/)
 
 Head of Computational Biology at Mercy BioAnalytics, Inc.
@@ -81,7 +357,7 @@ Head of Computational Biology at Mercy BioAnalytics, Inc.
 Publications: [@gusenleitner2012; @Schröder2013; @Culhane2012]
 :::
 
-::: alumni-card
+::: {.alumni-card}
 #### [Matthew Schwede](https://www.linkedin.com/in/matthew-schwede-9a051415/)
 
 Hematology Oncology Fellow at Stanford University School of Medicine
@@ -89,12 +365,12 @@ Hematology Oncology Fellow at Stanford University School of Medicine
 Publications: [@Wang2012; @Schwede2013; @Santagata2014; @Schwede2020; @Chittenden2010]
 :::
 
-::: alumni-card
+::: {.alumni-card}
 #### [Oana Zeleznik](https://www.linkedin.com/in/oanazeleznik/)
 
 Instructor in Medicine, Harvard Medical School and Associate Epidemiologist, Brigham and Women's Hospital
 
 Publications: [@Meng2016]
 :::
-:::::::::
-::::::::::::::::
+:::
+:::

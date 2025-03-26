@@ -1,34 +1,192 @@
 ---
-title: "The role of immune and other cells in the tumor microenvironment in cancer"
-description: "We are studing the immune environment associated with response to CAR-T Cell Therapy in Kidney Cancer with the Maraco lab in Dana-Farber Cancer Institute."
-about:
-  template: solana
-  image: "../contents/images/CAR-T.jpg"
-  image-width: 10em
-
-card_style: "summary_large_image"
-categories:
-  - Genomics
-  - scRNAseq
-  - Single Cell
-  - Kidney Cancer
+title: ""
+description: ""
+page-layout: full
+format:
+  html:
+    html-math-method: katex
 bibliography: references.bib
 ---
+
+<style>
+/* Modern CAR-T Cell Therapy Page Styling */
+:root {
+  --primary-color: #0a2463;
+  --secondary-color: #3e92cc;
+  --accent-color: #d81159;
+  --light-bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4e69;
+  --text-light: #6c757d;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --border-color: #e9ecef;
+  --radius: 8px;
+  --transition: all 0.3s ease;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--light-bg);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero section */
+.hero-section {
+  background: var(--card-bg);
+  padding: 4rem 1rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Content section */
+.content-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.content-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.content-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+  border-radius: 2px;
+}
+
+.content-section p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.content-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow);
+}
+
+/* Funding section */
+.funding-section {
+  text-align: center;
+  padding: 4rem 1rem;
+  margin: 0 auto 3rem;
+  max-width: 800px;
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.funding-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.funding-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+  border-radius: 2px;
+}
+
+.funding-section img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .content-section, .funding-section {
+    padding: 2rem 1rem;
+  }
+}
+</style>
+
+::: {.hero-section}
+# The Role of Immune and Other Cells in the Tumor Microenvironment in Cancer
+
+We are studying the immune environment associated with response to CAR-T Cell Therapy in Kidney Cancer with the Marasco lab in Dana-Farber Cancer Institute.
+:::
+
+::: {.content-section}
 ## CAR-T Cell Therapy in Kidney Cancer
-Metastatic clear cell renal cell carcinoma (mccRCC) patients have poor 5-year overall survival rate and there is an urgent need to develop therapeutics for these patients. Chimeric antigen receptor (CAR) T cell therapy, which reprograms a patient's immune system to recognize and attack cancer cells. Whilst CAR T-cell therapy has been used sucesffully in blood cancer it has not been translated to the solid tumors. The project goal is to develop CAR-T cell therapy in kidney cancer by fine-tuning immune CAR-T cells to recognize and eliminate only cancer cells but not the normal cells.
 
-We are analyzing scRNAseq and multi omics single cell data generated as part of this project by Dr Yufei Wang and Prof Wayne Marasco in [The Marasco Laboratory](https://marascolab.dana-farber.org) in the Department of Cancer Immunology and Virology at the Dana-Farber Cancer Institute.
+Metastatic clear cell renal cell carcinoma (mccRCC) patients have a poor 5-year overall survival rate, and there is an urgent need to develop therapeutics for these patients. Chimeric antigen receptor (CAR) T cell therapy, which reprograms a patient's immune system to recognize and attack cancer cells, has shown success in blood cancers but has not yet been translated to solid tumors. The goal of this project is to develop CAR-T cell therapy for kidney cancer by fine-tuning immune CAR-T cells to recognize and eliminate only cancer cells while sparing normal cells.
 
-Learn more with this [video](https://www.vjoncology.com/video/ya9gatliajs-impact-of-the-tme-on-car-t-cell-therapy-for-kidney-cancer/)
+We are analyzing scRNAseq and multi-omics single-cell data generated as part of this project by Dr. Yufei Wang and Prof. Wayne Marasco in [The Marasco Laboratory](https://marascolab.dana-farber.org) in the Department of Cancer Immunology and Virology at the Dana-Farber Cancer Institute.
 
-![](/contents/images/CAR-T.jpg)"../contents/images/CAR-T.jpg"
+Learn more with this [video](https://www.vjoncology.com/video/ya9gatliajs-impact-of-the-tme-on-car-t-cell-therapy-for-kidney-cancer/).
+
+![](../contents/images/CAR-T.jpg)
 
 ## Publications
 
-@Wang2022
+- [@Wang2022]
 
+
+:::
+
+::: {.funding-section}
 ## Funding Sources
 
-This project is funded by the DoD CDMRP and methods were developed using CZI Science Seed Network funds.
+This project is funded by the DoD CDMRP, and methods were developed using CZI Science Seed Network funds.
 
 ![DoD](../contents/logo/DOD_cdmrp_logo.jpeg){width="195"} ![CZI Science](../contents/logo/CZI_science.png){width="164" height="81"}
+:::
+

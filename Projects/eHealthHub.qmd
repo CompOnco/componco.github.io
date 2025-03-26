@@ -1,37 +1,300 @@
 ---
 title: "Connected Clinical Data: an eHealth Hub For Cancer"
-description: We lead all-island eHealth Hub for Cancer is an all-island partnership on the island of Ireland that is building software and data platforms using best practice open science international health data standards to unlock and share health data, to grow clinical cancer research and improve cancer care.
-
-about:
-  template: solana
-  image: "../contents/logo/eHealthHub_logo.png"
-  image-width: 10em
-  image-shape: round
-  links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com/ehealth
-    - icon: github
-      text: Github
-      href: https://github.com/ehealth
-    - icon: house-door
-      text: Website
-      href: https://www.ehealth.com 
-    - icon: envelope
-      text: email
-      href: mailto:ehealth@ul.ie
-
-card_style: "summary_large_image"
-categories:
-  - Real World Evidence
-  - Real World Data
-  - Digital Health
+page-layout: full
+toc: true
+toc-location: right
+toc-title: "On this page"
+format:
+  html:
+    html-math-method: katex
 ---
 
-![](../contents/presentations/select_images/data_integration.jpeg){fig-alt="health data eHealth Hub"}
+```{=html}
+<style>
+/* Modern eHealth Hub Page Styling - Enhanced Version */
+:root {
+  --primary-color: #1a5f7a;
+  --secondary-color: #57c5b6;
+  --accent-color: #e76f51;
+  --light-bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4e69;
+  --text-light: #6c757d;
+  --shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  --border-color: #e9ecef;
+  --radius: 10px;
+  --transition: all 0.3s ease;
+}
 
-# Funding Sources
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--light-bg);
+  color: var(--text-primary);
+}
 
-The eHealth-Hub for Cancer is an emerging hub of excellence funded under the Higher Education Authority Shared Island North-South Program.
+h1.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
 
-![HEA Shared island funding](../contents/logo/NSRP_Logo.png){width="402"}
+/* Section styling */
+.section-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  max-width: 800px;
+  margin-bottom: 2rem;
+}
+
+/* Content sections */
+.content-section {
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 2.5rem;
+  margin-bottom: 2.5rem;
+  transition: var(--transition);
+}
+
+.content-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h2 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.content-section h2:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: var(--secondary-color);
+}
+
+.content-section p {
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+/* About section */
+.about-section {
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 2.5rem;
+  margin: 1rem 0 2.5rem 0;
+  border-left: 5px solid var(--accent-color);
+  position: relative;
+  transition: var(--transition);
+}
+
+.about-section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+}
+
+.about-section p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 0;
+  font-size: 1.1rem;
+}
+
+/* Logo styling */
+.logo-wrapper {
+  text-align: center;
+  margin: 3rem 0;
+  padding: 1rem;
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.logo {
+  max-width: 180px;
+  margin: 0 auto;
+  height: auto;
+  display: block;
+  transition: var(--transition);
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Social links */
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin: 2rem 0;
+  justify-content: center;
+}
+
+.social-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px; /* Fully rounded button */
+  background-color: var(--secondary-color);
+  color: white !important;
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition);
+  text-align: center;
+  min-width: 140px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.social-button:hover {
+  background-color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+/* Funding section */
+.funding-wrapper {
+  text-align: center;
+  margin: 3rem 0;
+  padding: 2rem;
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.funding-wrapper:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+}
+
+.funding-logo {
+  max-width: 320px;
+  margin: 1.8rem auto;
+  height: auto;
+  display: block;
+}
+
+/* List styling */
+.content-section ul {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.content-section li {
+  margin-bottom: 0.7rem;
+  position: relative;
+  padding-left: 0.5rem;
+}
+
+.content-section li::marker {
+  color: var(--accent-color);
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .social-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .content-section {
+    padding: 1.8rem;
+  }
+  
+  .about-section {
+    padding: 1.8rem;
+  }
+  
+  .social-button {
+    min-width: 130px;
+    padding: 0.7rem 1.2rem;
+  }
+}
+</style>
+```
+
+## About the eHealth Hub {.section-title}
+
+```{=html}
+<div class="about-section">
+  <p>We lead the all-island eHealth Hub for Cancer, an all-island partnership on the island of Ireland that is building software and data platforms using best practice open science international health data standards to unlock and share health data, to grow clinical cancer research and improve cancer care.</p>
+</div>
+```
+
+::: {.content-section}
+## Our Mission
+
+We are building software and data platforms to unlock and share health data, enabling clinical cancer research and improving cancer care across the island of Ireland. The eHealth Hub connects clinicians, researchers, and patients through standardized health data infrastructure.
+
+Our work focuses on:
+
+- Implementing international health data standards
+- Creating secure data sharing platforms
+- Developing open-source software tools for cancer research
+- Building collaborative networks between institutions
+- Supporting evidence-based improvements in cancer care
+:::
+
+::: {.logo-wrapper}
+![](../contents/logo/eHealthHub_logo.png){.logo}
+:::
+
+::: {.content-section}
+## Connecting Communities
+
+The eHealth Hub serves as a bridge between healthcare providers, academic institutions, and research centers across Ireland. By standardizing and connecting clinical data, we enable:
+
+- Larger and more diverse patient cohorts for research
+- Accelerated clinical trials and studies
+- Improved understanding of cancer treatments and outcomes
+- Enhanced collaboration between researchers island-wide
+- Better-informed healthcare decisions
+
+::: {.social-links}
+[Twitter](https://twitter.com/ehealth){.social-button}
+[GitHub](https://github.com/ehealth){.social-button}
+[Website](https://www.ehealth4cancer.ie/){.social-button}
+[Contact Us](mailto:ehealth@ul.ie){.social-button}
+:::
+:::
+
+::: {.content-section}
+## Funding
+
+The eHealth-Hub for Cancer is funded under the Higher Education Authority Shared Island North-South Program, establishing a hub of excellence for cancer research and clinical data integration.
+
+::: {.funding-wrapper}
+![](../contents/logo/NSRP_Logo.png){.funding-logo}
+:::
+:::

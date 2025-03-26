@@ -2,144 +2,395 @@
 title: "Software"
 bibliography: references.bib
 csl: publications/csl/elife.csl
+page-layout: full
 ---
 
-::::::::::::::::::::::::::::::::: software-container
+<style>
+/* Modern Software Page Styling */
+:root {
+  --primary-color: #0a2463;
+  --secondary-color: #3e92cc;
+  --accent-color: #d81159;
+  --light-bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4e69;
+  --text-light: #6c757d;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --border-color: #e9ecef;
+  --radius: 8px;
+  --transition: all 0.3s ease;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--light-bg);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+/* Page title styling */
+.page-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+.lead {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  padding: 0 1rem;
+}
+
+/* Software card styling */
+.software-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1200px;
+}
+
+.software-card {
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: var(--transition);
+  border: 1px solid var(--border-color);
+}
+
+.software-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.software-icon {
+  padding: 1.5rem;
+  background-color: var(--light-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.software-icon img {
+  max-width: 120px;
+  height: auto;
+}
+
+.software-info {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.software-info h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 0 0 1rem 0;
+}
+
+.software-info p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.software-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.btn-primary {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.btn-secondary:hover {
+  background-color: rgba(62, 146, 204, 0.1);
+  color: var(--secondary-color);
+  transform: translateY(-2px);
+}
+
+.software-publications {
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border-color);
+  text-align: left;
+}
+
+.software-publications h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.software-publications ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style-type: disc;
+}
+
+.software-publications li {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+}
+
+/* Workshops section */
+.workshops-section {
+  margin-top: 5rem;
+  padding: 0 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.workshops-section h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 2.5rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.workshops-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+  border-radius: 2px;
+}
+
+.card-deck {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.card-body h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin: 0 0 1rem 0;
+}
+
+.card-body p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .software-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card-deck {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
 # Our Computational Tools {.page-title}
 
-::: {.lead .text-center .mb-5}
+::: {.lead}
 We develop open-source software for genomic data analysis, with a focus on cancer research and single-cell methods.
 :::
 
-::::::::::::::::::::::: software-grid
-::::::: {.software-card .fade-in}
-::: software-icon
-![Corral Package](contents/hexstickers/corral_sticker.png)
+::: {.software-grid}
+::: {.software-card}
+::: {.software-icon}
+![](contents/hexstickers/corral_sticker.png)
 :::
-
-::::: software-info
+::: {.software-info}
 ## Corral
 
 Single-cell RNA-seq dimension reduction, batch integration, and visualization with correspondence analysis.
 
-::: software-links
-[Bioconductor](https://bioconductor.org/){.btn .btn-primary .btn-sm} [GitHub](https://github.com/){.btn .btn-secondary .btn-sm}
+::: {.software-links}
+[Bioconductor](https://bioconductor.org/){.btn .btn-primary} [GitHub](https://github.com/){.btn .btn-secondary}
 :::
 
-::: software-publications
+::: {.software-publications}
 #### Publications
-
--   [@Hsu2023]
--   [@Lê2021]
--   [@hsu2020]
+- [@Hsu2023]
+- [@Lê2021]
+- [@hsu2020]
 :::
-:::::
-:::::::
-
-::::::: {.software-card .fade-in}
-::: software-icon
-![MOGSA Package](contents/hexstickers/mogsa_sticker.png)
+:::
 :::
 
-::::: software-info
+::: {.software-card}
+::: {.software-icon}
+![](contents/hexstickers/mogsa_sticker.png)
+:::
+::: {.software-info}
 ## MOGSA
 
 Multi-Omics Gene Set Analysis: Integrative analysis of multiple experimental and molecular data types.
 
-::: software-links
-[Bioconductor](https://bioconductor.org/){.btn .btn-primary .btn-sm} [GitHub](https://github.com/){.btn .btn-secondary .btn-sm}
+::: {.software-links}
+[Bioconductor](https://bioconductor.org/){.btn .btn-primary} [GitHub](https://github.com/){.btn .btn-secondary}
 :::
 
-::: software-publications
+::: {.software-publications}
 #### Publications
-
--   [@Meng2016]
--   [@Meng2019]
--   [@Meng2014]
--   [@Meng2016a]
--   [@Lê2021]
+- [@Meng2016]
+- [@Meng2019]
+- [@Meng2014]
+- [@Meng2016a]
+- [@Lê2021]
 :::
-:::::
-:::::::
-
-::::::: {.software-card .fade-in}
-::: software-icon
-![iBBiG Package](https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/iBBiG/iBBiG.png)
+:::
 :::
 
-::::: software-info
+::: {.software-card}
+::: {.software-icon}
+![](https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/iBBiG/iBBiG.png)
+:::
+::: {.software-info}
 ## iBBiG
 
 Iterative Binary Bi-clustering of Gene Sets for biclustering and pattern discovery in gene expression data.
 
-::: software-links
-[Bioconductor](https://bioconductor.org/){.btn .btn-primary .btn-sm} [GitHub](https://github.com/){.btn .btn-secondary .btn-sm}
+::: {.software-links}
+[Bioconductor](https://bioconductor.org/){.btn .btn-primary} [GitHub](https://github.com/){.btn .btn-secondary}
 :::
 
-::: software-publications
+::: {.software-publications}
 #### Publications
-
--   [@gusenleitner2012]
+- [@gusenleitner2012]
 :::
-:::::
-:::::::
-
-::::::: {.software-card .fade-in}
-::: software-icon
-![made4 Package](https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/made4/made4.png)
+:::
 :::
 
-::::: software-info
+::: {.software-card}
+::: {.software-icon}
+![](https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/made4/made4.png)
+:::
+::: {.software-info}
 ## made4
 
 Multivariate Analysis of Microarray Data using ADE4 for visualization and analysis of microarray data.
 
-::: software-links
-[Bioconductor](https://bioconductor.org/){.btn .btn-primary .btn-sm} [GitHub](https://github.com/){.btn .btn-secondary .btn-sm}
+::: {.software-links}
+[Bioconductor](https://bioconductor.org/){.btn .btn-primary} [GitHub](https://github.com/){.btn .btn-secondary}
 :::
 
-::: software-publications
+::: {.software-publications}
 #### Publications
-
--   [@Culhane2005]
+- [@Culhane2005]
 :::
-:::::
-:::::::
-:::::::::::::::::::::::
+:::
+:::
+:::
 
-:::::::::: {.mt-5 .workshops-section .fade-in}
+::: {.workshops-section}
 ## Workshops & Training Materials
 
-::::::::: card-deck
-:::: card
-::: card-body
+::: {.card-deck}
+::: {.card}
+::: {.card-body}
 ### Hitchhiker's Guide to PCA
 
 A comprehensive tutorial on Principal Component Analysis for genomic data.
 
 [View Workshop](#){.btn .btn-primary}
 :::
-::::
+:::
 
-:::: card
-::: card-body
+::: {.card}
+::: {.card-body}
 ### Quick Guide to scRNAseq
 
 Introduction to single-cell RNA sequencing analysis methods.
 
 [View Workshop](#){.btn .btn-primary}
 :::
-::::
+:::
 
-:::: card
-::: card-body
+::: {.card}
+::: {.card-body}
 ### BIRSBiointegration Hackathon
 
 Datasets and code from our multi-omics integration hackathon.
 
 [Explore Hackathon](#){.btn .btn-primary}
 :::
-::::
-:::::::::
-::::::::::
-:::::::::::::::::::::::::::::::::
+:::
+:::
+:::
