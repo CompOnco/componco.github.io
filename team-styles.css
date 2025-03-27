@@ -1,0 +1,301 @@
+/* Stunning Team Page Design */
+
+/* Modern Color Palette & Variables */
+:root {
+    --primary-gradient: linear-gradient(135deg, #0250c5 0%, #d43f8d 100%);
+    --secondary-gradient: linear-gradient(135deg, #5ee7df 0%, #b490ca 100%);
+    --accent-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --dark-blue: #002147;
+    --medium-blue: #0250c5;
+    --light-blue: #5ee7df;
+    --purple: #b490ca;
+    --pink: #d43f8d;
+    --bright-pink: #f093fb;
+    --coral: #f5576c;
+    --white: #ffffff;
+    --light-gray: #f5f7fa;
+    --medium-gray: #e9ecef;
+    --text-dark: #212529;
+    --text-medium: #495057;
+    --text-light: #6c757d;
+  
+    /* Spacing */
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 2rem;
+    --space-lg: 3rem;
+    --space-xl: 5rem;
+  
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 12px 24px rgba(0, 0, 0, 0.12);
+    
+    /* Card specific */
+    --card-radius: 12px;
+    --card-border: 1px solid rgba(0, 0, 0, 0.05);
+    
+    /* Animations */
+    --transition-fast: 0.2s ease;
+    --transition-medium: 0.3s ease;
+    --transition-slow: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  
+  /* Page background and overall container */
+  body {
+    background-color: var(--light-gray);
+    color: var(--text-dark);
+  }
+  
+  .content-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 var(--space-md);
+  }
+  
+  /* Beautiful section titles with gradient underline */
+  .section-title {
+    margin: var(--space-xl) 0 var(--space-lg);
+    position: relative;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--dark-blue);
+    letter-spacing: -0.02em;
+  }
+  
+  .section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 5px;
+    background: var(--primary-gradient);
+    border-radius: 10px;
+  }
+  
+  /* Team section container */
+  .team-section {
+    margin: var(--space-xl) 0;
+  }
+  
+  /* Fade-in animation for sections */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Delay animations for visual interest */
+  .fade-in:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .fade-in:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  .fade-in:nth-child(4) {
+    animation-delay: 0.6s;
+  }
+  
+  /* Enhanced listing cards */
+  .listing-grid {
+    display: grid !important;
+    gap: var(--space-md) !important;
+  }
+  
+  .listing-category {
+    font-weight: 500;
+    margin-bottom: var(--space-xs);
+    color: var(--text-light);
+  }
+  
+  .quarto-grid-item {
+    background-color: var(--white);
+    border-radius: var(--card-radius) !important;
+    box-shadow: var(--shadow-md) !important;
+    overflow: hidden;
+    transition: all var(--transition-medium) !important;
+    border: var(--card-border) !important;
+    position: relative;
+  }
+  
+  .quarto-grid-item:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-xl) !important;
+  }
+  
+  .quarto-grid-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: var(--primary-gradient);
+    z-index: 1;
+  }
+  
+  /* Card content styling */
+  .quarto-grid-item .card-body {
+    padding: var(--space-md) !important;
+  }
+  
+  .quarto-grid-item .card-title {
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+    color: var(--dark-blue) !important;
+    margin-bottom: var(--space-xs) !important;
+  }
+  
+  .quarto-grid-item .card-text {
+    color: var(--text-medium) !important;
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+  }
+  
+  .quarto-grid-item img {
+    transition: all var(--transition-medium) !important;
+    max-height: 250px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .quarto-grid-item:hover img {
+    transform: scale(1.05);
+  }
+  
+  /* Beautiful alumni grid */
+  .alumni-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--space-md);
+    margin: var(--space-lg) 0;
+  }
+  
+  .alumni-card {
+    background-color: var(--white);
+    border-radius: var(--card-radius);
+    box-shadow: var(--shadow-md);
+    padding: var(--space-md);
+    transition: all var(--transition-medium);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .alumni-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: var(--accent-gradient);
+  }
+  
+  .alumni-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-xl);
+  }
+  
+  .alumni-card h4 {
+    margin-top: var(--space-xs);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--dark-blue);
+  }
+  
+  .alumni-card h4 a {
+    color: var(--medium-blue);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+  }
+  
+  .alumni-card h4 a:hover {
+    color: var(--pink);
+  }
+  
+  .alumni-card p {
+    margin: var(--space-sm) 0;
+    font-size: 0.95rem;
+    color: var(--text-medium);
+    line-height: 1.6;
+  }
+  
+  /* Publication styling */
+  .alumni-card p:last-child {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    border-top: 1px solid var(--medium-gray);
+    padding-top: var(--space-xs);
+    margin-top: var(--space-sm);
+  }
+  
+  /* Enhanced categories styling */
+  .quarto-category {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    background: var(--secondary-gradient);
+    color: var(--white) !important;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none !important;
+    transition: transform var(--transition-fast);
+  }
+  
+  .quarto-category:hover {
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .section-title {
+      font-size: 2.2rem;
+    }
+    
+    .alumni-grid {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 2rem;
+    }
+    
+    .alumni-grid {
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+    
+    .quarto-grid-item .card-title {
+      font-size: 1.2rem !important;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .section-title {
+      font-size: 1.8rem;
+    }
+    
+    .alumni-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .quarto-grid-item .card-title {
+      font-size: 1.1rem !important;
+    }
+  }

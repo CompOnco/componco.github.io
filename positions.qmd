@@ -2,54 +2,199 @@
 title: "Join Us"
 ---
 
+<style>
+/* Modern Join Us Page Styling */
+:root {
+  --primary-color: #0a2463;
+  --secondary-color: #3e92cc;
+  --accent-color: #d81159;
+  --light-bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4e69;
+  --text-light: #6c757d;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --border-color: #e9ecef;
+  --radius: 8px;
+  --transition: all 0.3s ease;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--light-bg);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+/* Section styling */
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+  border-radius: 2px;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.75rem;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+/* List styling */
+ul {
+  margin: 0 0 1rem 0;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+ul li {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+/* Contact information styling */
+.contact-info {
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.contact-info h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+}
+
+.contact-info a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.contact-info a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  .contact-info {
+    padding: 1.25rem;
+  }
+}
+</style>
+
 ## Current Positions in the Lab
 
-[Post Doctoral Researcher in Single Cell Bioinformatics](https://universityvacancies.com/university-limerick/post-doctoral-researcher-single-cell-bioinformatics-fixed-term-contract)\
-Seeking a postdoctoral fellow to develop algoritms and methods for scRNAseq, multi-omics and spatial single cell data analysis. Deadline Feb 28th. Informal inquires welcome, ([Contact Information] below)
+### [Post Doctoral Researcher in Single Cell Bioinformatics](https://universityvacancies.com/university-limerick/post-doctoral-researcher-single-cell-bioinformatics-fixed-term-contract)
 
-## Graduate students
+We are seeking a postdoctoral fellow to develop algorithms and methods for scRNAseq, multi-omics, and spatial single-cell data analysis. The deadline for applications is **February 28th**. Informal inquiries are welcome. For more information, please see the [Contact Information](#contact-information) below.
 
-We welcome emails from candidates interested in undertaking a 3-year, 4-year, full or part-time, in-person or hybrid PhD in the lab.
+---
 
-Prospective students should have
+## Graduate Students
 
--   a keen desire to purse computational oncology research
--   a masters degree, professional experience or a distinguished undergraduate degree
--   experience in programming (R, Python, etc)
+We welcome emails from candidates interested in undertaking a **3-year, 4-year, full or part-time, in-person or hybrid PhD** in the lab.
 
-Please title the email "Seeking Computational Oncology PhD", and enclose
+Prospective students should have:
 
--   CV or resume
--   a link to your github account (or similar)
--   a cover letter (max 1 page) describing your research interests.
+- A keen desire to pursue computational oncology research.
+- A master's degree, professional experience, or a distinguished undergraduate degree.
+- Experience in programming (R, Python, etc.).
 
-## Other positions
+Please title your email **"Seeking Computational Oncology PhD"** and include:
 
-We will be advertising PhD, Postdoc and Research assistant positions to work on the eHealth and GDI projects. Please contact us to learn more.
+- Your CV or resume.
+- A link to your GitHub account (or similar).
+- A cover letter (max 1 page) describing your research interests.
+
+---
+
+## Other Positions
+
+We will be advertising PhD, Postdoc, and Research Assistant positions to work on the **eHealth** and **GDI** projects. Please [contact us](#contact-information) to learn more.
+
+---
 
 ## Values & Code of Conduct
 
-We value scientific [rigour and reproducibility](https://www.nih.gov/research-training/rigor-reproducibility) and support an open approach to science that promotes sharing of ideas, code and expertise.
+We value **scientific rigor and reproducibility** and support an open approach to science that promotes the sharing of ideas, code, and expertise.
 
-We value diversity and inclusion, and work to provide a kind, welcoming, collaborative environment that is free of harassment. Our code of conduct is modeled on the [Bioconductor Code of Conduct](https://www.bioconductor.org/about/code-of-conduct/).
+We value **diversity and inclusion** and work to provide a kind, welcoming, collaborative environment that is free of harassment. Our code of conduct is modeled on the [Bioconductor Code of Conduct](https://www.bioconductor.org/about/code-of-conduct/).
 
-# Contact Information
+---
 
-**Aedín C. Culhane, Ph.D.**
+## Contact Information
 
-Professor of Cancer Genomics\
-Director, Limerick Digital Cancer Research Centre
+::: {.contact-info}
+**Aedín C. Culhane, Ph.D.**  
+Professor of Cancer Genomics  
+Director, Limerick Digital Cancer Research Centre  
 
-School of Medicine, GEMS3-005b,\
-University of Limerick,\
-Limerick, V94 T9PX,\
-IRELAND
+School of Medicine, GEMS3-005b,  
+University of Limerick,  
+Limerick, V94 T9PX,  
+IRELAND  
 
-\
-Phone (office): +353 61 234 678\
-Twitter: \@AedinCulhane\
-Email: **Aedin** dot **Culhane** at **ul** dot **ie**\
+**Phone (office):** +353 61 234 678  
+**Twitter:** [@AedinCulhane](https://twitter.com/AedinCulhane)  
+**Email:** [Aedin.Culhane@ul.ie](mailto:Aedin.Culhane@ul.ie)  
 
-map coordinates: [52.67881936990499, -8.568196](https://goo.gl/maps/dA858q9EwhRDzaJB6)\
+**Map Coordinates:** [52.67881936990499, -8.568196](https://goo.gl/maps/dA858q9EwhRDzaJB6)  
 
-If you need to arrange a meeting [Clare Nee](mailto:Clare-dot-Nee-at-ul.ie "mailto:Clare-dot-Nee-at-ul.ie") has access to my calendar
+If you need to arrange a meeting, [Clare Nee](mailto:Clare.Nee@ul.ie) has access to my calendar.
+:::
