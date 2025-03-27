@@ -523,7 +523,19 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#meet-our-team" id="toc-meet-our-team" class="nav-link active" data-scroll-target="#meet-our-team">Meet Our Team</a>
+  <ul class="collapse">
+  <li><a href="#principal-investigator" id="toc-principal-investigator" class="nav-link" data-scroll-target="#principal-investigator">Principal Investigator</a></li>
+  <li><a href="#core-team-members" id="toc-core-team-members" class="nav-link" data-scroll-target="#core-team-members">Core Team Members</a></li>
+  <li><a href="#extended-team-collaborators" id="toc-extended-team-collaborators" class="nav-link" data-scroll-target="#extended-team-collaborators">Extended Team &amp; Collaborators</a></li>
+  <li><a href="#alumni" id="toc-alumni" class="nav-link" data-scroll-target="#alumni">Alumni</a></li>
+  </ul></li>
+  </ul>
+</nav>
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="QmlvY29uZHVjdG9y">Bioconductor <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QmlvaW5mb3JtYXRpY3M=">Bioinformatics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q1pJ">CZI <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q2FuY2VyJTIwZ2Vub21pY3M=">Cancer genomics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29tbXVuaXR5JTIwTWFuYWdlcg==">Community Manager <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R0RJ">GDI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhZHVhdGUlMjBTdHVkZW50">Graduate Student <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JvdXAlMjBMZWFkZXI=">Group Leader <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SHVtYW4lMjBDZWxsJTIwQXRsYXM=">Human Cell Atlas <span class="quarto-category-count">(4)</span></div><div class="category" data-category="S2lkbmV5JTIwQ2FuY2Vy">Kidney Cancer <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TERDUkM=">LDCRC <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UEk=">PI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGhEJTIwU3R1ZGVudA==">PhD Student <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UG9zdGRvY3RvcmFsJTIwZmVsbG93">Postdoctoral fellow <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UG9zdGRvY3RvcmlhbCUyMEZlbGxvdw==">Postdoctorial Fellow <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJvamVjdCUyMExlYWRlcg==">Project Leader <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UkElMkZQb3N0RG9j">RA/PostDoc <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3BhdGlhbCUyMEJpb2xvZ3k=">Spatial Biology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZUhlYWx0aCUyMEh1YiUyMEZvciUyMENhbmNlcg==">eHealth Hub For Cancer <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2NSTkFzZXE=">scRNAseq <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
@@ -547,17 +559,290 @@ window.Quarto = {
 </header>
 
 
-<div class="team-section">
-<section id="principal-investigator" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="principal-investigator">Principal Investigator</h2>
-<div class="fade-in">
+<style>
+:root {
+  --primary: #2c3e50;
+  --secondary: #3498db;
+  --accent: #e74c3c;
+  --light: #ecf0f1;
+  --dark: #2c3e50;
+  --text: #34495e;
+  --text-light: #7f8c8d;
+  --gradient: linear-gradient(135deg, var(--secondary) 0%, var(--accent) 100%);
+  --shadow: 0 10px 30px rgba(0,0,0,0.1);
+  --radius: 12px;
+  --transition: all 0.3s ease;
+}
+
+/* Page Header */
+.quarto-title-block .title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 3rem;
+  text-align: center;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.quarto-title-block .title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: var(--gradient);
+  border-radius: 2px;
+}
+
+/* Section Headers */
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--dark);
+  text-align: center;
+  margin: 4rem 0 2rem;
+  position: relative;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: var(--gradient);
+}
+
+/* Team Cards */
+.quarto-grid-item {
+  margin-bottom: 2rem;
+  transition: var(--transition);
+}
+
+.quarto-grid-item .card {
+  border: none;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  height: 100%;
+}
+
+.quarto-grid-item .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.quarto-grid-item .card-img-top {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: var(--transition);
+}
+
+.quarto-grid-item .card-body {
+  padding: 1.5rem;
+}
+
+.quarto-grid-item .card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 0.5rem;
+}
+
+.quarto-grid-item .card-text {
+  color: var(--text);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+/* PI Special Styling */
+#PI .quarto-grid-item {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+}
+
+#PI .card {
+  text-align: center;
+}
+
+#PI .card-img-top {
+  height: 500px;
+}
+
+/* Team Categories */
+.listing-categories {
+  margin-top: 1rem;
+}
+
+.listing-category {
+  display: inline-block;
+  background-color: rgba(52, 152, 219, 0.1);
+  color: var(--secondary);
+  padding: 0.3rem 0.8rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: var(--transition);
+}
+
+.listing-category:hover {
+  background-color: var(--secondary);
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Alumni Section */
+.alumni-section {
+  margin: 4rem 0;
+}
+
+.alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.alumni-card {
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.alumni-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gradient);
+}
+
+.alumni-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.alumni-card h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 0.5rem;
+}
+
+.alumni-card h4 a {
+  color: var(--secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.alumni-card h4 a:hover {
+  color: var(--accent);
+}
+
+.alumni-card p {
+  color: var(--text);
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.alumni-card .publications {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  border-top: 1px solid #eee;
+  padding-top: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .quarto-title-block .title {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+  }
+  
+  #PI .card-img-top {
+    height: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+  .quarto-title-block .title {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  #Team .quarto-grid-item,
+  #Mentoring .quarto-grid-item {
+    grid-columns: 2;
+  }
+  
+  #PI .card-img-top {
+    height: 400px;
+  }
+  
+  .alumni-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 576px) {
+  .quarto-title-block .title {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
+  
+  #Team .quarto-grid-item,
+  #Mentoring .quarto-grid-item {
+    grid-columns: 1;
+  }
+  
+  #PI .card-img-top {
+    height: 350px;
+  }
+  
+  .alumni-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+<section id="meet-our-team" class="level1">
+<h1>Meet Our Team</h1>
+<div class="text-center mb-5">
+<p>We bring together experts in computational biology, bioinformatics, and cancer genomics to tackle the most pressing challenges in oncology research.</p>
+</div>
+<section id="principal-investigator" class="level2">
+<h2 class="anchored" data-anchor-id="principal-investigator">Principal Investigator</h2>
 <div id="listing-PI" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="UEklMkNHcm91cCUyMExlYWRlciUyQ0xEQ1JD" data-listing-file-modified-sort="1742303453751" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="UEklMkNHcm91cCUyMExlYWRlciUyQ0xEQ1JD" data-listing-file-modified-sort="1743096352004" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
 <a href="./People/PI/AedinCulhane.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./contents/photos/people/aedinculhane.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./contents/photos/people/aedinculhane.png" class="thumbnail-image card-img" style="height: 300px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -591,18 +876,16 @@ Professor, University of Limerick
 No matching items
 </div>
 </div>
-</div>
 </section>
-<section id="core-team" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="core-team">Core Team</h2>
-<div class="fade-in">
+<section id="core-team-members" class="level2">
+<h2 class="anchored" data-anchor-id="core-team-members">Core Team Members</h2>
 <div id="listing-Team" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Q2FuY2VyJTIwZ2Vub21pY3MlMkNCaW9pbmZvcm1hdGljcyUyQ1JBJTJGUG9zdERvYw==" data-listing-file-modified-sort="1742303453751" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
+<div class="g-col-1" data-index="0" data-categories="Q2FuY2VyJTIwZ2Vub21pY3MlMkNCaW9pbmZvcm1hdGljcyUyQ1JBJTJGUG9zdERvYw==" data-listing-file-modified-sort="1743096352004" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
 <a href="./People/Team/AliceAbend.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./contents/photos/people/monicavalecha.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./contents/photos/people/monicavalecha.jpeg" class="thumbnail-image card-img" style="height: 300px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -631,11 +914,11 @@ Research Assistant
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="UHJvamVjdCUyMExlYWRlciUyQ0Jpb2NvbmR1Y3RvciUyQ0NvbW11bml0eSUyME1hbmFnZXI=" data-listing-file-modified-sort="1742303453751" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
+<div class="g-col-1" data-index="1" data-categories="UHJvamVjdCUyMExlYWRlciUyQ0Jpb2NvbmR1Y3RvciUyQ0NvbW11bml0eSUyME1hbmFnZXI=" data-listing-file-modified-sort="1743096352004" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
 <a href="./People/Team/MariaDoyle.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./contents/photos/people/mariadoyle.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./contents/photos/people/mariadoyle.jpeg" class="thumbnail-image card-img" style="height: 300px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -664,11 +947,11 @@ Bioconductor Community Manager, University of Limerick
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="UGhEJTIwU3R1ZGVudCUyQ0h1bWFuJTIwQ2VsbCUyMEF0bGFzJTJDQ1pJ" data-listing-file-modified-sort="1742303453751" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
+<div class="g-col-1" data-index="2" data-categories="UGhEJTIwU3R1ZGVudCUyQ0h1bWFuJTIwQ2VsbCUyMEF0bGFzJTJDQ1pJ" data-listing-file-modified-sort="1743096352004" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
 <a href="./People/Team/AhmadAlkhan.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./contents/photos/people/ahmadalkhan.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./contents/photos/people/ahmadalkhan.jpeg" class="thumbnail-image card-img" style="height: 300px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -697,11 +980,11 @@ Graduate Student. Co Supervisors Elizabeth Ryan &amp; Olwyn Mahon
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="UGhEJTIwU3R1ZGVudCUyQ2VIZWFsdGglMjBIdWIlMjBGb3IlMjBDYW5jZXIlMkNHREk=" data-listing-file-modified-sort="1742303453751" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="g-col-1" data-index="3" data-categories="UGhEJTIwU3R1ZGVudCUyQ2VIZWFsdGglMjBIdWIlMjBGb3IlMjBDYW5jZXIlMkNHREk=" data-listing-file-modified-sort="1743096352004" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
 <a href="./People/Team/BrendanReardon.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./contents/photos/people/brendanrearden.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./contents/photos/people/brendanrearden.jpeg" class="thumbnail-image card-img" style="height: 300px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -730,11 +1013,11 @@ Graduate Student (jointly with Prof Eli Van Allen, DFCI)
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="UGhEJTIwU3R1ZGVudCUyQ0tpZG5leSUyMENhbmNlciUyQ0h1bWFuJTIwQ2VsbCUyMEF0bGFzJTJDQ1pJ" data-listing-file-modified-sort="1742303453751" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
+<div class="g-col-1" data-index="4" data-categories="UGhEJTIwU3R1ZGVudCUyQ0tpZG5leSUyMENhbmNlciUyQ0h1bWFuJTIwQ2VsbCUyMEF0bGFzJTJDQ1pJ" data-listing-file-modified-sort="1743096352004" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
 <a href="./People/Team/MichaelLynch.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./contents/photos/people/michaellynch.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./contents/photos/people/michaellynch.jpeg" class="thumbnail-image card-img" style="height: 300px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -771,11 +1054,9 @@ Graduate Student, Co Supervisor Laurent Gatto
 No matching items
 </div>
 </div>
-</div>
 </section>
-<section id="extended-team" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="extended-team">Extended Team</h2>
-<div class="fade-in">
+<section id="extended-team-collaborators" class="level2">
+<h2 class="anchored" data-anchor-id="extended-team-collaborators">Extended Team &amp; Collaborators</h2>
 <div id="listing-Mentoring" class="quarto-listing quarto-listing-container-grid">
 <div class="listing-actions-group">
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -784,11 +1065,11 @@ No matching items
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="UG9zdGRvY3RvcmlhbCUyMEZlbGxvdyUyQ3NjUk5Bc2Vx" data-listing-file-modified-sort="1742303453751" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
+<div class="g-col-1" data-index="0" data-categories="UG9zdGRvY3RvcmlhbCUyMEZlbGxvdyUyQ3NjUk5Bc2Vx" data-listing-file-modified-sort="1743096352004" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
 <a href="./People/Mentoring/OlywnMahon.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./contents/photos/people/olwynmahon.jpeg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="./contents/photos/people/olwynmahon.jpeg" class="thumbnail-image card-img" style="height: 300px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -814,11 +1095,11 @@ Post doctoral fellow in the McGourty Lab
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="UG9zdGRvY3RvcmFsJTIwZmVsbG93JTJDU3BhdGlhbCUyMEJpb2xvZ3klMkNIdW1hbiUyMENlbGwlMjBBdGxhcw==" data-listing-file-modified-sort="1742303453751" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
+<div class="g-col-1" data-index="1" data-categories="UG9zdGRvY3RvcmFsJTIwZmVsbG93JTJDU3BhdGlhbCUyMEJpb2xvZ3klMkNIdW1hbiUyMENlbGwlMjBBdGxhcw==" data-listing-file-modified-sort="1743096352004" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
 <a href="./People/Mentoring/EannaFennell.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./contents/photos/people/eannafennell.jpeg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="./contents/photos/people/eannafennell.jpeg" class="thumbnail-image card-img" style="height: 300px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -847,11 +1128,11 @@ Postdoctoral fellow in the Murray Lab
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="R3JhZHVhdGUlMjBTdHVkZW50JTJDU3BhdGlhbCUyMEJpb2xvZ3klMkNIdW1hbiUyMENlbGwlMjBBdGxhcw==" data-listing-file-modified-sort="1742303453751" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
+<div class="g-col-1" data-index="2" data-categories="R3JhZHVhdGUlMjBTdHVkZW50JTJDU3BhdGlhbCUyMEJpb2xvZ3klMkNIdW1hbiUyMENlbGwlMjBBdGxhcw==" data-listing-file-modified-sort="1743096352004" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
 <a href="./People/Mentoring/LaurenHsu.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./contents/photos/people/laurenhsu.jpeg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="./contents/photos/people/laurenhsu.jpeg" class="thumbnail-image card-img" style="height: 300px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -885,11 +1166,12 @@ Graduate Student in Biostatistics at Harvard. Supervisors are Profs Judith Agudo
 No matching items
 </div>
 </div>
-</div>
 </section>
-<section id="alumni" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="alumni">Alumni</h2>
-<div class="alumni-grid fade-in">
+<section id="alumni" class="level2">
+<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
+<div class="alumni-section">
+<p>Our former team members continue to make significant contributions to science and medicine at leading institutions worldwide.</p>
+<div class="alumni-grid">
 <section id="lauren-hsu" class="level4 alumni-card">
 <h4 class="anchored" data-anchor-id="lauren-hsu"><a href="https://www.linkedin.com/in/lauren-hsu-155a282a/">Lauren Hsu</a></h4>
 <p>PhD Candidate in Biostatistics at Harvard</p>
@@ -921,12 +1203,13 @@ No matching items
 <p>Publications: <span class="citation" data-cites="Meng2016">(<a href="#ref-Meng2016" role="doc-biblioref">Meng et al. 2016</a>)</span></p>
 </section>
 </div>
-</section>
 </div>
 
 
 
 
+</section>
+</section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-Chittenden2010" class="csl-entry" role="listitem">
@@ -1553,7 +1836,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
     </div>   
     <div class="nav-footer-center">
-<p><img src="./contents/logo/LDCRC_Logo_fixed.jpg" title="Limerick Digital Cancer Research Center" height="40"> <img src="./contents/logo/bioconductor_logo_cmyk.png" title="Bioconductor" height="40"> <img src="./contents/logo/eHealthHub_logo.png" title="eHealthHub For Cancer" height="40"> <img src="./contents/logo/Elixir_logo-3927606181.png" title="ELIXIR" height="40"> <img src="./contents/logo/OHDSI.jpeg" title="OHDSI Real World Data" height="40"></p>
+<p><img src="contents/logo/LDCRC_Logo_fixed.jpg" title="Limerick Digital Cancer Research Center" height="40"> <img src="contents/logo/bioconductor_logo_cmyk.png" title="Bioconductor" height="40"> <img src="contents/logo/eHealthHub_logo.png" title="eHealthHub For Cancer" height="40"> <img src="contents/logo/Elixir_logo-3927606181.png" title="ELIXIR" height="40"> <img src="contents/logo/OHDSI.jpeg" title="OHDSI Real World Data" height="40"></p>
 </div>
     <div class="nav-footer-right">
 <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>

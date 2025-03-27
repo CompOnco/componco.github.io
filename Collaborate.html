@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Collaborators – Culhane Lab</title>
+<title>collaborate – Culhane Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -75,10 +75,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Collaborators – Culhane Lab">
+<meta property="og:title" content="– Culhane Lab">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Culhane Lab">
-<meta name="twitter:title" content="Collaborators – Culhane Lab">
+<meta name="twitter:title" content="– Culhane Lab">
 <meta name="twitter:description" content="">
 <meta name="twitter:creator" content="@AedinCulhane">
 <meta name="twitter:site" content="@CulhaneLab">
@@ -209,7 +209,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Collaborators</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -387,76 +387,533 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#collaborate-with-us" id="toc-collaborate-with-us" class="nav-link active" data-scroll-target="#collaborate-with-us">Collaborate with us</a></li>
-  <li><a href="#co-investigators-and-collaborating-lab" id="toc-co-investigators-and-collaborating-lab" class="nav-link" data-scroll-target="#co-investigators-and-collaborating-lab">Co-Investigators and Collaborating Lab</a></li>
-  <li><a href="#consortium-and-organizations" id="toc-consortium-and-organizations" class="nav-link" data-scroll-target="#consortium-and-organizations">Consortium and Organizations</a></li>
+  <li><a href="#research-collaborators" id="toc-research-collaborators" class="nav-link active" data-scroll-target="#research-collaborators">Research Collaborators</a></li>
+  <li><a href="#partner-laboratories" id="toc-partner-laboratories" class="nav-link" data-scroll-target="#partner-laboratories">Partner Laboratories</a></li>
+  <li><a href="#consortiums-organizations" id="toc-consortiums-organizations" class="nav-link" data-scroll-target="#consortiums-organizations">Consortiums &amp; Organizations</a></li>
+  <li><a href="#interested-in-collaborating" id="toc-interested-in-collaborating" class="nav-link" data-scroll-target="#interested-in-collaborating">Interested in Collaborating?</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Collaborators</h1>
+
+
+
+<style>
+/* Modern Collaborators Page Styling */
+:root {
+  --primary-color: #0a2463; /* Deep blue */
+  --secondary-color: #3e92cc; /* Bright blue */
+  --accent-color: #d81159; /* Vibrant pink for contrast */
+  --gradient: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  --light-bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4e69;
+  --text-light: #6c757d;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --radius: 12px;
+  --transition: all 0.3s ease;
+}
+
+body {
+  background-color: var(--light-bg);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Custom title styling */
+.quarto-title-block .title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 4rem;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.quarto-title-block .title::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--gradient);
+  border-radius: 2px;
+}
+
+/* Banner styling */
+.collab-banner {
+  background: var(--gradient);
+  padding: 3rem 2rem;
+  color: white;
+  text-align: center;
+  border-radius: var(--radius);
+  margin-bottom: 4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.collab-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+  pointer-events: none;
+}
+
+.collab-banner p {
+  font-size: 1.2rem;
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Section styling */
+.collab-section h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
+  position: relative;
+  margin-top: 4rem;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.collab-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: var(--gradient);
+  border-radius: 2px;
+}
+
+.collab-section p.description {
+  text-align: center;
+  color: var(--text-secondary);
+  max-width: 750px;
+  margin: 0 auto 2.5rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Collaborator grid */
+.collab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.collab-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  height: 100%;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.collab-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0.25rem;
+  background: var(--gradient);
+  z-index: 1;
+}
+
+.collab-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  border-color: var(--secondary-color);
+}
+
+.collab-card-content {
+  padding: 1.75rem;
+}
+
+.collab-card h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin: 0 0 0.5rem 0;
+}
+
+.collab-card h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin: 0 0 0.75rem 0;
+}
+
+.collab-card p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin: 0.75rem 0 0 0;
+  line-height: 1.5;
+}
+
+/* Partner Labs */
+.labs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.lab-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 2rem;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  position: relative;
+  border-left: 0.25rem solid var(--secondary-color);
+}
+
+.lab-card:hover {
+  transform: translateX(10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.lab-card h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin: 0 0 0.5rem 0;
+}
+
+.lab-card h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Consortium styling */
+.consortium-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 2rem 0 4rem 0;
+}
+
+.consortium-group {
+  flex: 1;
+  min-width: 300px;
+}
+
+.consortium-group h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin: 0 0 1.5rem 0;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.consortium-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.consortium-pill {
+  background-color: rgba(62, 146, 204, 0.1);
+  border-radius: 50px;
+  padding: 0.75rem 1.25rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  transition: var(--transition);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+  display: inline-block;
+}
+
+.consortium-pill:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* CTA Section */
+.collab-cta {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 3.5rem 2rem;
+  text-align: center;
+  margin: 3rem 0;
+  position: relative;
+  box-shadow: var(--shadow);
+}
+
+.collab-cta::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0.25rem;
+  background: var(--gradient);
+}
+
+.collab-cta h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+.collab-cta p {
+  max-width: 650px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.cta-button {
+  display: inline-block;
+  background: var(--gradient);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem 2.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: var(--transition);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--secondary-color);
+}
+
+.cta-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  background: var(--secondary-color);
+  border-color: var(--primary-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .collab-section h2 {
+    font-size: 2rem;
+  }
+  
+  .collab-grid, .labs-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .quarto-title-block .title {
+    font-size: 2.5rem;
+  }
+  
+  .collab-banner p {
+    font-size: 1.1rem;
+  }
+  
+  .collab-section h2 {
+    font-size: 1.8rem;
+  }
+  
+  .collab-section p.description {
+    font-size: 1rem;
+  }
+  
+  .collab-card-content, .lab-card {
+    padding: 1.5rem;
+  }
+  
+  .consortium-group h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .collab-grid, .labs-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .consortium-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .collab-cta h2 {
+    font-size: 1.6rem;
+  }
+  
+  .collab-cta p {
+    font-size: 1rem;
+  }
+}
+</style>
+<div class="collab-banner">
+<p>Our research is strengthened through international partnerships with leading scientists, laboratories, and organizations working to advance cancer research and improve patient outcomes.</p>
 </div>
-
-
-
-<div class="quarto-title-meta column-body">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="collaborate-with-us" class="level2">
-<h2 class="anchored" data-anchor-id="collaborate-with-us">Collaborate with us</h2>
-<p>Let us know if you would like to explore a collaboration with our lab.</p>
-</section>
-<section id="co-investigators-and-collaborating-lab" class="level2">
-<h2 class="anchored" data-anchor-id="co-investigators-and-collaborating-lab">Co-Investigators and Collaborating Lab</h2>
-<p>Elizabeth Ryan, UL, Ireland (Co-supervisor of Ahmad Alkan)</p>
-<p>Laurent Gatto, Louvain, Belguim (Co-supervisor of Michael Lynch)</p>
-<p>Paul Murray, UL, Ireland</p>
-<p>Gianpierro Cavalleri, RCSI, Dublin, Ireland</p>
-<p>Vince Carey, BWH, Bioconductor</p>
-<p>Sherrie DiVito BWH</p>
-<p>Mitsiades Lab, DFCI</p>
-<p>Marasco Lab, DFCI</p>
-<p>Van Allen Lab, DFCI</p>
-</section>
-<section id="consortium-and-organizations" class="level2">
-<h2 class="anchored" data-anchor-id="consortium-and-organizations">Consortium and Organizations</h2>
-<section id="national" class="level4">
-<h4 class="anchored" data-anchor-id="national">National</h4>
-<ul>
-<li><p>AICRI</p></li>
-<li><p>NaSPro</p></li>
-<li><p>SBI</p></li>
-</ul>
-</section>
-<section id="international" class="level4">
-<h4 class="anchored" data-anchor-id="international">International</h4>
-<ul>
-<li><p>Bioconductor</p></li>
-<li><p>GDI</p></li>
-<li><p>ELIXIR</p></li>
-<li><p>Human Cell Atlas</p></li>
-<li><p>OHDSI</p></li>
-<li><p>EHDEN</p></li>
-<li><p>Northeastern University, OHDSI</p></li>
-<li><p>UNCAN.eu</p></li>
-</ul>
-
-
+<section id="research-collaborators" class="level2 collab-section">
+<h2 class="anchored" data-anchor-id="research-collaborators">Research Collaborators</h2>
+<div class="description">
+<p>Key collaborators who partner with our lab to push the boundaries of computational oncology and cancer genomics research.</p>
+</div>
+<div class="collab-grid">
+<div class="collab-card">
+<section id="elizabeth-ryan" class="level3 collab-card-content">
+<h3 class="anchored" data-anchor-id="elizabeth-ryan">Elizabeth Ryan</h3>
+<section id="university-of-limerick-ireland" class="level4">
+<h4 class="anchored" data-anchor-id="university-of-limerick-ireland">University of Limerick, Ireland</h4>
+<p>Co-supervisor of Ahmad Alkan</p>
 </section>
 </section>
+</div>
+<div class="collab-card">
+<section id="laurent-gatto" class="level3 collab-card-content">
+<h3 class="anchored" data-anchor-id="laurent-gatto">Laurent Gatto</h3>
+<section id="université-de-louvain-belgium" class="level4">
+<h4 class="anchored" data-anchor-id="université-de-louvain-belgium">Université de Louvain, Belgium</h4>
+<p>Co-supervisor of Michael Lynch</p>
+</section>
+</section>
+</div>
+<div class="collab-card">
+<section id="paul-murray" class="level3 collab-card-content">
+<h3 class="anchored" data-anchor-id="paul-murray">Paul Murray</h3>
+<section id="university-of-limerick-ireland-1" class="level4">
+<h4 class="anchored" data-anchor-id="university-of-limerick-ireland-1">University of Limerick, Ireland</h4>
+</section>
+</section>
+</div>
+<div class="collab-card">
+<section id="gianpierro-cavalleri" class="level3 collab-card-content">
+<h3 class="anchored" data-anchor-id="gianpierro-cavalleri">Gianpierro Cavalleri</h3>
+<section id="rcsi-dublin-ireland" class="level4">
+<h4 class="anchored" data-anchor-id="rcsi-dublin-ireland">RCSI, Dublin, Ireland</h4>
+</section>
+</section>
+</div>
+<div class="collab-card">
+<section id="vince-carey" class="level3 collab-card-content">
+<h3 class="anchored" data-anchor-id="vince-carey">Vince Carey</h3>
+<section id="brigham-womens-hospital" class="level4">
+<h4 class="anchored" data-anchor-id="brigham-womens-hospital">Brigham &amp; Women’s Hospital</h4>
+<p>Bioconductor</p>
+</section>
+</section>
+</div>
+<div class="collab-card">
+<section id="sherrie-divito" class="level3 collab-card-content">
+<h3 class="anchored" data-anchor-id="sherrie-divito">Sherrie DiVito</h3>
+<section id="brigham-womens-hospital-1" class="level4">
+<h4 class="anchored" data-anchor-id="brigham-womens-hospital-1">Brigham &amp; Women’s Hospital</h4>
+</section>
+</section>
+</div>
+</div>
+</section>
+<section id="partner-laboratories" class="level2 collab-section">
+<h2 class="anchored" data-anchor-id="partner-laboratories">Partner Laboratories</h2>
+<div class="description">
+<p>Leading cancer research laboratories we work with to advance therapeutic discoveries and treatment approaches.</p>
+</div>
+<div class="labs-grid">
+<section id="mitsiades-lab" class="level3 lab-card">
+<h3 class="anchored" data-anchor-id="mitsiades-lab">Mitsiades Lab</h3>
+<section id="dana-farber-cancer-institute" class="level4">
+<h4 class="anchored" data-anchor-id="dana-farber-cancer-institute">Dana-Farber Cancer Institute</h4>
+</section>
+</section>
+<section id="marasco-lab" class="level3 lab-card">
+<h3 class="anchored" data-anchor-id="marasco-lab">Marasco Lab</h3>
+<section id="dana-farber-cancer-institute-1" class="level4">
+<h4 class="anchored" data-anchor-id="dana-farber-cancer-institute-1">Dana-Farber Cancer Institute</h4>
+</section>
+</section>
+<section id="van-allen-lab" class="level3 lab-card">
+<h3 class="anchored" data-anchor-id="van-allen-lab">Van Allen Lab</h3>
+<section id="dana-farber-cancer-institute-2" class="level4">
+<h4 class="anchored" data-anchor-id="dana-farber-cancer-institute-2">Dana-Farber Cancer Institute</h4>
+</section>
+</section>
+</div>
+</section>
+<section id="consortiums-organizations" class="level2 collab-section">
+<h2 class="anchored" data-anchor-id="consortiums-organizations">Consortiums &amp; Organizations</h2>
+<div class="description">
+<p>Collaborative networks and organizations that facilitate data sharing, standardization, and research acceleration in cancer genomics.</p>
+</div>
+<div class="consortium-container">
+<section id="national" class="level3 consortium-group">
+<h3 class="anchored" data-anchor-id="national">National</h3>
+<div class="consortium-list">
+<div class="consortium-pill">
+<p>AICRI</p>
+</div>
+<div class="consortium-pill">
+<p>NaSPro</p>
+</div>
+<div class="consortium-pill">
+<p>SBI</p>
+</div>
+</div>
+</section>
+<section id="international" class="level3 consortium-group">
+<h3 class="anchored" data-anchor-id="international">International</h3>
+<div class="consortium-list">
+<div class="consortium-pill">
+<p>Bioconductor</p>
+</div>
+<div class="consortium-pill">
+<p>GDI</p>
+</div>
+<div class="consortium-pill">
+<p>ELIXIR</p>
+</div>
+<div class="consortium-pill">
+<p>Human Cell Atlas</p>
+</div>
+<div class="consortium-pill">
+<p>OHDSI</p>
+</div>
+<div class="consortium-pill">
+<p>EHDEN</p>
+</div>
+<div class="consortium-pill">
+<p>Northeastern University</p>
+</div>
+<div class="consortium-pill">
+<p>UNCAN.eu</p>
+</div>
+</div>
+</section>
+</div>
+</section>
+<section id="interested-in-collaborating" class="level2 collab-cta">
+<h2 class="anchored" data-anchor-id="interested-in-collaborating">Interested in Collaborating?</h2>
+<p>We’re always open to new partnerships and collaborative opportunities that align with our research goals in computational oncology and cancer genomics.</p>
+<p><a href="mailto:Aedin.Culhane@ul.ie" class="cta-button">Contact Aedin Culhane</a></p>
+</section>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1031,7 +1488,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
     </div>   
     <div class="nav-footer-center">
-<p><img src="./contents/logo/LDCRC_Logo_fixed.jpg" title="Limerick Digital Cancer Research Center" height="40"> <img src="./contents/logo/bioconductor_logo_cmyk.png" title="Bioconductor" height="40"> <img src="./contents/logo/eHealthHub_logo.png" title="eHealthHub For Cancer" height="40"> <img src="./contents/logo/Elixir_logo-3927606181.png" title="ELIXIR" height="40"> <img src="./contents/logo/OHDSI.jpeg" title="OHDSI Real World Data" height="40"></p>
+<p><img src="contents/logo/LDCRC_Logo_fixed.jpg" title="Limerick Digital Cancer Research Center" height="40"> <img src="contents/logo/bioconductor_logo_cmyk.png" title="Bioconductor" height="40"> <img src="contents/logo/eHealthHub_logo.png" title="eHealthHub For Cancer" height="40"> <img src="contents/logo/Elixir_logo-3927606181.png" title="ELIXIR" height="40"> <img src="contents/logo/OHDSI.jpeg" title="OHDSI Real World Data" height="40"></p>
 </div>
     <div class="nav-footer-right">
 <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>

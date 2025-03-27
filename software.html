@@ -240,7 +240,7 @@ div.csl-indent {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
         <div class="sidebar-tools-main">
@@ -419,7 +419,7 @@ div.csl-indent {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -428,7 +428,7 @@ div.csl-indent {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-body">
 
     
   
@@ -440,26 +440,280 @@ div.csl-indent {
 </header>
 
 
-<section id="our-computational-tools" class="level1 page-title software-container">
+<style>
+/* Modern Software Page Styling */
+:root {
+  --primary-color: #0a2463;
+  --secondary-color: #3e92cc;
+  --accent-color: #d81159;
+  --light-bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4e69;
+  --text-light: #6c757d;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --border-color: #e9ecef;
+  --radius: 8px;
+  --transition: all 0.3s ease;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--light-bg);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+/* Page title styling */
+.page-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+.lead {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  padding: 0 1rem;
+}
+
+/* Software card styling */
+.software-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1200px;
+}
+
+.software-card {
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: var(--transition);
+  border: 1px solid var(--border-color);
+}
+
+.software-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.software-icon {
+  padding: 1.5rem;
+  background-color: var(--light-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.software-icon img {
+  max-width: 120px;
+  height: auto;
+}
+
+.software-info {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.software-info h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 0 0 1rem 0;
+}
+
+.software-info p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.software-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.btn-primary {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.btn-secondary:hover {
+  background-color: rgba(62, 146, 204, 0.1);
+  color: var(--secondary-color);
+  transform: translateY(-2px);
+}
+
+.software-publications {
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border-color);
+  text-align: left;
+}
+
+.software-publications h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.software-publications ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style-type: disc;
+}
+
+.software-publications li {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+}
+
+/* Workshops section */
+.workshops-section {
+  margin-top: 5rem;
+  padding: 0 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.workshops-section h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 2.5rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.workshops-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+  border-radius: 2px;
+}
+
+.card-deck {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.card-body h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin: 0 0 1rem 0;
+}
+
+.card-body p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .software-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card-deck {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+<section id="our-computational-tools" class="level1 page-title">
 <h1 class="page-title">Our Computational Tools</h1>
-<div class="lead text-center mb-5">
+<div class="lead">
 <p>We develop open-source software for genomic data analysis, with a focus on cancer research and single-cell methods.</p>
 </div>
 <div class="software-grid">
-<div class="software-card fade-in">
+<div class="software-card">
 <div class="software-icon">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="contents/hexstickers/corral_sticker.png" class="img-fluid figure-img"></p>
-<figcaption>Corral Package</figcaption>
-</figure>
-</div>
+<p><img src="contents/hexstickers/corral_sticker.png" class="img-fluid"></p>
 </div>
 <section id="corral" class="level2 software-info">
 <h2 class="anchored" data-anchor-id="corral">Corral</h2>
 <p>Single-cell RNA-seq dimension reduction, batch integration, and visualization with correspondence analysis.</p>
 <div class="software-links">
-<p><a href="https://bioconductor.org/" class="btn btn-primary btn-sm">Bioconductor</a> <a href="https://github.com/" class="btn btn-secondary btn-sm">GitHub</a></p>
+<p><a href="https://bioconductor.org/" class="btn btn-primary">Bioconductor</a> <a href="https://github.com/" class="btn btn-secondary">GitHub</a></p>
 </div>
 <section id="publications" class="level4 software-publications">
 <h4 class="anchored" data-anchor-id="publications">Publications</h4>
@@ -471,20 +725,15 @@ div.csl-indent {
 </section>
 </section>
 </div>
-<div class="software-card fade-in">
+<div class="software-card">
 <div class="software-icon">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="contents/hexstickers/mogsa_sticker.png" class="img-fluid figure-img"></p>
-<figcaption>MOGSA Package</figcaption>
-</figure>
-</div>
+<p><img src="contents/hexstickers/mogsa_sticker.png" class="img-fluid"></p>
 </div>
 <section id="mogsa" class="level2 software-info">
 <h2 class="anchored" data-anchor-id="mogsa">MOGSA</h2>
 <p>Multi-Omics Gene Set Analysis: Integrative analysis of multiple experimental and molecular data types.</p>
 <div class="software-links">
-<p><a href="https://bioconductor.org/" class="btn btn-primary btn-sm">Bioconductor</a> <a href="https://github.com/" class="btn btn-secondary btn-sm">GitHub</a></p>
+<p><a href="https://bioconductor.org/" class="btn btn-primary">Bioconductor</a> <a href="https://github.com/" class="btn btn-secondary">GitHub</a></p>
 </div>
 <section id="publications-1" class="level4 software-publications">
 <h4 class="anchored" data-anchor-id="publications-1">Publications</h4>
@@ -498,20 +747,15 @@ div.csl-indent {
 </section>
 </section>
 </div>
-<div class="software-card fade-in">
+<div class="software-card">
 <div class="software-icon">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/iBBiG/iBBiG.png" class="img-fluid figure-img"></p>
-<figcaption>iBBiG Package</figcaption>
-</figure>
-</div>
+<p><img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/iBBiG/iBBiG.png" class="img-fluid"></p>
 </div>
 <section id="ibbig" class="level2 software-info">
 <h2 class="anchored" data-anchor-id="ibbig">iBBiG</h2>
 <p>Iterative Binary Bi-clustering of Gene Sets for biclustering and pattern discovery in gene expression data.</p>
 <div class="software-links">
-<p><a href="https://bioconductor.org/" class="btn btn-primary btn-sm">Bioconductor</a> <a href="https://github.com/" class="btn btn-secondary btn-sm">GitHub</a></p>
+<p><a href="https://bioconductor.org/" class="btn btn-primary">Bioconductor</a> <a href="https://github.com/" class="btn btn-secondary">GitHub</a></p>
 </div>
 <section id="publications-2" class="level4 software-publications">
 <h4 class="anchored" data-anchor-id="publications-2">Publications</h4>
@@ -521,20 +765,15 @@ div.csl-indent {
 </section>
 </section>
 </div>
-<div class="software-card fade-in">
+<div class="software-card">
 <div class="software-icon">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/made4/made4.png" class="img-fluid figure-img"></p>
-<figcaption>made4 Package</figcaption>
-</figure>
-</div>
+<p><img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/made4/made4.png" class="img-fluid"></p>
 </div>
 <section id="made4" class="level2 software-info">
 <h2 class="anchored" data-anchor-id="made4">made4</h2>
 <p>Multivariate Analysis of Microarray Data using ADE4 for visualization and analysis of microarray data.</p>
 <div class="software-links">
-<p><a href="https://bioconductor.org/" class="btn btn-primary btn-sm">Bioconductor</a> <a href="https://github.com/" class="btn btn-secondary btn-sm">GitHub</a></p>
+<p><a href="https://bioconductor.org/" class="btn btn-primary">Bioconductor</a> <a href="https://github.com/" class="btn btn-secondary">GitHub</a></p>
 </div>
 <section id="publications-3" class="level4 software-publications">
 <h4 class="anchored" data-anchor-id="publications-3">Publications</h4>
@@ -545,7 +784,7 @@ div.csl-indent {
 </section>
 </div>
 </div>
-<section id="workshops-training-materials" class="level2 mt-5 workshops-section fade-in">
+<section id="workshops-training-materials" class="level2 workshops-section">
 <h2 class="anchored" data-anchor-id="workshops-training-materials">Workshops &amp; Training Materials</h2>
 <div class="card-deck">
 <div class="card">
@@ -571,10 +810,10 @@ div.csl-indent {
 </div>
 </div>
 </section>
+
+
+
 </section>
-
-
-
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-Culhane2005" class="csl-entry" role="listitem">
@@ -1177,7 +1416,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
     </div>   
     <div class="nav-footer-center">
-<p><img src="./contents/logo/LDCRC_Logo_fixed.jpg" title="Limerick Digital Cancer Research Center" height="40"> <img src="./contents/logo/bioconductor_logo_cmyk.png" title="Bioconductor" height="40"> <img src="./contents/logo/eHealthHub_logo.png" title="eHealthHub For Cancer" height="40"> <img src="./contents/logo/Elixir_logo-3927606181.png" title="ELIXIR" height="40"> <img src="./contents/logo/OHDSI.jpeg" title="OHDSI Real World Data" height="40"></p>
+<p><img src="contents/logo/LDCRC_Logo_fixed.jpg" title="Limerick Digital Cancer Research Center" height="40"> <img src="contents/logo/bioconductor_logo_cmyk.png" title="Bioconductor" height="40"> <img src="contents/logo/eHealthHub_logo.png" title="eHealthHub For Cancer" height="40"> <img src="contents/logo/Elixir_logo-3927606181.png" title="ELIXIR" height="40"> <img src="contents/logo/OHDSI.jpeg" title="OHDSI Real World Data" height="40"></p>
 </div>
     <div class="nav-footer-right">
 <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>

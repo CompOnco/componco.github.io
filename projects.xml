@@ -10,191 +10,1287 @@
 <atom:link href="https://componco.github.io/lab_website.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Tue, 18 Mar 2025 13:19:42 GMT</lastBuildDate>
+<lastBuildDate>Thu, 27 Mar 2025 17:33:08 GMT</lastBuildDate>
 <item>
-  <title>Genomic Data Infrastructure (GDI)</title>
+  <title></title>
   <link>https://componco.github.io/lab_website.github.io/Projects/GDI.html</link>
   <description><![CDATA[ 
 
+
+
+
+<style>
+/* GDI Page Styling */
+:root {
+  --primary-color: #0a2463;
+  --secondary-color: #3e92cc;
+  --accent-color: #d81159;
+  --light-bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4e69;
+  --text-light: #6c757d;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --border-color: #e9ecef;
+  --radius: 8px;
+  --transition: all 0.3s ease;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--light-bg);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero section */
+.hero-section {
+  background: var(--card-bg);
+  padding: 3rem 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+}
+
+.hero-logo {
+  width: 180px;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Content section */
+.content-section {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.content-section h2 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+}
+
+.content-section p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.content-section p:last-child {
+  margin-bottom: 0;
+}
+
+/* Intro statement */
+.intro-statement {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-left: 4px solid var(--secondary-color);
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  line-height: 1.7;
+}
+
+.intro-statement strong {
+  color: var(--primary-color);
+}
+
+/* Image containers */
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.center-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* Map image specific sizing */
+.map-image {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.small-logo .center-image {
+  max-width: 180px;
+  margin: 1rem auto;
+}
+
+/* Headings styling */
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 2rem 0 1rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+  border-radius: 2px;
+}
+
+/* Activity cards */
+.activity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.activity-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  transition: var(--transition);
+  border: 1px solid var(--border-color);
+  height: 100%;
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-card {
+  border-left: 4px solid var(--accent-color);
+}
+
+.activity-card h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.8rem;
+}
+
+.activity-card p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 0;
+}
+
+/* Funding section */
+.funding-section {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  margin: 3rem auto;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.funding-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.funding-section h2::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.funding-logo {
+  height: 60px;
+  width: auto;
+  max-width: 150px;
+  object-fit: contain;
+}
+
+/* Links */
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.1rem;
+  }
+  
+  h2 {
+    font-size: 1.7rem;
+  }
+  
+  .activity-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .logo-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .funding-logo {
+    height: 50px;
+  }
+  
+  .map-image {
+    max-width: 100%;
+  }
+}
+</style>
+
+<div class="hero-section">
+  <img src="https://componco.github.io/lab_website.github.io/contents/logo/gdi-logo.svg" alt="GDI Logo" class="hero-logo">
+  <h1>Genomic Data Infrastructure (GDI)</h1>
+  <p>The European Commission Genomic Data Infrastructure (GDI) programme brings together national agencies, research organisations, and technology providers in 22 countries to provide a cross-border federated network of national genome collections, associated with other relevant data, for advancing data-driven biomedical research and personalised medicine solutions to benefit citizens of Europe.</p>
+</div>
 <section id="connecting-1-million-genomes-with-genomic-data-infrastructure-gdi" class="level2">
-<h2 data-anchor-id="connecting-1-million-genomes-with-genomic-data-infrastructure-gdi">Connecting 1+ Million Genomes with Genomic Data Infrastructure (GDI)</h2>
-<p>Our lab are working in Pillar II of the GDI and leading activity 3 described below.</p>
-<p>In Ireland, <a href="https://www.hrb.ie/news/news-story/article/hrb-supports-genomic-data-infrastructure-gdi-in-ireland/">the programme is jointly funded by the European Commission and the Health Research Board</a>. The overall programme is designed to support the European 1+ Million Genomes (1+MG) Initiative. Specifically, GDI will drive the development, deployment and operation of sustainable data-access infrastructures within each participating country including the legal frameworks, operational procedures and ethics principles required to foster and maintain citizens’ trust in cross-border access to highly sensitive personal data. It will unlock a data network of over 1 million genome sequences for research and clinical reference creating unprecedented opportunities for routine transnational, multi-stakeholder actions in personalised medicine for common, rare and infectious diseases. Authorised data users, such as clinicians, researchers and innovators, will be able to advance our understanding of genomics for more precise and faster clinical decision-making, diagnostics, treatments and predictive medicine, and for improved public health measures that will benefit citizens, healthcare systems and the overall economy. Thus, GDI is a critical component of Europe’s ambition to lead the integration of genomics into healthcare and the GDI project is designed to interact with the other actors working towards this ambition via incremental milestones that drive alignment along a dynamic roadmap.</p>
-<p><img src="https://componco.github.io/lab_website.github.io/contents/logo/EuropeanGenomicDataInfrastructure-Sq.png" class="img-fluid"></p>
-<p>GDI will lay the foundations for Ireland’s participation in a federated European Infrastructure for genomic data via six related areas of activities;</p>
-<p><strong>Activity 1</strong>: Promoting the establishment of the Irish 1+MG National Mirror Group, connecting with and contributing to the European 1+MG initiative. The Irish group will mirror the European-level working groups of the 1+MG, and to connect the relevant Irish-based individuals with those European working groups.</p>
-<p><strong>Activity 2</strong>: Developing a national genomics plan for realisation in Ireland of the European 1+MG initiative. This activity would seek to align with the National Strategy for Genetics and Genomics in Ireland, and scope out an impactful and sustainable Irish Genome Project.</p>
-<p><strong>Activity 3:</strong>&nbsp;Developing, testing and validating a proof of concept platform for performing distributed analysis, connected to the European Data Network. This would in effect be a pilot Irish node for the federated European system, connecting genomic datasets.&nbsp;<strong>UL and the Culhane group are leading activity 3.</strong></p>
-<p><strong>Activity 4:</strong> Determining the Irish-specific data governance system needed to enable sustainable and secure sharing of genomic data. This will involve developing data governance practices for privacy protection in a data sharing/federated data environment. It will include public and patient involvement.</p>
-<p><strong>Activity 5:</strong> Feasibility study for cross-border (N:S) “Genomes of Ireland” initiative. This will inform a national genomic reference for Ireland.</p>
-<p><strong>Activity 6</strong>: Development of training initiatives for the next generation of genomic clinician and data scientists. This will develop training modules/activities that inform clinicians and data scientists, and equip them with the skills and knowledge required to enable safe and effective sharing of genomic data.</p>
-<p>GDI-Ireland is co-led by Prof.&nbsp;Gianpiero Cavalleri (RCSI) and Prof.&nbsp;Denis Shields (UCD). They are joined by co-investigators Prof.&nbsp;Aedin Culhane (University of Limerick) and Prof.&nbsp;Markus Helfert (Maynooth Univerity). The team is assisted by collaborators at University of Galway, UCD, IPPOSI and Health Research Charities Ireland. The project will be governed by a group with cross sectorial (including patient/citizen) representation.</p>
+<h2 class="anchored" data-anchor-id="connecting-1-million-genomes-with-genomic-data-infrastructure-gdi">Connecting 1+ Million Genomes with Genomic Data Infrastructure (GDI)</h2>
+<div class="intro-statement">
+  Our lab is working in <strong>Pillar II of the GDI</strong> and leading <strong>Activity 3</strong>, described below.
+</div>
+<div class="content-section">
+  <p>In Ireland, <a href="https://www.hrb.ie/news/news-story/article/hrb-supports-genomic-data-infrastructure-gdi-in-ireland/">the programme is jointly funded by the European Commission and the Health Research Board</a>. The overall programme is designed to support the European 1+ Million Genomes (1+MG) Initiative.</p>
+  
+  <p>Specifically, GDI will drive the development, deployment, and operation of sustainable data-access infrastructures within each participating country, including the legal frameworks, operational procedures, and ethics principles required to foster and maintain citizens' trust in cross-border access to highly sensitive personal data.</p>
+  
+  <p>It will unlock a data network of over 1 million genome sequences for research and clinical reference, creating unprecedented opportunities for routine transnational, multi-stakeholder actions in personalised medicine for common, rare, and infectious diseases. Authorised data users, such as clinicians, researchers, and innovators, will be able to advance our understanding of genomics for more precise and faster clinical decision-making, diagnostics, treatments, and predictive medicine, and for improved public health measures that will benefit citizens, healthcare systems, and the overall economy.</p>
+  
+  <p>Thus, GDI is a critical component of Europe's ambition to lead the integration of genomics into healthcare, and the GDI project is designed to interact with the other actors working towards this ambition via incremental milestones that drive alignment along a dynamic roadmap.</p>
+</div>
+<div class="image-container">
+  <img src="https://componco.github.io/lab_website.github.io/contents/logo/EuropeanGenomicDataInfrastructure-Sq.png" alt="European Genomic Data Infrastructure" class="map-image">
+</div>
+</section>
+<section id="gdi-activities" class="level2">
+<h2 class="anchored" data-anchor-id="gdi-activities">GDI Activities</h2>
+<div class="activity-grid">
+  <div class="activity-card">
+    <h3 class="anchored">Activity 1: National Mirror Group</h3>
+    <p>Promoting the establishment of the Irish 1+MG National Mirror Group, connecting with and contributing to the European 1+MG initiative.</p>
+  </div>
+  
+  <div class="activity-card">
+    <h3 class="anchored">Activity 2: National Genomics Plan</h3>
+    <p>Developing a national genomics plan for the realisation in Ireland of the European 1+MG initiative.</p>
+  </div>
+  
+  <div class="activity-card highlight-card">
+    <h3 class="anchored">Activity 3: Proof of Concept Platform</h3>
+    <p>Developing, testing, and validating a proof-of-concept platform for performing distributed analysis, connected to the European Data Network. <strong>UL and the Culhane group are leading Activity 3.</strong></p>
+  </div>
+  
+  <div class="activity-card">
+    <h3 class="anchored">Activity 4: Data Governance</h3>
+    <p>Determining the Irish-specific data governance system needed to enable sustainable and secure sharing of genomic data.</p>
+  </div>
+  
+  <div class="activity-card">
+    <h3 class="anchored">Activity 5: Cross-Border Initiative</h3>
+    <p>Feasibility study for a cross-border (North-South) "Genomes of Ireland" initiative.</p>
+  </div>
+  
+  <div class="activity-card">
+    <h3 class="anchored">Activity 6: Training Initiatives</h3>
+    <p>Development of training initiatives for the next generation of genomic clinicians and data scientists.</p>
+  </div>
+</div>
+</section>
+<section id="leadership" class="level2">
+<h2 class="anchored" data-anchor-id="leadership">Leadership</h2>
+<div class="content-section">
+  <p>GDI-Ireland is co-led by <strong>Prof. Gianpiero Cavalleri (RCSI)</strong> and <strong>Prof. Denis Shields (UCD)</strong>. They are joined by co-investigators <strong>Prof. Aedin Culhane (University of Limerick)</strong> and <strong>Prof. Markus Helfert (Maynooth University)</strong>.</p>
+  
+  <p>The team is assisted by collaborators at the University of Galway, UCD, IPPOSI, and Health Research Charities Ireland. The project will be governed by a group with cross-sectorial (including patient/citizen) representation.</p>
+</div>
 </section>
 <section id="building-on-the-eu-1million-genome-initiative" class="level2">
-<h2 data-anchor-id="building-on-the-eu-1million-genome-initiative"><strong>Building on the EU 1+Million Genome initiative</strong></h2>
-<p>The <a href="https://digital-strategy.ec.europa.eu/en/policies/1-million-genomes"><strong>1+MG initiative</strong></a> was signed in 2018 and aims to enable secure access to genomics and corresponding clinical data across Europe to provide better research, personalised healthcare and health policymaking. The <a href="https://b1mg-project.eu/"><strong>Beyond 1 Million Genomes (B1MG)</strong></a> project started in 2020 and is developing guidelines for implementing the 1+MG Initiative and creating blueprints and recommendations for creating federated networks of genomic data. Building on the preparatory work of both of these, the <a href="https://gdi.onemilliongenomes.eu/news/"><strong>GDI project</strong></a> brings 20 EU Member States together with two infrastructure organisations (BBMRI and EMBL) to work collectively to support the 1+MG Initiative’s vision.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://componco.github.io/lab_website.github.io/contents/logo/gdi-logo.svg" class="img-fluid figure-img"></p>
-<figcaption>GDI</figcaption>
-</figure>
+<h2 class="anchored" data-anchor-id="building-on-the-eu-1million-genome-initiative">Building on the EU 1+Million Genome Initiative</h2>
+<div class="content-section">
+  <p>The <a href="https://digital-strategy.ec.europa.eu/en/policies/1-million-genomes"><strong>1+MG Initiative</strong></a> was signed in 2018 and aims to enable secure access to genomics and corresponding clinical data across Europe to provide better research, personalised healthcare, and health policymaking.</p>
+  
+  <p>The <a href="https://b1mg-project.eu/"><strong>Beyond 1 Million Genomes (B1MG)</strong></a> project started in 2020 and is developing guidelines for implementing the 1+MG Initiative and creating blueprints and recommendations for creating federated networks of genomic data.</p>
+  
+  <p>Building on the preparatory work of both of these, the <a href="https://gdi.onemilliongenomes.eu/news/"><strong>GDI project</strong></a> brings 20 EU Member States together with two infrastructure organisations (BBMRI and EMBL) to work collectively to support the 1+MG Initiative's vision.</p>
 </div>
-</section>
-<section id="funding-sources" class="level1">
-<h1><strong>Funding Sources</strong></h1>
-<p>The GDI funded by the <a href="https://www.hrb.ie/news/news-story/article/hrb-supports-genomic-data-infrastructure-gdi-in-ireland/">Health Research Board</a> and the EU.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://componco.github.io/lab_website.github.io/contents/logo/Elixir_logo-3927606181.png" class="img-fluid figure-img" width="202"></p>
-<figcaption>ELIXIR</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://componco.github.io/lab_website.github.io/contents/logo/lero.png" class="img-fluid figure-img" width="202"></p>
-<figcaption>LERO</figcaption>
-</figure>
+<div class="funding-section">
+  <h2 class="anchored">Funding Sources</h2>
+  <p>The GDI is funded by the <a href="https://www.hrb.ie/news/news-story/article/hrb-supports-genomic-data-infrastructure-gdi-in-ireland/">Health Research Board</a> and the EU.</p>
+  
+  <div class="logo-container">
+    <img src="https://componco.github.io/lab_website.github.io/contents/logo/Elixir_logo-3927606181.png" alt="ELIXIR Logo" class="funding-logo">
+    <img src="https://componco.github.io/lab_website.github.io/contents/logo/lero.png" alt="LERO Logo" class="funding-logo">
+  </div>
 </div>
 
 
 </section>
+
  ]]></description>
-  <category>European 1+ Million Genomes</category>
-  <category>ELIXIR</category>
-  <category>GDI</category>
-  <category>Open Source</category>
-  <category>Genomics</category>
-  <category>Digital Health</category>
   <guid>https://componco.github.io/lab_website.github.io/Projects/GDI.html</guid>
-  <pubDate>Tue, 18 Mar 2025 13:19:42 GMT</pubDate>
+  <pubDate>Thu, 27 Mar 2025 17:33:08 GMT</pubDate>
 </item>
 <item>
-  <title>Bioconductor: Open Source Software for Genomics</title>
+  <title></title>
   <link>https://componco.github.io/lab_website.github.io/Projects/bioconductor.html</link>
   <description><![CDATA[ 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://componco.github.io/lab_website.github.io/contents/logo/bioconductor_logo_cmyk.svg" class="img-fluid figure-img" width="508"></p>
-<figcaption>Bioconductor</figcaption>
-</figure>
+
+
+
+<style>
+/* Modern Bioconductor Page Styling */
+:root {
+  --primary-color: #0a2463;
+  --secondary-color: #3e92cc;
+  --accent-color: #d81159;
+  --light-bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4e69;
+  --text-light: #6c757d;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --border-color: #e9ecef;
+  --radius: 8px;
+  --transition: all 0.3s ease;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--light-bg);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero section */
+.hero-section {
+  background: var(--card-bg);
+  padding: 4rem 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+}
+
+.hero-section img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Content section */
+.content-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.content-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.content-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+  border-radius: 2px;
+}
+
+.content-section p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.content-section a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.content-section a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+/* Funding section */
+.funding-section {
+  text-align: center;
+  padding: 4rem 1rem;
+  margin: 0 auto 3rem;
+  max-width: 800px;
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.funding-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.funding-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+  border-radius: 2px;
+}
+
+.funding-section img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .content-section, .funding-section {
+    padding: 2rem 1rem;
+  }
+}
+</style>
+<div class="hero-section">
+<p><img src="https://componco.github.io/lab_website.github.io/contents/logo/bioconductor_logo_cmyk.svg" class="img-fluid"></p>
+<section id="bioconductor-open-source-software-for-genomics" class="level1">
+<h1>Bioconductor: Open Source Software for Genomics</h1>
+<p>Providing Bioconductor training by redeveloping the website and developing global infrastructure to deliver high-quality community-led training in local languages.</p>
+</section>
 </div>
-<p><a href="www.bioconductor.org">Bioconductor</a> is an open source, open development software project in the R statistical software language and is widely used in bioinformatics, immunology, microbiology and single-cell genomics. Over 1200 developers have contributed software that is downloaded by users over 500K times per year.</p>
-<p>In April 2020, we established a Community Advisory Board (CAB) that includes elected representatives from America, Europe, Africa, Asia and Latin America to outreach to the growing global Bioconductor community. The CAB identified accessible high-quality training materials and delivery methods as an urgent, impactful need. Fundamental components for a successful training platform include skilled and effective program management, excellence in instruction, quality of training materials and equity in access. This proposal will redevelop the Bioconductor web presence to ensure Bioconductor communities have equitable access to quality, well-structured, project information and training materials. This work will also deliver structured, high-quality, culturally-aware, inclusive global training by developing a platform for community led instruction.</p>
-<p><span class="citation" data-cites="Reimers2006">Reimers and Carey (2006)</span></p>
-<p>Our lab support open source bioinformatics community and are working with European Infrastructure for life-science information (<a href="https://elixir-europe.org">ELIXIR</a>) and <a href="https://lero.ie">LERO</a>’s open source office.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://componco.github.io/lab_website.github.io/contents/logo/lero.png" class="img-fluid figure-img" width="202"></p>
-<figcaption><img src="https://componco.github.io/lab_website.github.io/contents/logo/Elixir_logo-3927606181.png" class="img-fluid figure-img" alt="ELIXIR" width="147"></figcaption>
-</figure>
+<div class="content-section">
+<section id="about-bioconductor" class="level2">
+<h2 class="anchored" data-anchor-id="about-bioconductor">About Bioconductor</h2>
+<p><a href="https://www.bioconductor.org">Bioconductor</a> is an open-source, open-development software project in the R statistical software language and is widely used in bioinformatics, immunology, microbiology, and single-cell genomics. Over 1,200 developers have contributed software that is downloaded by users over 500,000 times per year.</p>
+<p>In April 2020, we established a <strong>Community Advisory Board (CAB)</strong> that includes elected representatives from America, Europe, Africa, Asia, and Latin America to outreach to the growing global Bioconductor community. The CAB identified accessible high-quality training materials and delivery methods as an urgent, impactful need. Fundamental components for a successful training platform include:</p>
+<ul>
+<li>Skilled and effective program management.</li>
+<li>Excellence in instruction.</li>
+<li>Quality of training materials.</li>
+<li>Equity in access.</li>
+</ul>
+<p>This proposal will redevelop the Bioconductor web presence to ensure Bioconductor communities have equitable access to quality, well-structured project information and training materials. This work will also deliver structured, high-quality, culturally-aware, inclusive global training by developing a platform for community-led instruction.</p>
+</section>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<ul>
+<li><span class="citation" data-cites="Reimers2006">(Reimers and Carey 2006)</span></li>
+</ul>
+</section>
+<section id="collaborations" class="level2">
+<h2 class="anchored" data-anchor-id="collaborations">Collaborations</h2>
+<p>Our lab supports the open-source bioinformatics community and is working with:</p>
+<ul>
+<li><a href="https://elixir-europe.org">ELIXIR</a>: European Infrastructure for life-science information.</li>
+<li><a href="https://lero.ie">LERO</a>: Ireland’s open-source software research center.</li>
+</ul>
+<p><img src="https://componco.github.io/lab_website.github.io/contents/logo/Elixir_logo-3927606181.png" class="img-fluid" width="147" alt="ELIXIR Logo"> <img src="https://componco.github.io/lab_website.github.io/contents/logo/lero.png" class="img-fluid" width="202" alt="LERO Logo"></p>
+</section>
 </div>
-<section id="funding-sources" class="level1">
-<h1>Funding Sources</h1>
+<section id="funding-sources" class="level2 funding-section">
+<h2 class="anchored" data-anchor-id="funding-sources">Funding Sources</h2>
 <p>This project is funded by a <a href="https://chanzuckerberg.com/eoss/proposals/bioconductor-high-quality-training-and-support-for-a-worldwide-community/">Chan Zuckerberg Initiative</a> CZI Science Essential Open Source Software (EOSS) award to Aedin Culhane.</p>
 <p><img src="https://componco.github.io/lab_website.github.io/contents/logo/CZI_science.png" class="img-fluid" width="334"></p>
-
-
-
 </section>
+
+
+
+
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
 <div id="ref-Reimers2006" class="csl-entry">
 Reimers, Mark, and Vincent J. Carey. 2006. <span>“[8] Bioconductor: An Open Source Framework for Bioinformatics and Computational Biology.”</span> In, 119–34. Elsevier. <a href="https://doi.org/10.1016/s0076-6879(06)11008-3">https://doi.org/10.1016/s0076-6879(06)11008-3</a>.
 </div>
 </div></section></div> ]]></description>
-  <category>Genomics</category>
-  <category>Bioconductor</category>
-  <category>Community</category>
-  <category>Open Source</category>
   <guid>https://componco.github.io/lab_website.github.io/Projects/bioconductor.html</guid>
-  <pubDate>Tue, 18 Mar 2025 13:19:42 GMT</pubDate>
+  <pubDate>Thu, 27 Mar 2025 17:33:08 GMT</pubDate>
 </item>
 <item>
   <title>Connected Clinical Data: an eHealth Hub For Cancer</title>
   <link>https://componco.github.io/lab_website.github.io/Projects/eHealthHub.html</link>
   <description><![CDATA[ 
 
-<p><img src="https://componco.github.io/lab_website.github.io/contents/presentations/select_images/data_integration.jpeg" class="img-fluid" alt="health data eHealth Hub"></p>
-<section id="funding-sources" class="level1">
-<h1>Funding Sources</h1>
-<p>The eHealth-Hub for Cancer is an emerging hub of excellence funded under the Higher Education Authority Shared Island North-South Program.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://componco.github.io/lab_website.github.io/contents/logo/NSRP_Logo.png" class="img-fluid figure-img" width="402"></p>
-<figcaption>HEA Shared island funding</figcaption>
-</figure>
+
+
+
+<style>
+/* Modern eHealth Hub Page Styling - Enhanced Version */
+:root {
+  --primary-color: #1a5f7a;
+  --secondary-color: #57c5b6;
+  --accent-color: #e76f51;
+  --light-bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4e69;
+  --text-light: #6c757d;
+  --shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  --border-color: #e9ecef;
+  --radius: 10px;
+  --transition: all 0.3s ease;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--light-bg);
+  color: var(--text-primary);
+}
+
+h1.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Section styling */
+.section-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  max-width: 800px;
+  margin-bottom: 2rem;
+}
+
+/* Content sections */
+.content-section {
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 2.5rem;
+  margin-bottom: 2.5rem;
+  transition: var(--transition);
+}
+
+.content-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h2 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.content-section h2:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: var(--secondary-color);
+}
+
+.content-section p {
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+/* About section */
+.about-section {
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 2.5rem;
+  margin: 1rem 0 2.5rem 0;
+  border-left: 5px solid var(--accent-color);
+  position: relative;
+  transition: var(--transition);
+}
+
+.about-section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+}
+
+.about-section p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 0;
+  font-size: 1.1rem;
+}
+
+/* Logo styling */
+.logo-wrapper {
+  text-align: center;
+  margin: 3rem 0;
+  padding: 1rem;
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.logo {
+  max-width: 180px;
+  margin: 0 auto;
+  height: auto;
+  display: block;
+  transition: var(--transition);
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Social links */
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin: 2rem 0;
+  justify-content: center;
+}
+
+.social-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px; /* Fully rounded button */
+  background-color: var(--secondary-color);
+  color: white !important;
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition);
+  text-align: center;
+  min-width: 140px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.social-button:hover {
+  background-color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+/* Funding section */
+.funding-wrapper {
+  text-align: center;
+  margin: 3rem 0;
+  padding: 2rem;
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.funding-wrapper:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+}
+
+.funding-logo {
+  max-width: 320px;
+  margin: 1.8rem auto;
+  height: auto;
+  display: block;
+}
+
+/* List styling */
+.content-section ul {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.content-section li {
+  margin-bottom: 0.7rem;
+  position: relative;
+  padding-left: 0.5rem;
+}
+
+.content-section li::marker {
+  color: var(--accent-color);
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .social-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .content-section {
+    padding: 1.8rem;
+  }
+  
+  .about-section {
+    padding: 1.8rem;
+  }
+  
+  .social-button {
+    min-width: 130px;
+    padding: 0.7rem 1.2rem;
+  }
+}
+</style>
+<section id="about-the-ehealth-hub" class="level2 section-title">
+<h2 class="section-title anchored" data-anchor-id="about-the-ehealth-hub">About the eHealth Hub</h2>
+<div class="about-section">
+  <p>We lead the all-island eHealth Hub for Cancer, an all-island partnership on the island of Ireland that is building software and data platforms using best practice open science international health data standards to unlock and share health data, to grow clinical cancer research and improve cancer care.</p>
 </div>
-
-
 </section>
+<section id="our-mission" class="level2 content-section">
+<h2 class="anchored" data-anchor-id="our-mission">Our Mission</h2>
+<p>We are building software and data platforms to unlock and share health data, enabling clinical cancer research and improving cancer care across the island of Ireland. The eHealth Hub connects clinicians, researchers, and patients through standardized health data infrastructure.</p>
+<p>Our work focuses on:</p>
+<ul>
+<li>Implementing international health data standards</li>
+<li>Creating secure data sharing platforms</li>
+<li>Developing open-source software tools for cancer research</li>
+<li>Building collaborative networks between institutions</li>
+<li>Supporting evidence-based improvements in cancer care</li>
+</ul>
+</section>
+<div class="logo-wrapper">
+<p><img src="https://componco.github.io/lab_website.github.io/contents/logo/eHealthHub_logo.png" class="logo img-fluid"></p>
+</div>
+<section id="connecting-communities" class="level2 content-section">
+<h2 class="anchored" data-anchor-id="connecting-communities">Connecting Communities</h2>
+<p>The eHealth Hub serves as a bridge between healthcare providers, academic institutions, and research centers across Ireland. By standardizing and connecting clinical data, we enable:</p>
+<ul>
+<li>Larger and more diverse patient cohorts for research</li>
+<li>Accelerated clinical trials and studies</li>
+<li>Improved understanding of cancer treatments and outcomes</li>
+<li>Enhanced collaboration between researchers island-wide</li>
+<li>Better-informed healthcare decisions</li>
+</ul>
+<div class="social-links">
+<p><a href="https://twitter.com/ehealth" class="social-button">Twitter</a> <a href="https://github.com/ehealth" class="social-button">GitHub</a> <a href="https://www.ehealth4cancer.ie/" class="social-button">Website</a> <a href="mailto:ehealth@ul.ie" class="social-button">Contact Us</a></p>
+</div>
+</section>
+<section id="funding" class="level2 content-section">
+<h2 class="anchored" data-anchor-id="funding">Funding</h2>
+<p>The eHealth-Hub for Cancer is funded under the Higher Education Authority Shared Island North-South Program, establishing a hub of excellence for cancer research and clinical data integration.</p>
+<div class="funding-wrapper">
+<p><img src="https://componco.github.io/lab_website.github.io/contents/logo/NSRP_Logo.png" class="funding-logo img-fluid"></p>
+</div>
+</section>
+
+
+
  ]]></description>
-  <category>Real World Evidence</category>
-  <category>Real World Data</category>
-  <category>Digital Health</category>
   <guid>https://componco.github.io/lab_website.github.io/Projects/eHealthHub.html</guid>
-  <pubDate>Tue, 18 Mar 2025 13:19:42 GMT</pubDate>
+  <pubDate>Thu, 27 Mar 2025 17:33:08 GMT</pubDate>
 </item>
 <item>
-  <title>The role of immune and other cells in the tumor microenvironment in cancer</title>
+  <title></title>
   <link>https://componco.github.io/lab_website.github.io/Projects/kidneyCancer.html</link>
   <description><![CDATA[ 
 
+
+
+
+<style>
+/* Modern CAR-T Cell Therapy Page Styling */
+:root {
+  --primary-color: #0a2463;
+  --secondary-color: #3e92cc;
+  --accent-color: #d81159;
+  --light-bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4e69;
+  --text-light: #6c757d;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --border-color: #e9ecef;
+  --radius: 8px;
+  --transition: all 0.3s ease;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--light-bg);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero section */
+.hero-section {
+  background: var(--card-bg);
+  padding: 4rem 1rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Content section */
+.content-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.content-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.content-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+  border-radius: 2px;
+}
+
+.content-section p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.content-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow);
+}
+
+/* Funding section */
+.funding-section {
+  text-align: center;
+  padding: 4rem 1rem;
+  margin: 0 auto 3rem;
+  max-width: 800px;
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.funding-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.funding-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+  border-radius: 2px;
+}
+
+.funding-section img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .content-section, .funding-section {
+    padding: 2rem 1rem;
+  }
+}
+</style>
+<section id="the-role-of-immune-and-other-cells-in-the-tumor-microenvironment-in-cancer" class="level1 hero-section">
+<h1>The Role of Immune and Other Cells in the Tumor Microenvironment in Cancer</h1>
+<p>We are studying the immune environment associated with response to CAR-T Cell Therapy in Kidney Cancer with the Marasco lab in Dana-Farber Cancer Institute.</p>
+</section>
+<div class="content-section">
 <section id="car-t-cell-therapy-in-kidney-cancer" class="level2">
-<h2 data-anchor-id="car-t-cell-therapy-in-kidney-cancer">CAR-T Cell Therapy in Kidney Cancer</h2>
-<p>Metastatic clear cell renal cell carcinoma (mccRCC) patients have poor 5-year overall survival rate and there is an urgent need to develop therapeutics for these patients. Chimeric antigen receptor (CAR) T cell therapy, which reprograms a patient’s immune system to recognize and attack cancer cells. Whilst CAR T-cell therapy has been used sucesffully in blood cancer it has not been translated to the solid tumors. The project goal is to develop CAR-T cell therapy in kidney cancer by fine-tuning immune CAR-T cells to recognize and eliminate only cancer cells but not the normal cells.</p>
-<p>We are analyzing scRNAseq and multi omics single cell data generated as part of this project by Dr Yufei Wang and Prof Wayne Marasco in <a href="https://marascolab.dana-farber.org">The Marasco Laboratory</a> in the Department of Cancer Immunology and Virology at the Dana-Farber Cancer Institute.</p>
-<p>Learn more with this <a href="https://www.vjoncology.com/video/ya9gatliajs-impact-of-the-tme-on-car-t-cell-therapy-for-kidney-cancer/">video</a></p>
-<p><img src="https://componco.github.io/lab_website.github.io/contents/images/CAR-T.jpg" class="img-fluid">“../contents/images/CAR-T.jpg”</p>
+<h2 class="anchored" data-anchor-id="car-t-cell-therapy-in-kidney-cancer">CAR-T Cell Therapy in Kidney Cancer</h2>
+<p>Metastatic clear cell renal cell carcinoma (mccRCC) patients have a poor 5-year overall survival rate, and there is an urgent need to develop therapeutics for these patients. Chimeric antigen receptor (CAR) T cell therapy, which reprograms a patient’s immune system to recognize and attack cancer cells, has shown success in blood cancers but has not yet been translated to solid tumors. The goal of this project is to develop CAR-T cell therapy for kidney cancer by fine-tuning immune CAR-T cells to recognize and eliminate only cancer cells while sparing normal cells.</p>
+<p>We are analyzing scRNAseq and multi-omics single-cell data generated as part of this project by Dr.&nbsp;Yufei Wang and Prof.&nbsp;Wayne Marasco in <a href="https://marascolab.dana-farber.org">The Marasco Laboratory</a> in the Department of Cancer Immunology and Virology at the Dana-Farber Cancer Institute.</p>
+<p>Learn more with this <a href="https://www.vjoncology.com/video/ya9gatliajs-impact-of-the-tme-on-car-t-cell-therapy-for-kidney-cancer/">video</a>.</p>
+<p><img src="https://componco.github.io/lab_website.github.io/contents/images/CAR-T.jpg" class="img-fluid"></p>
 </section>
 <section id="publications" class="level2">
-<h2 data-anchor-id="publications">Publications</h2>
-<p><span class="citation" data-cites="Wang2022">Wang et al. (2022)</span></p>
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<ul>
+<li><span class="citation" data-cites="Wang2022">(Wang et al. 2022)</span></li>
+</ul>
 </section>
-<section id="funding-sources" class="level2">
-<h2 data-anchor-id="funding-sources">Funding Sources</h2>
-<p>This project is funded by the DoD CDMRP and methods were developed using CZI Science Seed Network funds.</p>
+</div>
+<section id="funding-sources" class="level2 funding-section">
+<h2 class="anchored" data-anchor-id="funding-sources">Funding Sources</h2>
+<p>This project is funded by the DoD CDMRP, and methods were developed using CZI Science Seed Network funds.</p>
 <p><img src="https://componco.github.io/lab_website.github.io/contents/logo/DOD_cdmrp_logo.jpeg" class="img-fluid" width="195" alt="DoD"> <img src="https://componco.github.io/lab_website.github.io/contents/logo/CZI_science.png" width="164" height="81" alt="CZI Science"></p>
-
-
-
 </section>
+
+
+
+
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
 <div id="ref-Wang2022" class="csl-entry">
 Wang, Yufei, Alicia Buck, Marion Grimaud, Aedin C. Culhane, Sreekumar Kodangattil, Cecile Razimbaud, Dennis M. Bonal, et al. 2022. <span>“Anti-CAIX BBζ CAR4/8 T&nbsp;Cells Exhibit Superior Efficacy in a ccRCC Mouse Model.”</span> <em>Molecular Therapy - Oncolytics</em> 24 (March): 385–99. <a href="https://doi.org/10.1016/j.omto.2021.12.019">https://doi.org/10.1016/j.omto.2021.12.019</a>.
 </div>
 </div></section></div> ]]></description>
-  <category>Genomics</category>
-  <category>scRNAseq</category>
-  <category>Single Cell</category>
-  <category>Kidney Cancer</category>
   <guid>https://componco.github.io/lab_website.github.io/Projects/kidneyCancer.html</guid>
-  <pubDate>Tue, 18 Mar 2025 13:19:42 GMT</pubDate>
+  <pubDate>Thu, 27 Mar 2025 17:33:08 GMT</pubDate>
 </item>
 <item>
-  <title>Algorithms and methods for integrative analysis of single cell omics data</title>
+  <title></title>
   <link>https://componco.github.io/lab_website.github.io/Projects/scMethods.html</link>
   <description><![CDATA[ 
 
-<p>We are developing matrix factorization and clustering methods for the integrative analysis of scRNAseq and multi omics single cell data.</p>
-<p>Corral ….</p>
-<p>Michaels demux</p>
+
+
+
+<style>
+/* Modern scmethod.qmd Page Styling */
+:root {
+  --primary-color: #0a2463;
+  --secondary-color: #3e92cc;
+  --accent-color: #d81159;
+  --light-bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4e69;
+  --text-light: #6c757d;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --border-color: #e9ecef;
+  --radius: 8px;
+  --transition: all 0.3s ease;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--light-bg);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero section */
+.hero-section {
+  background: var(--card-bg);
+  padding: 4rem 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Content section */
+.content-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.content-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.content-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+  border-radius: 2px;
+}
+
+.content-section p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.content-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow);
+}
+
+/* Funding section */
+.funding-section {
+  text-align: center;
+  padding: 4rem 1rem;
+  margin: 0 auto 3rem;
+  max-width: 800px;
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.funding-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.funding-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+  border-radius: 2px;
+}
+
+.funding-section img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .content-section, .funding-section {
+    padding: 2rem 1rem;
+  }
+}
+</style>
+<section id="algorithms-and-methods-for-integrative-analysis-of-single-cell-omics-data" class="level1 hero-section">
+<h1>Algorithms and Methods for Integrative Analysis of Single Cell Omics Data</h1>
+<p>We are developing matrix factorization and clustering methods for the integrative analysis of scRNAseq and multi-omics single-cell data.</p>
+</section>
+<div class="content-section">
+<section id="corral" class="level2">
+<h2 class="anchored" data-anchor-id="corral">Corral</h2>
+<p>Corral is a method for single-cell RNA-seq dimension reduction, batch integration, and visualization using correspondence analysis.</p>
+</section>
+<section id="michaels-demux" class="level2">
+<h2 class="anchored" data-anchor-id="michaels-demux">Michael’s Demux</h2>
+<p>Michael’s Demux is a tool for demultiplexing single-cell sequencing data.</p>
+</section>
 <section id="software" class="level2">
-<h2 data-anchor-id="software">Software</h2>
-<p>Link to software page</p>
+<h2 class="anchored" data-anchor-id="software">Software</h2>
+<p>Explore our software tools on the <a href="../software.html">Software Page</a>.</p>
 <p><img src="https://componco.github.io/lab_website.github.io/contents/logo/bioconductor_logo_cmyk.svg" class="img-fluid" width="247"></p>
 </section>
 <section id="publications" class="level2">
-<h2 data-anchor-id="publications">Publications</h2>
-<p><span class="citation" data-cites="hsu2020 hsu2021 lêcao2021 mirzayi2021 thorsson2018 gusenleitner">(Hsu and Culhane 2020; Hsu and Culhane 2021; Lê Cao et al. 2021; Mirzayi et al. 2021; Thorsson et al. 2018; Gusenleitner, Culhane, and Culhane, n.d.)</span></p>
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<ul>
+<li><span class="citation" data-cites="hsu2020">(Hsu and Culhane 2020)</span></li>
+<li><span class="citation" data-cites="hsu2021">(Hsu and Culhane 2021)</span></li>
+<li><span class="citation" data-cites="lêcao2021">(Lê Cao et al. 2021)</span></li>
+<li><span class="citation" data-cites="mirzayi2021">(Mirzayi et al. 2021)</span></li>
+<li><span class="citation" data-cites="thorsson2018">(Thorsson et al. 2018)</span></li>
+<li><span class="citation" data-cites="gusenleitner">(Gusenleitner, Culhane, and Culhane, n.d.)</span></li>
+</ul>
 </section>
-<section id="funding-sources" class="level2">
-<h2 data-anchor-id="funding-sources">Funding Sources</h2>
-<p>This project is funded by a the DoD and CZI Science Seed Network awards</p>
+</div>
+<section id="funding-sources" class="level2 funding-section">
+<h2 class="anchored" data-anchor-id="funding-sources">Funding Sources</h2>
+<p>This project is funded by the DoD and CZI Science Seed Network awards.</p>
 <p><img src="https://componco.github.io/lab_website.github.io/contents/logo/DOD_cdmrp_logo.jpeg" class="img-fluid" width="174" alt="DoD"> <img src="https://componco.github.io/lab_website.github.io/contents/logo/CZI_science.png" class="img-fluid" width="256" alt="CZI Science"></p>
-
-
-
 </section>
+
+
+
+
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
 <div id="ref-gusenleitner" class="csl-entry">
 Gusenleitner, Daniel, Aedin Culhane, and Maintainer Aedin Culhane. n.d. <span>“Package <span>‘</span>iBBiG<span>’</span>.”</span>
@@ -215,12 +1311,8 @@ Mirzayi, Chloe, Audrey Renson, Fatima Zohra, Shaimaa Elsafoury, Ludwig Geistling
 Thorsson, Vésteinn, David L. Gibbs, Scott D. Brown, Denise Wolf, Dante S. Bortone, Tai-Hsien Ou Yang, Eduard Porta-Pardo, et al. 2018. <span>“The Immune Landscape of Cancer.”</span> <em>Immunity</em> 48 (4): 812–830.e14. <a href="https://doi.org/10.1016/j.immuni.2018.03.023">https://doi.org/10.1016/j.immuni.2018.03.023</a>.
 </div>
 </div></section></div> ]]></description>
-  <category>Genomics</category>
-  <category>scRNAseq</category>
-  <category>Single Cell</category>
-  <category>Cancer</category>
   <guid>https://componco.github.io/lab_website.github.io/Projects/scMethods.html</guid>
-  <pubDate>Tue, 18 Mar 2025 13:19:42 GMT</pubDate>
+  <pubDate>Thu, 27 Mar 2025 17:33:08 GMT</pubDate>
 </item>
 </channel>
 </rss>
