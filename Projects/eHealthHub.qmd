@@ -133,6 +133,10 @@ h1.title {
   background-color: var(--card-bg);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo {
@@ -161,7 +165,7 @@ h1.title {
   align-items: center;
   justify-content: center;
   padding: 0.8rem 1.5rem;
-  border-radius: 50px; /* Fully rounded button */
+  border-radius: 50px;
   background-color: var(--secondary-color);
   color: white !important;
   text-decoration: none;
@@ -188,6 +192,9 @@ h1.title {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .funding-wrapper:hover {
@@ -221,9 +228,23 @@ h1.title {
 }
 
 /* Responsive adjustments */
-@media (min-width: 768px) {
+@media (max-width: 767px) {
   .social-links {
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 4rem auto; 
+    max-width: 90%; 
+  }
+  
+  .social-button {
+    width: 80%;
+
+  }
+  
+  /* Add some space between button rows */
+  .social-links a:nth-child(odd) {
+    margin-bottom: 0.5rem;
   }
 }
 
@@ -240,6 +261,42 @@ h1.title {
     min-width: 130px;
     padding: 0.7rem 1.2rem;
   }
+
+  /* Mobile-specific adjustments */
+  .social-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .social-button {
+    width: 100%;
+    max-width: 220px;
+  }
+  
+  /* eHealth Hub logo */
+  .logo-wrapper .logo {
+    max-width: 120px;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* NSRP logo */
+  .funding-logo {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Logo wrapper */
+  .logo-wrapper {
+    padding: 1rem 0.5rem;
+    margin: 2rem 0;
+  }
+  
+  /* Funding wrapper */
+  .funding-wrapper {
+    padding: 1.5rem 0.5rem;
+  }
 }
 </style>
 ```
@@ -251,6 +308,9 @@ h1.title {
   <p>We lead the all-island eHealth Hub for Cancer, an all-island partnership on the island of Ireland that is building software and data platforms using best practice open science international health data standards to unlock and share health data, to grow clinical cancer research and improve cancer care.</p>
 </div>
 ```
+::: {.logo-wrapper}
+![](../contents/logo/eHealthHub_logo.png){.logo}
+:::
 
 ::: {.content-section}
 ## Our Mission
@@ -266,9 +326,6 @@ Our work focuses on:
 - Supporting evidence-based improvements in cancer care
 :::
 
-::: {.logo-wrapper}
-![](../contents/logo/eHealthHub_logo.png){.logo}
-:::
 
 ::: {.content-section}
 ## Connecting Communities
