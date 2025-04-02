@@ -1,6 +1,6 @@
 # Culhane lab website
 
-This GitHub repository is for the Culhane laboratory at the [University of Limerick School of Medicine](https://www.ul.ie/medicine/), led by [Dr. Aedin Culhane](https://www.ul.ie/medicine/about/staff/academic-faculty/prof-aed%C3%ADn-culhane). You can view this webpage live at: [INSERT WEBSITE]().
+This GitHub repository is for the Culhane laboratory at the [University of Limerick School of Medicine](https://www.ul.ie/medicine/), led by [Dr. Aedin Culhane](https://www.ul.ie/medicine/about/staff/academic-faculty/prof-aed%C3%ADn-culhane). You can view this webpage live at: [https://componco.github.io/](https://componco.github.io/)
 
 ## Installation
 
