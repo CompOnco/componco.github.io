@@ -301,16 +301,18 @@ h1.title {
 </style>
 ```
 
+```{=html}
+<div style="text-align: center; margin: 1rem 0 2rem 0;">
+  <img src="../contents/logo/eHealthHub_logo.png" style="max-width: 150px; height: auto;">
+</div>
+
 ## About the eHealth Hub {.section-title}
 
 ```{=html}
 <div class="about-section">
   <p>We lead the all-island eHealth Hub for Cancer, an all-island partnership on the island of Ireland that is building software and data platforms using best practice open science international health data standards to unlock and share health data, to grow clinical cancer research and improve cancer care.</p>
 </div>
-```
-::: {.logo-wrapper}
-![](../contents/logo/eHealthHub_logo.png){.logo}
-:::
+
 
 ::: {.content-section}
 ## Our Mission
