@@ -32,6 +32,7 @@ body {
   color: var(--text-primary);
   margin: 0;
   padding: 0;
+  
 }
 
 /* Hero section */
@@ -83,6 +84,9 @@ body {
   box-shadow: var(--shadow);
   padding: 2rem;
   margin-bottom: 2rem;
+  width: auto;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .content-section h2 {
@@ -96,12 +100,43 @@ body {
   color: var(--text-secondary);
   line-height: 1.7;
   margin-bottom: 1.5rem;
+  text-align: left;
+  width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
 }
 
 .content-section p:last-child {
   margin-bottom: 0;
 }
 
+.genomic-text-section p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-justify: inter-word;
+}
+
+/* Mobile adjustments for the genomic text */
+@media (max-width: 768px) {
+  .genomic-text-section p {
+    text-align: left;
+    hyphens: none;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+  }
+  
+  .genomic-text-section {
+    padding: 1.5rem;
+  }
+}
 /* Intro statement */
 .intro-statement {
   background: var(--card-bg);
@@ -308,7 +343,7 @@ a:hover {
 ```
 
 ```{=html}
-<div class="content-section">
+<div class="content-section genomic-text-section">
   <p>In Ireland, <a href="https://www.hrb.ie/news/news-story/article/hrb-supports-genomic-data-infrastructure-gdi-in-ireland/">the programme is jointly funded by the European Commission and the Health Research Board</a>. The overall programme is designed to support the European 1+ Million Genomes (1+MG) Initiative.</p>
   
   <p>Specifically, GDI will drive the development, deployment, and operation of sustainable data-access infrastructures within each participating country, including the legal frameworks, operational procedures, and ethics principles required to foster and maintain citizens' trust in cross-border access to highly sensitive personal data.</p>

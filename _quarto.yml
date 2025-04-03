@@ -83,11 +83,11 @@ website:
     left:
       - text: "© 2023 Culhane Lab | University of Limerick"
     center: |
-      ![](contents/logo/LDCRC_Logo_fixed.jpg "Limerick Digital Cancer Research Center"){height="40"}
-      ![](contents/logo/bioconductor_logo_cmyk.png "Bioconductor"){height="40"}
-      ![](contents/logo/eHealthHub_logo.png "eHealthHub For Cancer"){height="40"}
-      ![](contents/logo/Elixir_logo-3927606181.png "ELIXIR"){height="40"}
-      ![](contents/logo/OHDSI.jpeg "OHDSI Real World Data"){height="40"}
+      ![](/contents/logo/LDCRC_Logo_fixed.jpg "Limerick Digital Cancer Research Center"){height="40"}
+      ![](/contents/logo/bioconductor_logo_cmyk.png "Bioconductor"){height="40"}
+      ![](/contents/logo/eHealthHub_logo.png "eHealthHub For Cancer"){height="40"}
+      ![](/contents/logo/Elixir_logo-3927606181.png "ELIXIR"){height="40"}
+      ![](/contents/logo/OHDSI.jpeg "OHDSI Real World Data"){height="40"}
     right: |
       [Privacy Policy](#) | [Terms of Use](#)
 
