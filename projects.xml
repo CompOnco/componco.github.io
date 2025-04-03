@@ -10,7 +10,7 @@
 <atom:link href="https://componco.github.io/lab_website.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Wed, 02 Apr 2025 14:01:41 GMT</lastBuildDate>
+<lastBuildDate>Thu, 03 Apr 2025 15:36:59 GMT</lastBuildDate>
 <item>
   <title></title>
   <link>https://componco.github.io/lab_website.github.io/Projects/GDI.html</link>
@@ -43,6 +43,7 @@ body {
   color: var(--text-primary);
   margin: 0;
   padding: 0;
+  
 }
 
 /* Hero section */
@@ -94,6 +95,9 @@ body {
   box-shadow: var(--shadow);
   padding: 2rem;
   margin-bottom: 2rem;
+  width: auto;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .content-section h2 {
@@ -107,12 +111,43 @@ body {
   color: var(--text-secondary);
   line-height: 1.7;
   margin-bottom: 1.5rem;
+  text-align: left;
+  width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
 }
 
 .content-section p:last-child {
   margin-bottom: 0;
 }
 
+.genomic-text-section p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-justify: inter-word;
+}
+
+/* Mobile adjustments for the genomic text */
+@media (max-width: 768px) {
+  .genomic-text-section p {
+    text-align: left;
+    hyphens: none;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+  }
+  
+  .genomic-text-section {
+    padding: 1.5rem;
+  }
+}
 /* Intro statement */
 .intro-statement {
   background: var(--card-bg);
@@ -313,7 +348,7 @@ a:hover {
 <div class="intro-statement">
   Our lab is working in <strong>Pillar II of the GDI</strong> and leading <strong>Activity 3</strong>, described below.
 </div>
-<div class="content-section">
+<div class="content-section genomic-text-section">
   <p>In Ireland, <a href="https://www.hrb.ie/news/news-story/article/hrb-supports-genomic-data-infrastructure-gdi-in-ireland/">the programme is jointly funded by the European Commission and the Health Research Board</a>. The overall programme is designed to support the European 1+ Million Genomes (1+MG) Initiative.</p>
   
   <p>Specifically, GDI will drive the development, deployment, and operation of sustainable data-access infrastructures within each participating country, including the legal frameworks, operational procedures, and ethics principles required to foster and maintain citizens' trust in cross-border access to highly sensitive personal data.</p>
@@ -392,7 +427,7 @@ a:hover {
 
  ]]></description>
   <guid>https://componco.github.io/lab_website.github.io/Projects/GDI.html</guid>
-  <pubDate>Wed, 02 Apr 2025 14:01:41 GMT</pubDate>
+  <pubDate>Thu, 03 Apr 2025 15:36:59 GMT</pubDate>
 </item>
 <item>
   <title></title>
@@ -611,7 +646,7 @@ Reimers, Mark, and Vincent J. Carey. 2006. <span>“[8] Bioconductor: An Open So
 </div>
 </div></section></div> ]]></description>
   <guid>https://componco.github.io/lab_website.github.io/Projects/bioconductor.html</guid>
-  <pubDate>Wed, 02 Apr 2025 14:01:41 GMT</pubDate>
+  <pubDate>Thu, 03 Apr 2025 15:36:59 GMT</pubDate>
 </item>
 <item>
   <title>Connected Clinical Data: an eHealth Hub For Cancer</title>
@@ -744,6 +779,10 @@ h1.title {
   background-color: var(--card-bg);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo {
@@ -772,7 +811,7 @@ h1.title {
   align-items: center;
   justify-content: center;
   padding: 0.8rem 1.5rem;
-  border-radius: 50px; /* Fully rounded button */
+  border-radius: 50px;
   background-color: var(--secondary-color);
   color: white !important;
   text-decoration: none;
@@ -799,6 +838,9 @@ h1.title {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .funding-wrapper:hover {
@@ -832,9 +874,23 @@ h1.title {
 }
 
 /* Responsive adjustments */
-@media (min-width: 768px) {
+@media (max-width: 767px) {
   .social-links {
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 4rem auto; 
+    max-width: 90%; 
+  }
+  
+  .social-button {
+    width: 80%;
+
+  }
+  
+  /* Add some space between button rows */
+  .social-links a:nth-child(odd) {
+    margin-bottom: 0.5rem;
   }
 }
 
@@ -851,12 +907,53 @@ h1.title {
     min-width: 130px;
     padding: 0.7rem 1.2rem;
   }
+
+  /* Mobile-specific adjustments */
+  .social-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .social-button {
+    width: 100%;
+    max-width: 220px;
+  }
+  
+  /* eHealth Hub logo */
+  .logo-wrapper .logo {
+    max-width: 120px;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* NSRP logo */
+  .funding-logo {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Logo wrapper */
+  .logo-wrapper {
+    padding: 1rem 0.5rem;
+    margin: 2rem 0;
+  }
+  
+  /* Funding wrapper */
+  .funding-wrapper {
+    padding: 1.5rem 0.5rem;
+  }
 }
 </style>
+<div style="text-align: center; margin: 1rem 0 2rem 0;">
+<p><img src="https://componco.github.io/lab_website.github.io/contents/logo/eHealthHub_logo.png" style="max-width: 150px; height: auto;"></p>
+</div>
 <section id="about-the-ehealth-hub" class="level2 section-title">
 <h2 class="section-title anchored" data-anchor-id="about-the-ehealth-hub">About the eHealth Hub</h2>
 <div class="about-section">
-  <p>We lead the all-island eHealth Hub for Cancer, an all-island partnership on the island of Ireland that is building software and data platforms using best practice open science international health data standards to unlock and share health data, to grow clinical cancer research and improve cancer care.</p>
+<p>
+We lead the all-island eHealth Hub for Cancer, an all-island partnership on the island of Ireland that is building software and data platforms using best practice open science international health data standards to unlock and share health data, to grow clinical cancer research and improve cancer care.
+</p>
 </div>
 </section>
 <section id="our-mission" class="level2 content-section">
@@ -871,9 +968,6 @@ h1.title {
 <li>Supporting evidence-based improvements in cancer care</li>
 </ul>
 </section>
-<div class="logo-wrapper">
-<p><img src="https://componco.github.io/lab_website.github.io/contents/logo/eHealthHub_logo.png" class="logo img-fluid"></p>
-</div>
 <section id="connecting-communities" class="level2 content-section">
 <h2 class="anchored" data-anchor-id="connecting-communities">Connecting Communities</h2>
 <p>The eHealth Hub serves as a bridge between healthcare providers, academic institutions, and research centers across Ireland. By standardizing and connecting clinical data, we enable:</p>
@@ -900,7 +994,7 @@ h1.title {
 
  ]]></description>
   <guid>https://componco.github.io/lab_website.github.io/Projects/eHealthHub.html</guid>
-  <pubDate>Wed, 02 Apr 2025 14:01:41 GMT</pubDate>
+  <pubDate>Thu, 03 Apr 2025 15:36:59 GMT</pubDate>
 </item>
 <item>
   <title></title>
@@ -1093,7 +1187,7 @@ Wang, Yufei, Alicia Buck, Marion Grimaud, Aedin C. Culhane, Sreekumar Kodangatti
 </div>
 </div></section></div> ]]></description>
   <guid>https://componco.github.io/lab_website.github.io/Projects/kidneyCancer.html</guid>
-  <pubDate>Wed, 02 Apr 2025 14:01:41 GMT</pubDate>
+  <pubDate>Thu, 03 Apr 2025 15:36:59 GMT</pubDate>
 </item>
 <item>
   <title></title>
@@ -1312,7 +1406,7 @@ Thorsson, Vésteinn, David L. Gibbs, Scott D. Brown, Denise Wolf, Dante S. Borto
 </div>
 </div></section></div> ]]></description>
   <guid>https://componco.github.io/lab_website.github.io/Projects/scMethods.html</guid>
-  <pubDate>Wed, 02 Apr 2025 14:01:41 GMT</pubDate>
+  <pubDate>Thu, 03 Apr 2025 15:36:59 GMT</pubDate>
 </item>
 </channel>
 </rss>
