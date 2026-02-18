@@ -9,12 +9,13 @@
 <link>https://componco.github.io/lab_website.github.io/projects.html</link>
 <atom:link href="https://componco.github.io/lab_website.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.42</generator>
-<lastBuildDate>Thu, 03 Apr 2025 15:42:48 GMT</lastBuildDate>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Wed, 18 Feb 2026 11:49:09 GMT</lastBuildDate>
 <item>
   <title></title>
   <link>https://componco.github.io/lab_website.github.io/Projects/GDI.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -427,12 +428,13 @@ a:hover {
 
  ]]></description>
   <guid>https://componco.github.io/lab_website.github.io/Projects/GDI.html</guid>
-  <pubDate>Thu, 03 Apr 2025 15:42:48 GMT</pubDate>
+  <pubDate>Wed, 18 Feb 2026 11:49:09 GMT</pubDate>
 </item>
 <item>
   <title></title>
   <link>https://componco.github.io/lab_website.github.io/Projects/bioconductor.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -646,12 +648,13 @@ Reimers, Mark, and Vincent J. Carey. 2006. <span>“[8] Bioconductor: An Open So
 </div>
 </div></section></div> ]]></description>
   <guid>https://componco.github.io/lab_website.github.io/Projects/bioconductor.html</guid>
-  <pubDate>Thu, 03 Apr 2025 15:42:48 GMT</pubDate>
+  <pubDate>Wed, 18 Feb 2026 11:49:09 GMT</pubDate>
 </item>
 <item>
   <title>Connected Clinical Data: an eHealth Hub For Cancer</title>
   <link>https://componco.github.io/lab_website.github.io/Projects/eHealthHub.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -994,12 +997,13 @@ We lead the all-island eHealth Hub for Cancer, an all-island partnership on the 
 
  ]]></description>
   <guid>https://componco.github.io/lab_website.github.io/Projects/eHealthHub.html</guid>
-  <pubDate>Thu, 03 Apr 2025 15:42:48 GMT</pubDate>
+  <pubDate>Wed, 18 Feb 2026 11:49:09 GMT</pubDate>
 </item>
 <item>
   <title></title>
   <link>https://componco.github.io/lab_website.github.io/Projects/kidneyCancer.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1187,12 +1191,13 @@ Wang, Yufei, Alicia Buck, Marion Grimaud, Aedin C. Culhane, Sreekumar Kodangatti
 </div>
 </div></section></div> ]]></description>
   <guid>https://componco.github.io/lab_website.github.io/Projects/kidneyCancer.html</guid>
-  <pubDate>Thu, 03 Apr 2025 15:42:48 GMT</pubDate>
+  <pubDate>Wed, 18 Feb 2026 11:49:09 GMT</pubDate>
 </item>
 <item>
   <title></title>
   <link>https://componco.github.io/lab_website.github.io/Projects/scMethods.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1406,7 +1411,7 @@ Thorsson, Vésteinn, David L. Gibbs, Scott D. Brown, Denise Wolf, Dante S. Borto
 </div>
 </div></section></div> ]]></description>
   <guid>https://componco.github.io/lab_website.github.io/Projects/scMethods.html</guid>
-  <pubDate>Thu, 03 Apr 2025 15:42:48 GMT</pubDate>
+  <pubDate>Wed, 18 Feb 2026 11:49:09 GMT</pubDate>
 </item>
 </channel>
 </rss>
