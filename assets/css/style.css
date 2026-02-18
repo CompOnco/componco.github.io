@@ -1,0 +1,135 @@
+/* ------------------------------
+   GLOBAL TYPOGRAPHY & COLORS
+------------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+:root {
+  --font-body: 'Inter', sans-serif;
+  --color-bg: #ffffff;
+  --color-text: #222;
+  --color-accent: #0055ff;
+  --color-light: #f5f7fa;
+  --color-dark: #111;
+  --max-width: 1100px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.6;
+}
+
+/* ------------------------------
+   NAVIGATION
+------------------------------ */
+
+nav {
+  background: var(--color-bg);
+  border-bottom: 1px solid #eee;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--color-text);
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--color-accent);
+}
+
+/* ------------------------------
+   HERO SECTION
+------------------------------ */
+
+.hero {
+  padding: 6rem 2rem;
+  text-align: center;
+  background: var(--color-light);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ------------------------------
+   SECTIONS
+------------------------------ */
+
+section {
+  padding: 4rem 2rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ------------------------------
+   CARDS
+------------------------------ */
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+}
+
+/* ------------------------------
+   IMAGE CAROUSEL
+------------------------------ */
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.carousel img {
+  width: 100%;
+  display: none;
+}
+
+.carousel img.active {
+  display: block;
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.carousel-controls button {
+  background: var(--color-accent);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+

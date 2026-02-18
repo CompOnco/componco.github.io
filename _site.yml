@@ -1,0 +1,27 @@
+name: "COMpONCo"
+output_dir: "."
+navbar:
+  title: "COMpONCo"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "People"
+      href: people.html
+    - text: "Research"
+      href: research.html
+    - text: "Positions"
+      href: positions.html
+  right:
+    - icon: fa-github
+      href: https://github.com/componco
+
+output:
+  html_document:
+    theme: null
+    css: assets/css/style.css
+    includes:
+      in_header: assets/includes/header.html
+      after_body: assets/includes/footer.html
+    toc: false
+    df_print: paged
+
